@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+  <projectNamespace>bostonjavameetup</projectNamespace>
+  <confirmParams>false</confirmParams>
+  <selectedBeansPackage>org.meetup.bostonjava.beans</selectedBeansPackage>
+  <selectedComponentsPackage>org.meetup.bostonjava.components</selectedComponentsPackage>
+  <selectedRestPackage>org.meetup.bostonjava.rest</selectedRestPackage>
+  <setupDone>false</setupDone>
+  <templateLanguage>freemarker</templateLanguage>
+  <useSamples>true</useSamples>
+  <extraTemplates>true</extraTemplates>
+</project>
