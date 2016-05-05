@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:esv="http://www.onehippo.org/jcr/xmlimport" sv:name="hst:catalog" esv:merge="combine">
+  <sv:node sv:name="essentials-catalog">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:containeritempackage</sv:value>
+    </sv:property>
+    <sv:node sv:name="banner">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:containeritemcomponent</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:componentclassname" sv:type="String">
+        <sv:value>org.onehippo.cms7.essentials.components.EssentialsDocumentComponent</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:iconpath" sv:type="String">
+        <sv:value>images/essentials/catalog-component-icons/banner.png</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:label" sv:type="String">
+        <sv:value>Banner</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:template" sv:type="String">
+        <sv:value>essentials-banner</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:xtype" sv:type="String">
+        <sv:value>HST.Item</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="carousel">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:containeritemcomponent</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:componentclassname" sv:type="String">
+        <sv:value>org.onehippo.cms7.essentials.components.EssentialsCarouselComponent</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:iconpath" sv:type="String">
+        <sv:value>images/essentials/catalog-component-icons/carousel.png</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:label" sv:type="String">
+        <sv:value>Carousel</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:template" sv:type="String">
+        <sv:value>essentials-carousel</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:xtype" sv:type="String">
+        <sv:value>HST.Item</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="google-maps">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:containeritemcomponent</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:componentclassname" sv:type="String">
+        <sv:value>org.onehippo.cms7.essentials.components.EssentialsGoogleMapsComponent</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:iconpath" sv:type="String">
+        <sv:value>images/essentials/catalog-component-icons/googlemaps.png</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:label" sv:type="String">
+        <sv:value>Google Maps</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:template" sv:type="String">
+        <sv:value>essentials-googlemaps</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:xtype" sv:type="String">
+        <sv:value>HST.Item</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="imagecomponent">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:containeritemcomponent</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:componentclassname" sv:type="String">
+        <sv:value>org.onehippo.cms7.essentials.components.EssentialsImageComponent</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:iconpath" sv:type="String">
+        <sv:value>images/essentials/catalog-component-icons/image.png</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:label" sv:type="String">
+        <sv:value>Image</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:template" sv:type="String">
+        <sv:value>image-component</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:xtype" sv:type="String">
+        <sv:value>HST.Item</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="list">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:containeritemcomponent</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:componentclassname" sv:type="String">
+        <sv:value>org.onehippo.cms7.essentials.components.EssentialsListComponent</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:iconpath" sv:type="String">
+        <sv:value>images/essentials/catalog-component-icons/generic-list.png</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:label" sv:type="String">
+        <sv:value>Generic List</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:template" sv:type="String">
+        <sv:value>list-component</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:xtype" sv:type="String">
+        <sv:value>HST.Item</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="menu">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:containeritemcomponent</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:componentclassname" sv:type="String">
+        <sv:value>org.onehippo.cms7.essentials.components.EssentialsMenuComponent</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:iconpath" sv:type="String">
+        <sv:value>images/essentials/catalog-component-icons/menu.png</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:label" sv:type="String">
+        <sv:value>Menu</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:parameternames" sv:type="String" sv:multiple="true">
+        <sv:value>menu</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true">
+        <sv:value>main</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:template" sv:type="String">
+        <sv:value>essentials-menu</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:xtype" sv:type="String">
+        <sv:value>HST.Item</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="simplecontent">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:containeritemcomponent</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:componentclassname" sv:type="String">
+        <sv:value>org.onehippo.cms7.essentials.components.EssentialsDocumentComponent</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:iconpath" sv:type="String">
+        <sv:value>images/essentials/catalog-component-icons/simple-content.png</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:label" sv:type="String">
+        <sv:value>Simple Content</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:template" sv:type="String">
+        <sv:value>contentpage-main</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:xtype" sv:type="String">
+        <sv:value>HST.Item</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+</sv:node>
