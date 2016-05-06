@@ -12,12 +12,52 @@
     <sv:property sv:name="hst:template" sv:type="String">
       <sv:value>homepage-main</sv:value>
     </sv:property>
-    <sv:node sv:name="container">
+    <sv:node sv:name="top-container">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hst:containercomponentreference</sv:value>
       </sv:property>
       <sv:property sv:name="hst:referencecomponent" sv:type="String">
-        <sv:value>homepage/main</sv:value>
+        <sv:value>homepage/top-container</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="three-column-container">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:component</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:template" sv:type="String">
+        <sv:value>three-column-container</sv:value>
+      </sv:property>
+      <sv:node sv:name="left-container">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hst:containercomponentreference</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:referencecomponent" sv:type="String">
+          <sv:value>homepage/three-column/left-container</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="center-container">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hst:containercomponentreference</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:referencecomponent" sv:type="String">
+          <sv:value>homepage/three-column/center-container</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="right-container">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hst:containercomponentreference</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:referencecomponent" sv:type="String">
+          <sv:value>homepage/three-column/right-container</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="bottom-container">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:containercomponentreference</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:referencecomponent" sv:type="String">
+        <sv:value>homepage/bottom-container</sv:value>
       </sv:property>
     </sv:node>
   </sv:node>

@@ -9,19 +9,24 @@
       <link rel="stylesheet" href="<@hst.webfile  path="/css/cms-request.css"/>" type="text/css"/>
     </#if>
 <@hst.headContributions categoryExcludes="htmlBodyEnd, scripts" xhtml=true/>
+  <style>
+    .top-menu-container{
+      background-color: #101010! important;
+    }
+  </style>
 </head>
 <body>
 <div class="container">
-    <div class="row">
+    <div class="top-menu-container">
         <div class="col-md-6 col-md-offset-3">
-        <@hst.include ref="top"/>
+       <#-- <@hst.include ref="top"/> -->
         <@hst.include ref="menu"/>
         </div>
     </div>
-    <div class="row">
+    <div class="rowx">
         <@hst.include ref="main"/>
     </div>
-    <div class="row">
+    <div class="rowx">
         <@hst.include ref="footer"/>
     </div>
 </div>
