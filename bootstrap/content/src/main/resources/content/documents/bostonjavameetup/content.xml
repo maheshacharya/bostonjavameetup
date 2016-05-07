@@ -168,7 +168,6 @@
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
         <sv:value>mix:versionable</sv:value>
-        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>73e38d71-f450-42e8-94b3-072d01c1149c</sv:value>
@@ -371,7 +370,6 @@
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
         <sv:value>mix:versionable</sv:value>
-        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>889346e9-3740-460f-9512-bd99d5ed85cf</sv:value>
@@ -453,7 +451,7 @@
         <sv:value>0001-01-01T07:00:00.000-05:00</sv:value>
       </sv:property>
       <sv:property sv:name="bostonjavameetup:title" sv:type="String">
-        <sv:value/>
+        <sv:value>Java Meetup Group Events</sv:value>
       </sv:property>
       <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
       <sv:property sv:name="hippo:related___pathreference" sv:type="String">
@@ -473,7 +471,7 @@
         <sv:value>2016-05-05T20:28:50.164-04:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2016-05-05T20:52:14.892-04:00</sv:value>
+        <sv:value>2016-05-06T19:56:49.445-04:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
@@ -489,7 +487,7 @@
           <sv:value>hippostd:html</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:content" sv:type="String">
-          <sv:value>&lt;p style="text-align: justify;"&gt;The repository configuration file, typically called&amp;nbsp;repository.xml, specifies global options like security, versioning and clustering settings. A default workspace configuration template is also included in the repository configuration file. The exact format of this XML configuration file is defined in the following document type definition (DTD) files published by the Apache Jackrabbit project.&lt;/p&gt;</sv:value>
+          <sv:value/>
         </sv:property>
       </sv:node>
     </sv:node>
@@ -510,7 +508,6 @@
       </sv:property>
       <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
         <sv:value>mix:versionable</sv:value>
-        <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
         <sv:value>52283e0b-36d3-43aa-ba28-705c07e27134</sv:value>
@@ -522,7 +519,7 @@
         <sv:value>0001-01-01T07:00:00.000-05:00</sv:value>
       </sv:property>
       <sv:property sv:name="bostonjavameetup:title" sv:type="String">
-        <sv:value/>
+        <sv:value>Java Meetup Group Events</sv:value>
       </sv:property>
       <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
         <sv:value>preview</sv:value>
@@ -543,7 +540,7 @@
         <sv:value>2016-05-05T20:28:50.164-04:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2016-05-05T20:52:20.365-04:00</sv:value>
+        <sv:value>2016-05-06T19:56:52.676-04:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
@@ -559,7 +556,7 @@
           <sv:value>hippostd:html</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:content" sv:type="String">
-          <sv:value>&lt;p style="text-align: justify;"&gt;The repository configuration file, typically called&amp;nbsp;repository.xml, specifies global options like security, versioning and clustering settings. A default workspace configuration template is also included in the repository configuration file. The exact format of this XML configuration file is defined in the following document type definition (DTD) files published by the Apache Jackrabbit project.&lt;/p&gt;</sv:value>
+          <sv:value/>
         </sv:property>
       </sv:node>
     </sv:node>
@@ -580,7 +577,7 @@
         <sv:value>0001-01-01T07:00:00.000-05:00</sv:value>
       </sv:property>
       <sv:property sv:name="bostonjavameetup:title" sv:type="String">
-        <sv:value/>
+        <sv:value>Java Meetup Group Events</sv:value>
       </sv:property>
       <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
         <sv:value>live</sv:value>
@@ -601,13 +598,13 @@
         <sv:value>2016-05-05T20:28:50.164-04:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2016-05-05T20:52:20.365-04:00</sv:value>
+        <sv:value>2016-05-06T19:56:52.676-04:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-        <sv:value>2016-05-05T20:52:22.197-04:00</sv:value>
+        <sv:value>2016-05-06T19:56:54.383-04:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippotranslation:id" sv:type="String">
         <sv:value>b4baa9fc-5b83-42f3-b118-84427773ba23</sv:value>
@@ -620,8 +617,827 @@
           <sv:value>hippostd:html</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:content" sv:type="String">
-          <sv:value>&lt;p style="text-align: justify;"&gt;The repository configuration file, typically called&amp;nbsp;repository.xml, specifies global options like security, versioning and clustering settings. A default workspace configuration template is also included in the repository configuration file. The exact format of this XML configuration file is defined in the following document type definition (DTD) files published by the Apache Jackrabbit project.&lt;/p&gt;</sv:value>
+          <sv:value/>
         </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="jcr-data-structure">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>mix:referenceable</sv:value>
+      <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>747a24da-5895-4207-b31f-efca8ad9625e</sv:value>
+    </sv:property>
+    <sv:node sv:name="jcr-data-structure">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>bostonjavameetup:contentdocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>fcb8dc91-6f8e-4c9a-8904-526fc8d8e889</sv:value>
+      </sv:property>
+      <sv:property sv:name="bostonjavameetup:introduction" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="bostonjavameetup:publicationdate" sv:type="Date">
+        <sv:value>0001-01-01T07:00:00.000-05:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="bostonjavameetup:title" sv:type="String">
+        <sv:value>JCR Data Structure</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>content/jcr-data-structure/jcr-data-structure[2]</sv:value>
+        <sv:value>content/jcr-data-structure/jcr-data-structure[3]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>draft</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2016-05-06T06:10:40.054-04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2016-05-06T06:12:56.381-04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>03eeb9b4-d922-4ddf-93c6-d32646f5dafa</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="bostonjavameetup:content">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;p style="text-align:justify"&gt;&lt;img src="jcr-node-structure.png/{_document}/hippogallery:original" /&gt;&lt;/p&gt;
+
+&lt;p style="text-align:justify"&gt;The data in a JCR consists of a tree of nodes with associated properties. Data is stored in the properties, which may hold simple values such as numbers and strings or binary data of arbitrary length. Nodes may optionally have one or more types associated with them which dictate the kinds of properties, number and type of child nodes, and certain behavioral characteristics of the nodes. Nodes may point to other nodes via a special reference type property. In this way nodes in a JCR offer both&amp;nbsp;&lt;a href="https://en.wikipedia.org/wiki/Referential_integrity" title="Referential integrity"&gt;referential integrity&lt;/a&gt;&amp;nbsp;and object-oriented concept of&amp;nbsp;&lt;a href="https://en.wikipedia.org/wiki/Inheritance_(computer_science)" title="Inheritance (computer science)"&gt;inheritance&lt;/a&gt;. Additional node types include the referenceable node type which allows the user to reference said node through use of a universally unique identifier. Another popular type is the versionable type. This makes the repository track a document&amp;apos;s history and store copies of each version of the document.&lt;/p&gt;</sv:value>
+        </sv:property>
+        <sv:node sv:name="jcr-node-structure.png">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>1b55e279-0833-48fd-b1c0-c605f4063138</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>JCR Data Structure</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="jcr-data-structure">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>bostonjavameetup:contentdocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:versionable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>4f4fa98f-7875-41bf-adb5-aa647ed31728</sv:value>
+      </sv:property>
+      <sv:property sv:name="bostonjavameetup:introduction" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="bostonjavameetup:publicationdate" sv:type="Date">
+        <sv:value>0001-01-01T07:00:00.000-05:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="bostonjavameetup:title" sv:type="String">
+        <sv:value>JCR Data Structure</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>content/jcr-data-structure/jcr-data-structure[3]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>unpublished</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2016-05-06T06:10:40.054-04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2016-05-06T06:13:13.931-04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>03eeb9b4-d922-4ddf-93c6-d32646f5dafa</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="bostonjavameetup:content">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;p style="text-align:justify"&gt;&lt;img src="jcr-node-structure.png/{_document}/hippogallery:original" /&gt;&lt;/p&gt;
+
+&lt;p style="text-align:justify"&gt;The data in a JCR consists of a tree of nodes with associated properties. Data is stored in the properties, which may hold simple values such as numbers and strings or binary data of arbitrary length. Nodes may optionally have one or more types associated with them which dictate the kinds of properties, number and type of child nodes, and certain behavioral characteristics of the nodes. Nodes may point to other nodes via a special reference type property. In this way nodes in a JCR offer both&amp;nbsp;&lt;a href="https://en.wikipedia.org/wiki/Referential_integrity" title="Referential integrity"&gt;referential integrity&lt;/a&gt;&amp;nbsp;and object-oriented concept of&amp;nbsp;&lt;a href="https://en.wikipedia.org/wiki/Inheritance_(computer_science)" title="Inheritance (computer science)"&gt;inheritance&lt;/a&gt;. Additional node types include the referenceable node type which allows the user to reference said node through use of a universally unique identifier. Another popular type is the versionable type. This makes the repository track a document&amp;apos;s history and store copies of each version of the document.&lt;/p&gt;</sv:value>
+        </sv:property>
+        <sv:node sv:name="jcr-node-structure.png">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>1b55e279-0833-48fd-b1c0-c605f4063138</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="jcr-data-structure">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>bostonjavameetup:contentdocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>fb9a2518-fa1d-4a5c-898d-9be9f8216262</sv:value>
+      </sv:property>
+      <sv:property sv:name="bostonjavameetup:introduction" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="bostonjavameetup:publicationdate" sv:type="Date">
+        <sv:value>0001-01-01T07:00:00.000-05:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="bostonjavameetup:title" sv:type="String">
+        <sv:value>JCR Data Structure</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>content/jcr-data-structure/jcr-data-structure[2]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2016-05-06T06:10:40.054-04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2016-05-06T06:13:13.931-04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2016-05-06T06:13:15.846-04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>03eeb9b4-d922-4ddf-93c6-d32646f5dafa</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="bostonjavameetup:content">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;p style="text-align:justify"&gt;&lt;img src="jcr-node-structure.png/{_document}/hippogallery:original" /&gt;&lt;/p&gt;
+
+&lt;p style="text-align:justify"&gt;The data in a JCR consists of a tree of nodes with associated properties. Data is stored in the properties, which may hold simple values such as numbers and strings or binary data of arbitrary length. Nodes may optionally have one or more types associated with them which dictate the kinds of properties, number and type of child nodes, and certain behavioral characteristics of the nodes. Nodes may point to other nodes via a special reference type property. In this way nodes in a JCR offer both&amp;nbsp;&lt;a href="https://en.wikipedia.org/wiki/Referential_integrity" title="Referential integrity"&gt;referential integrity&lt;/a&gt;&amp;nbsp;and object-oriented concept of&amp;nbsp;&lt;a href="https://en.wikipedia.org/wiki/Inheritance_(computer_science)" title="Inheritance (computer science)"&gt;inheritance&lt;/a&gt;. Additional node types include the referenceable node type which allows the user to reference said node through use of a universally unique identifier. Another popular type is the versionable type. This makes the repository track a document&amp;apos;s history and store copies of each version of the document.&lt;/p&gt;</sv:value>
+        </sv:property>
+        <sv:node sv:name="jcr-node-structure.png">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>1b55e279-0833-48fd-b1c0-c605f4063138</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="jsr-170-levels">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>mix:referenceable</sv:value>
+      <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>da27bb87-dac9-4b23-8ca7-05930a0ec0c4</sv:value>
+    </sv:property>
+    <sv:node sv:name="jsr-170-levels">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>bostonjavameetup:contentdocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>1ad929b1-922c-4687-887b-458782065d6a</sv:value>
+      </sv:property>
+      <sv:property sv:name="bostonjavameetup:introduction" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="bostonjavameetup:publicationdate" sv:type="Date">
+        <sv:value>0001-01-01T07:00:00.000-05:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="bostonjavameetup:title" sv:type="String">
+        <sv:value>JSR-170 Levels</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>content/jsr-170-levels/jsr-170-levels[2]</sv:value>
+        <sv:value>content/jsr-170-levels/jsr-170-levels[3]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>draft</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2016-05-06T06:25:02.813-04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2016-05-06T06:25:02.853-04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>bebe9ad2-0977-43c4-ad58-f1f2707c57ba</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="bostonjavameetup:content">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;p style="text-align: justify;"&gt;&lt;img src="jcr-implementation-level.png/{_document}/hippogallery:original" /&gt;&lt;/p&gt;
+
+&lt;p style="text-align: justify;"&gt;The Content Repository API for Java Technology (JSR-170) is split into different Levels of compliancy, to allow Repository Vendors to gradually adopt JSR-170 and to avoid that the overhead is unnecessarily high for repository vendors that only want to expose portions of their repository functionality through a JSR-170 compliant Interface.&lt;/p&gt;
+
+&lt;p style="text-align: justify;"&gt;JSR-170 specifies a Level 1, a Level 2 and a set of advanced repository feature blocks. Jackrabbit is fully JSR-170 compliant and therefore supports Level 1, Level 2 and all the optional blocks.&lt;/p&gt;</sv:value>
+        </sv:property>
+        <sv:node sv:name="jcr-implementation-level.png">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>c2698b13-d579-4f23-8abb-2f3bcac57512</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>JSR-170 Levels</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="jsr-170-levels">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>bostonjavameetup:contentdocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:versionable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>de46aa6e-4906-424c-82ed-746c24dfc6ae</sv:value>
+      </sv:property>
+      <sv:property sv:name="bostonjavameetup:introduction" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="bostonjavameetup:publicationdate" sv:type="Date">
+        <sv:value>0001-01-01T07:00:00.000-05:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="bostonjavameetup:title" sv:type="String">
+        <sv:value>JSR-170 Levels</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>content/jsr-170-levels/jsr-170-levels[3]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>unpublished</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2016-05-06T06:25:02.813-04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2016-05-06T06:25:33.605-04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>bebe9ad2-0977-43c4-ad58-f1f2707c57ba</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="bostonjavameetup:content">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;p style="text-align: justify;"&gt;&lt;img src="jcr-implementation-level.png/{_document}/hippogallery:original" /&gt;&lt;/p&gt;
+
+&lt;p style="text-align: justify;"&gt;The Content Repository API for Java Technology (JSR-170) is split into different Levels of compliancy, to allow Repository Vendors to gradually adopt JSR-170 and to avoid that the overhead is unnecessarily high for repository vendors that only want to expose portions of their repository functionality through a JSR-170 compliant Interface.&lt;/p&gt;
+
+&lt;p style="text-align: justify;"&gt;JSR-170 specifies a Level 1, a Level 2 and a set of advanced repository feature blocks. Jackrabbit is fully JSR-170 compliant and therefore supports Level 1, Level 2 and all the optional blocks.&lt;/p&gt;</sv:value>
+        </sv:property>
+        <sv:node sv:name="jcr-implementation-level.png">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>c2698b13-d579-4f23-8abb-2f3bcac57512</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="jsr-170-levels">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>bostonjavameetup:contentdocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>eb0b51f0-2668-443c-915f-a8090369d9a6</sv:value>
+      </sv:property>
+      <sv:property sv:name="bostonjavameetup:introduction" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="bostonjavameetup:publicationdate" sv:type="Date">
+        <sv:value>0001-01-01T07:00:00.000-05:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="bostonjavameetup:title" sv:type="String">
+        <sv:value>JSR-170 Levels</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>content/jsr-170-levels/jsr-170-levels[2]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2016-05-06T06:25:02.813-04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2016-05-06T06:25:33.605-04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2016-05-06T06:25:35.562-04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>bebe9ad2-0977-43c4-ad58-f1f2707c57ba</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="bostonjavameetup:content">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;p style="text-align: justify;"&gt;&lt;img src="jcr-implementation-level.png/{_document}/hippogallery:original" /&gt;&lt;/p&gt;
+
+&lt;p style="text-align: justify;"&gt;The Content Repository API for Java Technology (JSR-170) is split into different Levels of compliancy, to allow Repository Vendors to gradually adopt JSR-170 and to avoid that the overhead is unnecessarily high for repository vendors that only want to expose portions of their repository functionality through a JSR-170 compliant Interface.&lt;/p&gt;
+
+&lt;p style="text-align: justify;"&gt;JSR-170 specifies a Level 1, a Level 2 and a set of advanced repository feature blocks. Jackrabbit is fully JSR-170 compliant and therefore supports Level 1, Level 2 and all the optional blocks.&lt;/p&gt;</sv:value>
+        </sv:property>
+        <sv:node sv:name="jcr-implementation-level.png">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>c2698b13-d579-4f23-8abb-2f3bcac57512</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="hippo-cms-architecture">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>mix:referenceable</sv:value>
+      <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>c43ca730-002a-4daf-9fde-91d554884de5</sv:value>
+    </sv:property>
+    <sv:node sv:name="hippo-cms-architecture">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>bostonjavameetup:contentdocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>421414cb-1b1f-4ea1-b73d-3fd924f691d8</sv:value>
+      </sv:property>
+      <sv:property sv:name="bostonjavameetup:introduction" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="bostonjavameetup:publicationdate" sv:type="Date">
+        <sv:value>0001-01-01T07:00:00.000-05:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="bostonjavameetup:title" sv:type="String">
+        <sv:value>Hippo CMS Architecture</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>content/hippo-cms-architecture/hippo-cms-architecture[3]</sv:value>
+        <sv:value>content/hippo-cms-architecture/hippo-cms-architecture[2]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>draft</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2016-05-06T06:34:21.098-04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2016-05-06T20:12:16.247-04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>e762682b-25fe-41f7-a926-7c6836f6dc6e</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="bostonjavameetup:content">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;table border="0" cellpadding="1" cellspacing="1" style="width:100%"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="vertical-align:top"&gt;
+   &lt;p style="text-align:justify"&gt;Hippo CMS is a Java-based&amp;nbsp;open source&amp;nbsp;&lt;em&gt;web content management platform&lt;/em&gt;. It uses modern web architectures, open standards and open source components throughout. In all layers of the architecture, open and extensible&amp;nbsp;&lt;a href="http://www.onehippo.org/library/about/javadoc.html"&gt;APIs&lt;/a&gt;&amp;nbsp;are available for&amp;nbsp;&lt;a href="http://www.onehippo.org/library/concepts/integration/introduction.html"&gt;integrating&lt;/a&gt;&amp;nbsp;Hippo into your existing application architecture.&lt;/p&gt;
+
+   &lt;p style="text-align:justify"&gt;The Hippo architecture is highly modular. This modular and clean architecture has several technical benefits such as ease of integration and great scalability, and also functional benefits such as content reuse. In the next sections, details are provided on each module in the Hippo stack. We highlight the three modules listed in the diagram below;&amp;nbsp;&lt;em&gt;Content Repository&lt;/em&gt;,&amp;nbsp;&lt;em&gt;CMS&lt;/em&gt;&amp;nbsp;and&amp;nbsp;&lt;em&gt;Delivery Tier&lt;/em&gt;&amp;nbsp;(also known as HST).&lt;/p&gt;
+
+   &lt;h3&gt;High Level Component Overview&lt;/h3&gt;
+
+   &lt;p&gt;At high level Hippo&amp;apos;s architecture consists of three major components:&lt;/p&gt;
+
+   &lt;ul&gt;
+    &lt;li&gt;Content repository (&amp;quot;Hippo Repository&amp;quot;)&lt;/li&gt;
+    &lt;li&gt;Authoring application (&amp;quot;Hippo CMS&amp;quot;)&lt;/li&gt;
+    &lt;li&gt;Delivery tier (&amp;quot;HST&amp;quot;)&lt;/li&gt;
+   &lt;/ul&gt;
+
+   &lt;p&gt;The diagram on the right shows how they are interconnected.&amp;nbsp;The following sections describe each component in more detail.&lt;/p&gt;
+
+   &lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+   &lt;h3&gt;Content Repository&lt;/h3&gt;
+
+   &lt;p&gt;The core of Hippo CMS is the Hippo Repository. All content, metadata and configuration is stored in this central component. In addition to providing a storage layer, the repository is also responsible for the base content management services such as meta-data and workflow, content searching, processing, scheduling, transformation and aggregation, and the orchestration thereof.&lt;/p&gt;
+
+   &lt;p&gt;Hippo Repository is based on&amp;nbsp;&lt;a href="http://jackrabbit.apache.org/" target="_blank"&gt;Apache JackRabbit&lt;/a&gt;, an open source implementation of the&amp;nbsp;&amp;nbsp;&lt;a href="https://jcp.org/aboutJava/communityprocess/final/jsr170/" target="_blank"&gt;JSR-170&lt;/a&gt;&amp;nbsp;and&amp;nbsp;&lt;a href="https://jcp.org/en/jsr/detail?id=283" target="_blank"&gt;JSR-283&lt;/a&gt;Java specifications. All content management functionality is exposed through a standard set of API interfaces. This allows your application or process to integrate with Hippo for automatic creation, import, export and&amp;nbsp;publication of content, in addition to the web based authoring application.&lt;/p&gt;
+
+   &lt;p&gt;&amp;nbsp;&lt;/p&gt;
+   &lt;/td&gt;
+   &lt;td style="vertical-align:top"&gt;&lt;img src="hipp-cms-high-level-component-view.png/{_document}/hippogallery:original" /&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</sv:value>
+        </sv:property>
+        <sv:node sv:name="hipp-cms-high-level-component-view.png">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>0c2325de-c19a-4b07-b41d-b830a818818d</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>Hippo CMS Architecture</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="hippo-cms-architecture">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>bostonjavameetup:contentdocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:versionable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>e7a36c44-2295-4c38-a257-f55a1b95cf17</sv:value>
+      </sv:property>
+      <sv:property sv:name="bostonjavameetup:introduction" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="bostonjavameetup:publicationdate" sv:type="Date">
+        <sv:value>0001-01-01T07:00:00.000-05:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="bostonjavameetup:title" sv:type="String">
+        <sv:value>Hippo CMS Architecture</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>content/hippo-cms-architecture/hippo-cms-architecture[3]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>unpublished</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2016-05-06T06:34:21.098-04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2016-05-06T20:12:22.077-04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>e762682b-25fe-41f7-a926-7c6836f6dc6e</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="bostonjavameetup:content">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;table border="0" cellpadding="1" cellspacing="1" style="width:100%"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="vertical-align:top"&gt;
+   &lt;p style="text-align:justify"&gt;Hippo CMS is a Java-based&amp;nbsp;open source&amp;nbsp;&lt;em&gt;web content management platform&lt;/em&gt;. It uses modern web architectures, open standards and open source components throughout. In all layers of the architecture, open and extensible&amp;nbsp;&lt;a href="http://www.onehippo.org/library/about/javadoc.html"&gt;APIs&lt;/a&gt;&amp;nbsp;are available for&amp;nbsp;&lt;a href="http://www.onehippo.org/library/concepts/integration/introduction.html"&gt;integrating&lt;/a&gt;&amp;nbsp;Hippo into your existing application architecture.&lt;/p&gt;
+
+   &lt;p style="text-align:justify"&gt;The Hippo architecture is highly modular. This modular and clean architecture has several technical benefits such as ease of integration and great scalability, and also functional benefits such as content reuse. In the next sections, details are provided on each module in the Hippo stack. We highlight the three modules listed in the diagram below;&amp;nbsp;&lt;em&gt;Content Repository&lt;/em&gt;,&amp;nbsp;&lt;em&gt;CMS&lt;/em&gt;&amp;nbsp;and&amp;nbsp;&lt;em&gt;Delivery Tier&lt;/em&gt;&amp;nbsp;(also known as HST).&lt;/p&gt;
+
+   &lt;h3&gt;High Level Component Overview&lt;/h3&gt;
+
+   &lt;p&gt;At high level Hippo&amp;apos;s architecture consists of three major components:&lt;/p&gt;
+
+   &lt;ul&gt;
+    &lt;li&gt;Content repository (&amp;quot;Hippo Repository&amp;quot;)&lt;/li&gt;
+    &lt;li&gt;Authoring application (&amp;quot;Hippo CMS&amp;quot;)&lt;/li&gt;
+    &lt;li&gt;Delivery tier (&amp;quot;HST&amp;quot;)&lt;/li&gt;
+   &lt;/ul&gt;
+
+   &lt;p&gt;The diagram on the right shows how they are interconnected.&amp;nbsp;The following sections describe each component in more detail.&lt;/p&gt;
+
+   &lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+   &lt;h3&gt;Content Repository&lt;/h3&gt;
+
+   &lt;p&gt;The core of Hippo CMS is the Hippo Repository. All content, metadata and configuration is stored in this central component. In addition to providing a storage layer, the repository is also responsible for the base content management services such as meta-data and workflow, content searching, processing, scheduling, transformation and aggregation, and the orchestration thereof.&lt;/p&gt;
+
+   &lt;p&gt;Hippo Repository is based on&amp;nbsp;&lt;a href="http://jackrabbit.apache.org/" target="_blank"&gt;Apache JackRabbit&lt;/a&gt;, an open source implementation of the&amp;nbsp;&amp;nbsp;&lt;a href="https://jcp.org/aboutJava/communityprocess/final/jsr170/" target="_blank"&gt;JSR-170&lt;/a&gt;&amp;nbsp;and&amp;nbsp;&lt;a href="https://jcp.org/en/jsr/detail?id=283" target="_blank"&gt;JSR-283&lt;/a&gt;Java specifications. All content management functionality is exposed through a standard set of API interfaces. This allows your application or process to integrate with Hippo for automatic creation, import, export and&amp;nbsp;publication of content, in addition to the web based authoring application.&lt;/p&gt;
+
+   &lt;p&gt;&amp;nbsp;&lt;/p&gt;
+   &lt;/td&gt;
+   &lt;td style="vertical-align:top"&gt;&lt;img src="hipp-cms-high-level-component-view.png/{_document}/hippogallery:original" /&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</sv:value>
+        </sv:property>
+        <sv:node sv:name="hipp-cms-high-level-component-view.png">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>0c2325de-c19a-4b07-b41d-b830a818818d</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="hippo-cms-architecture">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>bostonjavameetup:contentdocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>47e5e771-788b-4a74-aba5-f24e50d91226</sv:value>
+      </sv:property>
+      <sv:property sv:name="bostonjavameetup:introduction" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="bostonjavameetup:publicationdate" sv:type="Date">
+        <sv:value>0001-01-01T07:00:00.000-05:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="bostonjavameetup:title" sv:type="String">
+        <sv:value>Hippo CMS Architecture</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>content/hippo-cms-architecture/hippo-cms-architecture[2]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2016-05-06T06:34:21.098-04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2016-05-06T20:12:22.077-04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2016-05-06T20:12:23.768-04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>e762682b-25fe-41f7-a926-7c6836f6dc6e</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="bostonjavameetup:content">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;table border="0" cellpadding="1" cellspacing="1" style="width:100%"&gt;
+ &lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="vertical-align:top"&gt;
+   &lt;p style="text-align:justify"&gt;Hippo CMS is a Java-based&amp;nbsp;open source&amp;nbsp;&lt;em&gt;web content management platform&lt;/em&gt;. It uses modern web architectures, open standards and open source components throughout. In all layers of the architecture, open and extensible&amp;nbsp;&lt;a href="http://www.onehippo.org/library/about/javadoc.html"&gt;APIs&lt;/a&gt;&amp;nbsp;are available for&amp;nbsp;&lt;a href="http://www.onehippo.org/library/concepts/integration/introduction.html"&gt;integrating&lt;/a&gt;&amp;nbsp;Hippo into your existing application architecture.&lt;/p&gt;
+
+   &lt;p style="text-align:justify"&gt;The Hippo architecture is highly modular. This modular and clean architecture has several technical benefits such as ease of integration and great scalability, and also functional benefits such as content reuse. In the next sections, details are provided on each module in the Hippo stack. We highlight the three modules listed in the diagram below;&amp;nbsp;&lt;em&gt;Content Repository&lt;/em&gt;,&amp;nbsp;&lt;em&gt;CMS&lt;/em&gt;&amp;nbsp;and&amp;nbsp;&lt;em&gt;Delivery Tier&lt;/em&gt;&amp;nbsp;(also known as HST).&lt;/p&gt;
+
+   &lt;h3&gt;High Level Component Overview&lt;/h3&gt;
+
+   &lt;p&gt;At high level Hippo&amp;apos;s architecture consists of three major components:&lt;/p&gt;
+
+   &lt;ul&gt;
+    &lt;li&gt;Content repository (&amp;quot;Hippo Repository&amp;quot;)&lt;/li&gt;
+    &lt;li&gt;Authoring application (&amp;quot;Hippo CMS&amp;quot;)&lt;/li&gt;
+    &lt;li&gt;Delivery tier (&amp;quot;HST&amp;quot;)&lt;/li&gt;
+   &lt;/ul&gt;
+
+   &lt;p&gt;The diagram on the right shows how they are interconnected.&amp;nbsp;The following sections describe each component in more detail.&lt;/p&gt;
+
+   &lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+   &lt;h3&gt;Content Repository&lt;/h3&gt;
+
+   &lt;p&gt;The core of Hippo CMS is the Hippo Repository. All content, metadata and configuration is stored in this central component. In addition to providing a storage layer, the repository is also responsible for the base content management services such as meta-data and workflow, content searching, processing, scheduling, transformation and aggregation, and the orchestration thereof.&lt;/p&gt;
+
+   &lt;p&gt;Hippo Repository is based on&amp;nbsp;&lt;a href="http://jackrabbit.apache.org/" target="_blank"&gt;Apache JackRabbit&lt;/a&gt;, an open source implementation of the&amp;nbsp;&amp;nbsp;&lt;a href="https://jcp.org/aboutJava/communityprocess/final/jsr170/" target="_blank"&gt;JSR-170&lt;/a&gt;&amp;nbsp;and&amp;nbsp;&lt;a href="https://jcp.org/en/jsr/detail?id=283" target="_blank"&gt;JSR-283&lt;/a&gt;Java specifications. All content management functionality is exposed through a standard set of API interfaces. This allows your application or process to integrate with Hippo for automatic creation, import, export and&amp;nbsp;publication of content, in addition to the web based authoring application.&lt;/p&gt;
+
+   &lt;p&gt;&amp;nbsp;&lt;/p&gt;
+   &lt;/td&gt;
+   &lt;td style="vertical-align:top"&gt;&lt;img src="hipp-cms-high-level-component-view.png/{_document}/hippogallery:original" /&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</sv:value>
+        </sv:property>
+        <sv:node sv:name="hipp-cms-high-level-component-view.png">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:facetselect</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>0c2325de-c19a-4b07-b41d-b830a818818d</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
       </sv:node>
     </sv:node>
   </sv:node>

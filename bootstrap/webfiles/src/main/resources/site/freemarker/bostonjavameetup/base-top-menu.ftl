@@ -1,33 +1,17 @@
 <#include "../include/imports.ftl">
-<style>
-  .top-menu a{
-    //color:#fff;
-    text-decoration:none;
 
-  }
-  .top-menu a:hover{
-   // color:#000;
-  }
-
-</style>
+<#-- @ftlvariable name="menu" type="org.hippoecm.hst.core.sitemenu.HstSiteMenu" -->
+<#-- @ftlvariable name="editMode" type="java.lang.Boolean"-->
 <#if menu??>
     <#if menu.siteMenuItems??>
-
-    <ul class="nav nav-pills top-menu">
-
+    <ul class="nav nav-pills" style="z-index:999999">
         <#list menu.siteMenuItems as item>
             <#if  item.selected || item.expanded>
               <li class="active"><a href="<@hst.link link=item.hstLink/>">${item.name?html}</a></li>
-
             <#else>
-
               <li><a href="<@hst.link link=item.hstLink/>">${item.name?html}</a></li>
-
             </#if>
-
         </#list>
-
-
     </ul>
     </#if>
     <@hst.cmseditmenu menu=menu/>

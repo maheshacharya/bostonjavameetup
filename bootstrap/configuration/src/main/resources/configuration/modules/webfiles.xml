@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:esv="http://www.onehippo.org/jcr/xmlimport" sv:name="webfiles" esv:merge="combine">
+  <sv:node sv:name="hippo:moduleconfig" esv:merge="combine">
+    <sv:property sv:name="includedFiles" sv:type="String" esv:merge="override" sv:multiple="true">
+      <sv:value>*.css</sv:value>
+      <sv:value>*.eot</sv:value>
+      <sv:value>*.ftl</sv:value>
+      <sv:value>*.gif</sv:value>
+      <sv:value>*.html</sv:value>
+      <sv:value>*.ico</sv:value>
+      <sv:value>*.jpeg</sv:value>
+      <sv:value>*.jpg</sv:value>
+      <sv:value>*.js</sv:value>
+      <sv:value>*.json</sv:value>
+      <sv:value>*.map</sv:value>
+      <sv:value>*.otf</sv:value>
+      <sv:value>*.png</sv:value>
+      <sv:value>*.svg</sv:value>
+      <sv:value>*.ttf</sv:value>
+      <sv:value>*.woff</sv:value>
+      <sv:value>*.xml</sv:value>
+      <sv:value>*.properties</sv:value>
+      <sv:value>*.txt</sv:value>
+      <sv:value>*.woff2</sv:value>
+    </sv:property>
+    <sv:property sv:name="maxFileLengthKb" sv:type="Long" esv:merge="override">
+      <sv:value>25600</sv:value>
+    </sv:property>
+  </sv:node>
+</sv:node>

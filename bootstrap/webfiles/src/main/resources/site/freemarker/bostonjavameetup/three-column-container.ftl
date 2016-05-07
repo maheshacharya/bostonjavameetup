@@ -2,28 +2,25 @@
 
 <style>
 
-<#--
-  .col1, .col2 {
-    width: 33%;
-  }
 
-  .col3 {
-    width: auto;
-
-  }
-  .inline{
-    display:inline-block;
-  }
-  -->
 div .inline{
 
-  width: 33.33%; /* as @passatgt mentioned in the comment, for the older browsers fallback */
+  width: 33.33%;
   width: calc(99.3% / 3);
   display: inline-block;
   vertical-align: top;
   padding-left:4px;
 
+
 }
+
+div .inline:nth-child(3){
+  padding-left:10px;
+  background-color: rgba(0,0,0,0.1);
+}
+  div .inline:last-child{
+    border:none;
+  }
 </style>
 <div class="col1 inline">
     <@hst.include ref="left-container"/>

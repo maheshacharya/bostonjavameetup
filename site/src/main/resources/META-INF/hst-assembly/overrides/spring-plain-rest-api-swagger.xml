@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Copyright 2014 Hippo B.V. (http://www.onehippo.com)
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <import resource="classpath:/org/hippoecm/hst/site/optional/jaxrs/SpringComponentManager-rest-jackson.xml"/>
+    <import resource="classpath:/org/hippoecm/hst/site/optional/jaxrs/SpringComponentManager-rest-plain-pipeline.xml"/>
+    <import resource="classpath:/org/hippoecm/hst/site/optional/jaxrs/SpringComponentManager-rest-content-pipeline.xml"/>
+
+
+    <!-- cors support -->
+    <bean id="jaxrsRestCorsFilter" class="org.apache.cxf.rs.security.cors.CrossOriginResourceSharingFilter"/>
+
+    <!-- xml provider -->
+    <bean id="jacksonXmlProvider" class="com.fasterxml.jackson.jaxrs.xml.JacksonJaxbXMLProvider"/>
+
+    <!-- Swagger API listing resource -->
+    <bean id="apiListingResource" class="org.meetup.bostonjava.rest.HippoApiListingResource"/>
+
+    <!-- Swagger writers -->
+    <bean id="swaggerSerializers" class="io.swagger.jaxrs.listing.SwaggerSerializers"/>
+
+
+    <bean id="customRestPlainResourceProviders" class="org.springframework.beans.factory.config.ListFactoryBean">
+        <property name="sourceList">
+            <list>
+                <bean class="org.apache.cxf.jaxrs.lifecycle.SingletonResourceProvider">
+                    <constructor-arg>
+                        <bean class="org.meetup.bostonjava.rest.EventDocumentResource"/>
+                    </constructor-arg>
+                </bean>
+                <bean class="org.apache.cxf.jaxrs.lifecycle.SingletonResourceProvider">
+                    <constructor-arg>
+                        <bean class="org.meetup.bostonjava.rest.PersonResource"/>
+                    </constructor-arg>
+                </bean>
+                <bean class="org.apache.cxf.jaxrs.lifecycle.SingletonResourceProvider">
+                    <constructor-arg>
+                        <bean class="org.meetup.bostonjava.rest.VenueResource"/>
+                    </constructor-arg>
+                </bean>
+                <bean class="org.apache.cxf.jaxrs.lifecycle.SingletonResourceProvider">
+                    <constructor-arg>
+                        <ref bean="apiListingResource"/>
+                    </constructor-arg>
+                </bean>
+            </list>
+        </property>
+    </bean>
+
+
+
+
+    <!--
+      JAXB CONTEXT MAPPINGS
+    -->
+    <bean id="jaxrsHippoContextProvider" class="org.onehippo.cms7.essentials.components.rest.JaxbContextProvider">
+        <property name="beansPackage" value="org.meetup.bostonjava.beans"/>
+        <!--
+          you can add extra classes if needed as followed:
+        -->
+        <!--
+          <property name="classes">
+            <list>
+              <value type="java.lang.Class">org.example.beans.MyBean</value>
+            </list>
+          </property>
+        -->
+    </bean>
+
+    <bean id="essentialsRestAllEntityProviders" class="org.springframework.beans.factory.config.ListFactoryBean">
+        <property name="sourceList">
+            <list>
+                <ref bean="jaxrsRestJsonProvider"/>
+                <ref bean="jaxrsHippoContextProvider"/>
+                <ref bean="swaggerSerializers"/>
+                <ref bean="jaxrsRestCorsFilter"/>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="jaxrsRestPlainServiceValve" class="org.hippoecm.hst.core.container.JaxrsRestServiceValve"
+          init-method="initialize" destroy-method="destroy">
+        <constructor-arg>
+            <bean class="org.hippoecm.hst.jaxrs.cxf.CXFJaxrsService">
+                <constructor-arg value="jaxrsPlainService"/>
+                <property name="servletPath" value=""/>
+                <property name="jaxrsServerFactoryBean">
+                    <bean class="org.apache.cxf.jaxrs.JAXRSServerFactoryBean">
+                        <property name="address" value="/"/>
+                        <property name="providers" ref="essentialsRestAllEntityProviders"/>
+                        <property name="resourceProviders" ref="jaxrsRestPlainResourceProviders"/>
+                        <property name="invoker" ref="jaxrsRestPlainServiceInvoker"/>
+                    </bean>
+                </property>
+                <property name="inInterceptors">
+                    <list>
+                        <ref bean="jaxrsRestPlainServiceQueryStringReplacingInterceptor"/>
+                    </list>
+                </property>
+            </bean>
+        </constructor-arg>
+        <property name="valveName" value="jaxrsRestPlainServiceValve"/>
+    </bean>
+    <bean id="swaggerConfig" class="io.swagger.jaxrs.config.BeanConfig">
+        <property name="resourcePackage" value="org.meetup.bostonjava.rest"/>
+        <property name="version" value="1.0.0"/>
+        <property name="basePath" value="site/rest"/>
+        <property name="title" value="Boston Java Meetup Group"/>
+        <property name="description" value="Java and CMS: An Open Source Implementation and Lab"/>
+        <property name="contact" value="m.acharya@onehippo.com"/>
+        <property name="license" value="Apache 2.0 License"/>
+        <property name="licenseUrl" value="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+        <property name="scan" value="true"/>
+    </bean>
+
+</beans>
+
+    

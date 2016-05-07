@@ -12,7 +12,7 @@
     <article class="has-edit-button">
       <@hst.cmseditlink hippobean=item/>
       <@hst.link var="link" hippobean=item />
-      <h3><a href="${link}">${linkName?html}</a></h3>
+      <h4><a href="${link}">${linkName?html}</a></h4>
       <#if item.introduction??>
         <p>${item.introduction?html}</p>
       </#if>

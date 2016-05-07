@@ -7,9 +7,21 @@
 [bostonjavameetup:basedocument] > hippo:document, hippostd:publishableSummary, hippostdpubwf:document
   orderable
 
+[bostonjavameetup:EventDocument] > bostonjavameetup:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
+
+[bostonjavameetup:Person] > bostonjavameetup:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
+
+[bostonjavameetup:Venue] > bostonjavameetup:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
+
 [bostonjavameetup:bannerdocument] > bostonjavameetup:basedocument, hippostd:relaxed, hippotranslation:translated
   orderable
 
 [bostonjavameetup:contentdocument] > bostonjavameetup:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
+
+[bostonjavameetup:video] > bostonjavameetup:basedocument, hippostd:relaxed, hippotranslation:translated
   orderable
 
