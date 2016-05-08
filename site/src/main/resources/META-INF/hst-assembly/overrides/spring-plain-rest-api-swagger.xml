@@ -41,6 +41,7 @@
     <bean id="customRestPlainResourceProviders" class="org.springframework.beans.factory.config.ListFactoryBean">
         <property name="sourceList">
             <list>
+
                 <bean class="org.apache.cxf.jaxrs.lifecycle.SingletonResourceProvider">
                     <constructor-arg>
                         <bean class="org.meetup.bostonjava.rest.EventDocumentResource"/>
@@ -56,6 +57,12 @@
                         <bean class="org.meetup.bostonjava.rest.VenueResource"/>
                     </constructor-arg>
                 </bean>
+
+                <bean class="org.apache.cxf.jaxrs.lifecycle.SingletonResourceProvider">
+                    <constructor-arg>
+                        <bean class="org.meetup.bostonjava.rest.CalendarResource"/>
+                    </constructor-arg>
+                </bean>
                 <bean class="org.apache.cxf.jaxrs.lifecycle.SingletonResourceProvider">
                     <constructor-arg>
                         <ref bean="apiListingResource"/>
@@ -64,8 +71,6 @@
             </list>
         </property>
     </bean>
-
-
 
 
     <!--

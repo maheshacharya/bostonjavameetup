@@ -1,9 +1,10 @@
 package org.meetup.bostonjava.rest;
 
 
-
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
+import org.apache.http.HttpStatus;
 import org.hippoecm.hst.container.RequestContextProvider;
-import org.hippoecm.hst.content.beans.ObjectBeanManagerException;
 import org.hippoecm.hst.content.beans.query.HstQuery;
 import org.hippoecm.hst.content.beans.query.HstQueryResult;
 import org.hippoecm.hst.content.beans.query.exceptions.QueryException;
@@ -13,38 +14,33 @@ import org.hippoecm.hst.core.linking.HstLink;
 import org.hippoecm.hst.core.linking.HstLinkCreator;
 import org.hippoecm.hst.core.request.HstRequestContext;
 import org.hippoecm.hst.jaxrs.services.AbstractResource;
-import org.hippoecm.repository.api.HippoWorkspace;
-import org.hippoecm.repository.api.WorkflowException;
-import org.hippoecm.repository.api.WorkflowManager;
 import org.meetup.bostonjava.beans.EventDocument;
 
+import org.meetup.bostonjava.beans.PageablePerson;
+import org.meetup.bostonjava.rest.model.EventInfo;
+import org.meetup.bostonjava.rest.model.ResponseMessage;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 
-import javax.jcr.Node;
-import javax.jcr.RepositoryException;
-import javax.jcr.Session;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.ws.rs.*;
 import javax.ws.rs.core.Context;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.UriInfo;
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.IOException;
+
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.*;
 
-/**
- * Created by macharya on 1/15/2016.
- */
-@Path("/event/")
+
+@Path("/Calendar/")
 @Produces(MediaType.APPLICATION_JSON)
-public class EventRestResource extends AbstractResource {
-    private static Logger logger = LoggerFactory.getLogger(EventRestResource.class);
+@Api(value = "/Calendar", description = "Calendar REST Operations")
+public class CalendarResource extends AbstractResource {
+    private static Logger logger = LoggerFactory.getLogger(CalendarResource.class);
+    private static int MAX_RESULT_LIMIT = 500;
 
 
     /**
@@ -55,9 +51,10 @@ public class EventRestResource extends AbstractResource {
      * @param endDate         expected format MM-DD-YYYY
      * @return
      */
-    @Path("/calendar")
+    @Path("/events")
     @GET
-    public ResponseMessage calendar(@Context HttpServletRequest servletRequest,
+    @ApiOperation(value = "Get event list for a given date/time period.", response = ResponseMessage.class)
+    public ResponseMessage events(@Context HttpServletRequest servletRequest,
                                     @Context HttpServletResponse servletResponse,
                                     @Context UriInfo uriInfo,
                                     @QueryParam("start") String startDate,
@@ -70,22 +67,22 @@ public class EventRestResource extends AbstractResource {
         HstRequestContext ctx = RequestContextProvider.get();
         HstQuery query = ctx.getQueryManager().createQuery(ctx.getSiteContentBaseBean(), EventDocument.class);
         //set max limit.
-        query.setLimit(5000);
+        query.setLimit(MAX_RESULT_LIMIT);
 
         Filter filter = query.createFilter();
         Calendar start = new GregorianCalendar();
         start.setTime(sDate);
         Calendar end = new GregorianCalendar();
         end.setTime(eDate);
-        filter.addGreaterOrEqualThan("nejug:date", start);
-        filter.addLessOrEqualThan("nejug:enddate", end);
-        query.addOrderByDescending("nejug:date");
+        filter.addGreaterOrEqualThan("bostonjavameetup:startDate", start);
+        filter.addLessOrEqualThan("bostonjavameetup:endDate", end);
+        query.addOrderByDescending("bostonjavameetup:startDate");
         query.setFilter(filter);
         HstQueryResult result = query.execute();
         HippoBeanIterator it = result.getHippoBeans();
         List<EventInfo> eventInfo = new ArrayList();
         while (it.hasNext()) {
-            EventsDocument doc = (EventsDocument) it.nextHippoBean();
+            EventDocument doc = (EventDocument) it.nextHippoBean();
             HstLinkCreator linkCreator = ctx.getHstLinkCreator();
             HstLink link = linkCreator.create(doc, ctx);
             EventInfo info = new EventInfo(doc);
@@ -100,8 +97,6 @@ public class EventRestResource extends AbstractResource {
         message.getData().put("eventInfo", eventInfo);
         return message;
     }
-
-
 
 
 }

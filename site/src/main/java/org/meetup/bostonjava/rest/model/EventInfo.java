@@ -1,8 +1,9 @@
 package org.meetup.bostonjava.rest.model;
 
 import org.hippoecm.hst.content.beans.standard.HippoBean;
-import org.nejug.beans.EventsDocument;
-import org.nejug.beans.Speaker;
+import org.meetup.bostonjava.beans.EventDocument;
+import org.meetup.bostonjava.beans.Person;
+
 
 import java.io.Serializable;
 import java.text.SimpleDateFormat;
@@ -10,9 +11,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-/**
- * Created by macharya on 2/15/2016.
- */
+
 public class EventInfo implements Serializable {
     private String title;
     private String startDate;
@@ -32,22 +31,22 @@ public class EventInfo implements Serializable {
         this.link = link;
     }
 
-    public EventInfo(EvensDocument doc){
+    public EventInfo(EventDocument doc) {
         this.title = doc.getTitle();
         SimpleDateFormat dateFormat = new SimpleDateFormat("MM-dd-yyyy");
         SimpleDateFormat timeFormat = new SimpleDateFormat("hh:mm a");
         try {
-            this.startDate = dateFormat.format(new Date(doc.getDate().getTimeInMillis()));
-            this.startTime = timeFormat.format(new Date(doc.getDate().getTimeInMillis()));
+            this.startDate = dateFormat.format(new Date(doc.getStartDate().getTimeInMillis()));
+            this.startTime = timeFormat.format(new Date(doc.getStartDate().getTimeInMillis()));
             this.endDate = dateFormat.format(new Date(doc.getEndDate().getTimeInMillis()));
             this.endTime = timeFormat.format(new Date(doc.getEndDate().getTimeInMillis()));
-        }catch(Exception e){
+        } catch (Exception e) {
             //date values could be null, that is okay
         }
         type = doc.getTitle();
         uuid = doc.getIdentifier();
-        for(HippoBean spkrs:doc.getSpeakers()){
-            speakers.add(((Speaker)spkrs).getName());
+        for (HippoBean spkrs : doc.getSpeaker()) {
+            speakers.add(((Person) spkrs).getName());
         }
 
     }
