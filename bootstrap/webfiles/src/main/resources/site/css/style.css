@@ -124,8 +124,8 @@ h1 {
   padding-bottom: 10px;
 }
 hr {
-  border-color: #00468b;
-  padding-bottom: 10px;
+ // border-color: #00468b;
+  //padding-bottom: 10px;
 }
 .description {
   margin-top: 20px;
