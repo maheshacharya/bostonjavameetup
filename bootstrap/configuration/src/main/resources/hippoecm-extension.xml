@@ -617,48 +617,9 @@
       <sv:value>/hippo:namespaces/bostonjavameetup</sv:value>
     </sv:property>
   </sv:node>
-  <sv:node sv:name="bostonjavameetup-hst-hst-hst-configurations-bostonjavameetup-hst-pages-pagenotfound">
-    <sv:property sv:name="jcr:primaryType" sv:type="Name">
-      <sv:value>hippo:initializeitem</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:sequence" sv:type="Double">
-      <sv:value>30076.0</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>hst/configurations/bostonjavameetup/pages/pagenotfound.xml</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/hst:hst/hst:configurations/bostonjavameetup/hst:pages</sv:value>
-    </sv:property>
-  </sv:node>
-  <sv:node sv:name="bostonjavameetup-hst-hst-hst-configurations-bostonjavameetup-hst-abstractpages-base">
-    <sv:property sv:name="jcr:primaryType" sv:type="Name">
-      <sv:value>hippo:initializeitem</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:sequence" sv:type="Double">
-      <sv:value>30074.0</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>hst/configurations/bostonjavameetup/abstractpages/base.xml</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/hst:hst/hst:configurations/bostonjavameetup/hst:abstractpages</sv:value>
-    </sv:property>
-  </sv:node>
-  <sv:node sv:name="bostonjavameetup-hst-hst-hst-configurations-bostonjavameetup-hst-pages-homepage">
-    <sv:property sv:name="jcr:primaryType" sv:type="Name">
-      <sv:value>hippo:initializeitem</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:sequence" sv:type="Double">
-      <sv:value>30076.0</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>hst/configurations/bostonjavameetup/pages/homepage.xml</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/hst:hst/hst:configurations/bostonjavameetup/hst:pages</sv:value>
-    </sv:property>
-  </sv:node>
+  
+  
+  
   <sv:node sv:name="bostonjavameetup-hippo-configuration-hippo-queries-hippo-templates-new-resource-bundle">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
@@ -743,34 +704,8 @@
       <sv:value>/hippo:configuration/hippo:queries/hippo:templates</sv:value>
     </sv:property>
   </sv:node>
-  <sv:node sv:name="bostonjavameetup-hst-hst-hst-configurations-bostonjavameetup-hst-pages-contentpage">
-    <sv:property sv:name="jcr:primaryType" sv:type="Name">
-      <sv:value>hippo:initializeitem</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:sequence" sv:type="Double">
-      <sv:value>30076.0</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>hst/configurations/bostonjavameetup/pages/contentpage.xml</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/hst:hst/hst:configurations/bostonjavameetup/hst:pages</sv:value>
-    </sv:property>
-  </sv:node>
-  <sv:node sv:name="bostonjavameetup-hst-hst-hst-configurations-bostonjavameetup-hst-pages-contentlist">
-    <sv:property sv:name="jcr:primaryType" sv:type="Name">
-      <sv:value>hippo:initializeitem</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:sequence" sv:type="Double">
-      <sv:value>30076.0</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>hst/configurations/bostonjavameetup/pages/contentlist.xml</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/hst:hst/hst:configurations/bostonjavameetup/hst:pages</sv:value>
-    </sv:property>
-  </sv:node>
+  
+  
 <sv:node sv:name="bostonjavameetup-hippo-namespaces-bostonjavameetup-EventDocument">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
@@ -855,20 +790,7 @@
       <sv:value>/hippo:configuration/hippo:queries/hippo:templates</sv:value>
     </sv:property>
   </sv:node>
-<sv:node sv:name="bostonjavameetup-hst-hst-hst-configurations-bostonjavameetup-hst-pages-swagger-api">
-    <sv:property sv:name="jcr:primaryType" sv:type="Name">
-      <sv:value>hippo:initializeitem</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:sequence" sv:type="Double">
-      <sv:value>30076.0</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:contentresource" sv:type="String">
-      <sv:value>hst/configurations/bostonjavameetup/pages/swagger-api.xml</sv:value>
-    </sv:property>
-    <sv:property sv:name="hippo:contentroot" sv:type="String">
-      <sv:value>/hst:hst/hst:configurations/bostonjavameetup/hst:pages</sv:value>
-    </sv:property>
-  </sv:node>
+
 <sv:node sv:name="bostonjavameetup-hippo-configuration-hippo-modules-webfiles">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
       <sv:value>hippo:initializeitem</sv:value>
@@ -881,6 +803,401 @@
     </sv:property>
     <sv:property sv:name="hippo:contentroot" sv:type="String">
       <sv:value>/hippo:configuration/hippo:modules</sv:value>
+    </sv:property>
+  </sv:node>
+
+  
+
+<sv:node sv:name="bostonjavameetup-hst-hst-hst-configurations-common-hst-components">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>30056.0</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>hst/configurations/common/components.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/hst:hst/hst:configurations/common</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="bostonjavameetup-hst-hst-hst-configurations-common-hst-pages-contentlist">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>30057.0</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>hst/configurations/common/pages/contentlist.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/hst:hst/hst:configurations/common/hst:pages</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="bostonjavameetup-hst-hst-hst-configurations-common-hst-pages-swagger-api">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>30057.0</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>hst/configurations/common/pages/swagger-api.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/hst:hst/hst:configurations/common/hst:pages</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="bostonjavameetup-hst-hst-hst-configurations-common-hst-catalog">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>30056.0</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>hst/configurations/common/catalog.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/hst:hst/hst:configurations/common</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="bostonjavameetup-hst-hst-hst-configurations-common-hst-pages-pagenotfound">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>30057.0</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>hst/configurations/common/pages/pagenotfound.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/hst:hst/hst:configurations/common/hst:pages</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="bostonjavameetup-hst-hst-hst-configurations-common-hst-abstractpages-base-homepage">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>30057.0</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>hst/configurations/common/abstractpages/base-homepage.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/hst:hst/hst:configurations/common/hst:abstractpages</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="bostonjavameetup-hst-hst-hst-configurations-common-hst-abstractpages">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>30056.0</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>hst/configurations/common/abstractpages.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/hst:hst/hst:configurations/common</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="bostonjavameetup-hst-hst-hst-configurations-common-hst-pages-event-detail">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>30057.0</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>hst/configurations/common/pages/event-detail.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/hst:hst/hst:configurations/common/hst:pages</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="bostonjavameetup-hst-hst-hst-configurations-common-hst-abstractpages-base">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>30057.0</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>hst/configurations/common/abstractpages/base.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/hst:hst/hst:configurations/common/hst:abstractpages</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="bostonjavameetup-hst-hst-hst-configurations-common-hst-pages">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>30056.0</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>hst/configurations/common/pages.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/hst:hst/hst:configurations/common</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="bostonjavameetup-hst-hst-hst-configurations-common-hst-prototypepages">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>30056.0</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>hst/configurations/common/prototypepages.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/hst:hst/hst:configurations/common</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="bostonjavameetup-hst-hst-hst-configurations-common-hst-sitemap">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>30056.0</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>hst/configurations/common/sitemap.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/hst:hst/hst:configurations/common</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="bostonjavameetup-hst-hst-hst-configurations-common-hst-pages-contentpage">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>30057.0</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>hst/configurations/common/pages/contentpage.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/hst:hst/hst:configurations/common/hst:pages</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="bostonjavameetup-hst-hst-hst-configurations-common-hst-templates">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>30056.0</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>hst/configurations/common/templates.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/hst:hst/hst:configurations/common</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="bostonjavameetup-hst-hst-hst-configurations-common-hst-sitemenus">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>30056.0</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>hst/configurations/common/sitemenus.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/hst:hst/hst:configurations/common</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="bostonjavameetup-hst-hst-hst-configurations-common-hst-workspace">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>30056.0</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>hst/configurations/common/workspace.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/hst:hst/hst:configurations/common</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="bostonjavameetup-hst-hst-hst-configurations-common-hst-pages-event-list">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>30057.0</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>hst/configurations/common/pages/event-list.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/hst:hst/hst:configurations/common/hst:pages</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="bostonjavameetup-hst-hst-hst-configurations-common-hst-pages-homepage">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>30057.0</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>hst/configurations/common/pages/homepage.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/hst:hst/hst:configurations/common/hst:pages</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="bostonjavameetup-hst-hst-hst-configurations-bostonjavameetup-fr-hst-components">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>30056.0</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>hst/configurations/bostonjavameetup-fr/components.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/hst:hst/hst:configurations/bostonjavameetup-fr</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="bostonjavameetup-hst-hst-hst-configurations-bostonjavameetup-fr-hst-pages">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>30056.0</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>hst/configurations/bostonjavameetup-fr/pages.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/hst:hst/hst:configurations/bostonjavameetup-fr</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="bostonjavameetup-hst-hst-hst-configurations-bostonjavameetup-fr-hst-sitemap">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>30056.0</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>hst/configurations/bostonjavameetup-fr/sitemap.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/hst:hst/hst:configurations/bostonjavameetup-fr</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="bostonjavameetup-hst-hst-hst-configurations-bostonjavameetup-fr-hst-sitemenus">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>30056.0</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>hst/configurations/bostonjavameetup-fr/sitemenus.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/hst:hst/hst:configurations/bostonjavameetup-fr</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="bostonjavameetup-hst-hst-hst-configurations-bostonjavameetup-fr-hst-workspace">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>30056.0</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>hst/configurations/bostonjavameetup-fr/workspace.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/hst:hst/hst:configurations/bostonjavameetup-fr</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="bostonjavameetup-hst-hst-hst-configurations-bostonjavameetup-fr-hst-catalog">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>30056.0</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>hst/configurations/bostonjavameetup-fr/catalog.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/hst:hst/hst:configurations/bostonjavameetup-fr</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="bostonjavameetup-hst-hst-hst-configurations-bostonjavameetup-fr-hst-templates">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>30056.0</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>hst/configurations/bostonjavameetup-fr/templates.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/hst:hst/hst:configurations/bostonjavameetup-fr</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="bostonjavameetup-hst-hst-hst-configurations-bostonjavameetup-fr-hst-abstractpages">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>30056.0</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>hst/configurations/bostonjavameetup-fr/abstractpages.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/hst:hst/hst:configurations/bostonjavameetup-fr</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="bostonjavameetup-hst-hst-hst-configurations-bostonjavameetup-fr-hst-prototypepages">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>30056.0</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>hst/configurations/bostonjavameetup-fr/prototypepages.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/hst:hst/hst:configurations/bostonjavameetup-fr</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="bostonjavameetup-hst-hst-hst-channels-bostonjavameetup-fr">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:initializeitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:sequence" sv:type="Double">
+      <sv:value>30054.0</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentresource" sv:type="String">
+      <sv:value>hst/channels/bostonjavameetup-fr.xml</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:contentroot" sv:type="String">
+      <sv:value>/hst:hst/hst:channels</sv:value>
     </sv:property>
   </sv:node>
 </sv:node>

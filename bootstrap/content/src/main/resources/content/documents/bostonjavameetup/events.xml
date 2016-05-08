@@ -85,6 +85,9 @@
           <sv:property sv:name="bostonjavameetup:endDate" sv:type="Date">
             <sv:value>2016-05-10T20:00:00.000-04:00</sv:value>
           </sv:property>
+          <sv:property sv:name="bostonjavameetup:startDate" sv:type="Date">
+            <sv:value>2016-05-10T18:00:00.000-04:00</sv:value>
+          </sv:property>
           <sv:property sv:name="bostonjavameetup:starteDate" sv:type="Date">
             <sv:value>2016-05-10T18:00:00.000-04:00</sv:value>
           </sv:property>
@@ -112,7 +115,7 @@
             <sv:value>2016-05-06T06:58:47.680-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2016-05-06T19:51:22.904-04:00</sv:value>
+            <sv:value>2016-05-07T17:44:57.493-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
@@ -163,6 +166,22 @@ Hippo CMS Getting Started:&amp;nbsp;&lt;a href="http://www.onehippo.org/trails/g
               <sv:value>6a9aba8b-eb8b-45a3-8091-c613d06ed038</sv:value>
             </sv:property>
           </sv:node>
+          <sv:node sv:name="bostonjavameetup:description">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Lorem ipsum dolor sit amet, mea ex movet exerci voluptua, ex sit viris congue, quod mutat porro no ius. Idque facer causae sit ne, ne movet populo mei. Eos cu soluta omittam. Quas fugit putent sit eu, cum eu omnes fastidii. No autem menandri referrentur pri. Graeci invidunt mea in, sit labores facilisis laboramus id.&lt;/p&gt;
+
+&lt;p&gt;Soluta utroque definitionem eu pri, novum nominavi mel te. Est in atqui eleifend. His legere integre cu. Mei ut affert tritani, in mei autem reque suavitate.&lt;/p&gt;
+
+&lt;p&gt;Munere volumus temporibus ex pri, facer eripuit ponderum usu eu. An feugiat saperet veritus mea. Erroribus molestiae eam ex, et pri choro alienum definitiones. Vel wisi civibus ad.&lt;/p&gt;
+
+&lt;p&gt;Vis verterem argumentum in, per mazim aeterno accumsan te. Case sensibus at ius. Ignota postulant qualisque cu has. Albucius indoctum sea ea. Alii doming inermis eum et. Quo quando alienum pericula te, est id munere reprimique dissentiet.&lt;/p&gt;
+
+&lt;p&gt;Cum choro admodum ad. Facete interesset cum ad, in per movet molestiae mnesarchum, nihil voluptatum reprimique qui ex. In mundi corpora elaboraret cum, est at modo habeo. Ad nam quem decore scripserit, eam eu solum accumsan ponderum. Eam eu nominati persequeris, his ad scripta debitis liberavisse, sit ne posse adipiscing. His habeo vulputate in, ei unum ignota aliquip vix.&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
         </sv:node>
         <sv:node sv:name="hippo:translation">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -187,6 +206,9 @@ Hippo CMS Getting Started:&amp;nbsp;&lt;a href="http://www.onehippo.org/trails/g
           </sv:property>
           <sv:property sv:name="bostonjavameetup:endDate" sv:type="Date">
             <sv:value>2016-05-10T20:00:00.000-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:startDate" sv:type="Date">
+            <sv:value>2016-05-10T18:00:00.000-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="bostonjavameetup:starteDate" sv:type="Date">
             <sv:value>2016-05-10T18:00:00.000-04:00</sv:value>
@@ -216,7 +238,7 @@ Hippo CMS Getting Started:&amp;nbsp;&lt;a href="http://www.onehippo.org/trails/g
             <sv:value>2016-05-06T06:58:47.680-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2016-05-06T19:51:54.527-04:00</sv:value>
+            <sv:value>2016-05-07T13:34:13.680-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
@@ -267,6 +289,22 @@ Hippo CMS Getting Started:&amp;nbsp;&lt;a href="http://www.onehippo.org/trails/g
               <sv:value>6a9aba8b-eb8b-45a3-8091-c613d06ed038</sv:value>
             </sv:property>
           </sv:node>
+          <sv:node sv:name="bostonjavameetup:description">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Lorem ipsum dolor sit amet, mea ex movet exerci voluptua, ex sit viris congue, quod mutat porro no ius. Idque facer causae sit ne, ne movet populo mei. Eos cu soluta omittam. Quas fugit putent sit eu, cum eu omnes fastidii. No autem menandri referrentur pri. Graeci invidunt mea in, sit labores facilisis laboramus id.&lt;/p&gt;
+
+&lt;p&gt;Soluta utroque definitionem eu pri, novum nominavi mel te. Est in atqui eleifend. His legere integre cu. Mei ut affert tritani, in mei autem reque suavitate.&lt;/p&gt;
+
+&lt;p&gt;Munere volumus temporibus ex pri, facer eripuit ponderum usu eu. An feugiat saperet veritus mea. Erroribus molestiae eam ex, et pri choro alienum definitiones. Vel wisi civibus ad.&lt;/p&gt;
+
+&lt;p&gt;Vis verterem argumentum in, per mazim aeterno accumsan te. Case sensibus at ius. Ignota postulant qualisque cu has. Albucius indoctum sea ea. Alii doming inermis eum et. Quo quando alienum pericula te, est id munere reprimique dissentiet.&lt;/p&gt;
+
+&lt;p&gt;Cum choro admodum ad. Facete interesset cum ad, in per movet molestiae mnesarchum, nihil voluptatum reprimique qui ex. In mundi corpora elaboraret cum, est at modo habeo. Ad nam quem decore scripserit, eam eu solum accumsan ponderum. Eam eu nominati persequeris, his ad scripta debitis liberavisse, sit ne posse adipiscing. His habeo vulputate in, ei unum ignota aliquip vix.&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
         </sv:node>
         <sv:node sv:name="java-and-cms-an-open-source-implementation-and-lab">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -280,6 +318,9 @@ Hippo CMS Getting Started:&amp;nbsp;&lt;a href="http://www.onehippo.org/trails/g
           </sv:property>
           <sv:property sv:name="bostonjavameetup:endDate" sv:type="Date">
             <sv:value>2016-05-10T20:00:00.000-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:startDate" sv:type="Date">
+            <sv:value>2016-05-10T18:00:00.000-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="bostonjavameetup:starteDate" sv:type="Date">
             <sv:value>2016-05-10T18:00:00.000-04:00</sv:value>
@@ -309,13 +350,13 @@ Hippo CMS Getting Started:&amp;nbsp;&lt;a href="http://www.onehippo.org/trails/g
             <sv:value>2016-05-06T06:58:47.680-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2016-05-06T19:51:54.527-04:00</sv:value>
+            <sv:value>2016-05-07T13:34:13.680-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-            <sv:value>2016-05-06T19:51:56.328-04:00</sv:value>
+            <sv:value>2016-05-07T13:34:15.441-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippotranslation:id" sv:type="String">
             <sv:value>e3125aff-312a-4f9f-8e8d-5365b9962edb</sv:value>
@@ -361,6 +402,22 @@ Hippo CMS Getting Started:&amp;nbsp;&lt;a href="http://www.onehippo.org/trails/g
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
               <sv:value>6a9aba8b-eb8b-45a3-8091-c613d06ed038</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:description">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Lorem ipsum dolor sit amet, mea ex movet exerci voluptua, ex sit viris congue, quod mutat porro no ius. Idque facer causae sit ne, ne movet populo mei. Eos cu soluta omittam. Quas fugit putent sit eu, cum eu omnes fastidii. No autem menandri referrentur pri. Graeci invidunt mea in, sit labores facilisis laboramus id.&lt;/p&gt;
+
+&lt;p&gt;Soluta utroque definitionem eu pri, novum nominavi mel te. Est in atqui eleifend. His legere integre cu. Mei ut affert tritani, in mei autem reque suavitate.&lt;/p&gt;
+
+&lt;p&gt;Munere volumus temporibus ex pri, facer eripuit ponderum usu eu. An feugiat saperet veritus mea. Erroribus molestiae eam ex, et pri choro alienum definitiones. Vel wisi civibus ad.&lt;/p&gt;
+
+&lt;p&gt;Vis verterem argumentum in, per mazim aeterno accumsan te. Case sensibus at ius. Ignota postulant qualisque cu has. Albucius indoctum sea ea. Alii doming inermis eum et. Quo quando alienum pericula te, est id munere reprimique dissentiet.&lt;/p&gt;
+
+&lt;p&gt;Cum choro admodum ad. Facete interesset cum ad, in per movet molestiae mnesarchum, nihil voluptatum reprimique qui ex. In mundi corpora elaboraret cum, est at modo habeo. Ad nam quem decore scripserit, eam eu solum accumsan ponderum. Eam eu nominati persequeris, his ad scripta debitis liberavisse, sit ne posse adipiscing. His habeo vulputate in, ei unum ignota aliquip vix.&lt;/p&gt;</sv:value>
             </sv:property>
           </sv:node>
         </sv:node>
@@ -389,6 +446,9 @@ Hippo CMS Getting Started:&amp;nbsp;&lt;a href="http://www.onehippo.org/trails/g
           <sv:property sv:name="bostonjavameetup:endDate" sv:type="Date">
             <sv:value>2016-05-19T20:00:00.000-04:00</sv:value>
           </sv:property>
+          <sv:property sv:name="bostonjavameetup:startDate" sv:type="Date">
+            <sv:value>2016-05-19T18:00:00.000-04:00</sv:value>
+          </sv:property>
           <sv:property sv:name="bostonjavameetup:starteDate" sv:type="Date">
             <sv:value>2016-05-19T18:00:00.000-04:00</sv:value>
           </sv:property>
@@ -413,7 +473,7 @@ Hippo CMS Getting Started:&amp;nbsp;&lt;a href="http://www.onehippo.org/trails/g
             <sv:value>2016-05-06T19:53:46.933-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2016-05-06T19:53:46.966-04:00</sv:value>
+            <sv:value>2016-05-07T17:45:07.714-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
@@ -459,6 +519,22 @@ Hippo CMS Getting Started:&amp;nbsp;&lt;a href="http://www.onehippo.org/trails/g
               <sv:value>6a9aba8b-eb8b-45a3-8091-c613d06ed038</sv:value>
             </sv:property>
           </sv:node>
+          <sv:node sv:name="bostonjavameetup:description">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Lorem ipsum dolor sit amet, mea ex movet exerci voluptua, ex sit viris congue, quod mutat porro no ius. Idque facer causae sit ne, ne movet populo mei. Eos cu soluta omittam. Quas fugit putent sit eu, cum eu omnes fastidii. No autem menandri referrentur pri. Graeci invidunt mea in, sit labores facilisis laboramus id.&lt;/p&gt;
+
+&lt;p&gt;Soluta utroque definitionem eu pri, novum nominavi mel te. Est in atqui eleifend. His legere integre cu. Mei ut affert tritani, in mei autem reque suavitate.&lt;/p&gt;
+
+&lt;p&gt;Munere volumus temporibus ex pri, facer eripuit ponderum usu eu. An feugiat saperet veritus mea. Erroribus molestiae eam ex, et pri choro alienum definitiones. Vel wisi civibus ad.&lt;/p&gt;
+
+&lt;p&gt;Vis verterem argumentum in, per mazim aeterno accumsan te. Case sensibus at ius. Ignota postulant qualisque cu has. Albucius indoctum sea ea. Alii doming inermis eum et. Quo quando alienum pericula te, est id munere reprimique dissentiet.&lt;/p&gt;
+
+&lt;p&gt;Cum choro admodum ad. Facete interesset cum ad, in per movet molestiae mnesarchum, nihil voluptatum reprimique qui ex. In mundi corpora elaboraret cum, est at modo habeo. Ad nam quem decore scripserit, eam eu solum accumsan ponderum. Eam eu nominati persequeris, his ad scripta debitis liberavisse, sit ne posse adipiscing. His habeo vulputate in, ei unum ignota aliquip vix.&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
         </sv:node>
         <sv:node sv:name="hippo:translation">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -477,13 +553,15 @@ Hippo CMS Getting Started:&amp;nbsp;&lt;a href="http://www.onehippo.org/trails/g
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>mix:versionable</sv:value>
-            <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>8f20bf40-7957-4bd8-bafb-eaa4fee4dd1b</sv:value>
           </sv:property>
           <sv:property sv:name="bostonjavameetup:endDate" sv:type="Date">
             <sv:value>2016-05-19T20:00:00.000-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:startDate" sv:type="Date">
+            <sv:value>2016-05-19T18:00:00.000-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="bostonjavameetup:starteDate" sv:type="Date">
             <sv:value>2016-05-19T18:00:00.000-04:00</sv:value>
@@ -510,7 +588,7 @@ Hippo CMS Getting Started:&amp;nbsp;&lt;a href="http://www.onehippo.org/trails/g
             <sv:value>2016-05-06T19:53:46.933-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2016-05-06T19:54:54.110-04:00</sv:value>
+            <sv:value>2016-05-07T13:34:30.181-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
@@ -556,6 +634,22 @@ Hippo CMS Getting Started:&amp;nbsp;&lt;a href="http://www.onehippo.org/trails/g
               <sv:value>6a9aba8b-eb8b-45a3-8091-c613d06ed038</sv:value>
             </sv:property>
           </sv:node>
+          <sv:node sv:name="bostonjavameetup:description">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Lorem ipsum dolor sit amet, mea ex movet exerci voluptua, ex sit viris congue, quod mutat porro no ius. Idque facer causae sit ne, ne movet populo mei. Eos cu soluta omittam. Quas fugit putent sit eu, cum eu omnes fastidii. No autem menandri referrentur pri. Graeci invidunt mea in, sit labores facilisis laboramus id.&lt;/p&gt;
+
+&lt;p&gt;Soluta utroque definitionem eu pri, novum nominavi mel te. Est in atqui eleifend. His legere integre cu. Mei ut affert tritani, in mei autem reque suavitate.&lt;/p&gt;
+
+&lt;p&gt;Munere volumus temporibus ex pri, facer eripuit ponderum usu eu. An feugiat saperet veritus mea. Erroribus molestiae eam ex, et pri choro alienum definitiones. Vel wisi civibus ad.&lt;/p&gt;
+
+&lt;p&gt;Vis verterem argumentum in, per mazim aeterno accumsan te. Case sensibus at ius. Ignota postulant qualisque cu has. Albucius indoctum sea ea. Alii doming inermis eum et. Quo quando alienum pericula te, est id munere reprimique dissentiet.&lt;/p&gt;
+
+&lt;p&gt;Cum choro admodum ad. Facete interesset cum ad, in per movet molestiae mnesarchum, nihil voluptatum reprimique qui ex. In mundi corpora elaboraret cum, est at modo habeo. Ad nam quem decore scripserit, eam eu solum accumsan ponderum. Eam eu nominati persequeris, his ad scripta debitis liberavisse, sit ne posse adipiscing. His habeo vulputate in, ei unum ignota aliquip vix.&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
         </sv:node>
         <sv:node sv:name="java-and-web-services-using-swagger-to-define-and-implement-apis">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -569,6 +663,9 @@ Hippo CMS Getting Started:&amp;nbsp;&lt;a href="http://www.onehippo.org/trails/g
           </sv:property>
           <sv:property sv:name="bostonjavameetup:endDate" sv:type="Date">
             <sv:value>2016-05-19T20:00:00.000-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:startDate" sv:type="Date">
+            <sv:value>2016-05-19T18:00:00.000-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="bostonjavameetup:starteDate" sv:type="Date">
             <sv:value>2016-05-19T18:00:00.000-04:00</sv:value>
@@ -595,13 +692,13 @@ Hippo CMS Getting Started:&amp;nbsp;&lt;a href="http://www.onehippo.org/trails/g
             <sv:value>2016-05-06T19:53:46.933-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2016-05-06T19:54:54.110-04:00</sv:value>
+            <sv:value>2016-05-07T13:34:30.181-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-            <sv:value>2016-05-06T19:54:55.911-04:00</sv:value>
+            <sv:value>2016-05-07T13:34:31.953-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippotranslation:id" sv:type="String">
             <sv:value>927e7fa4-573e-4cf5-ba09-dae4af60a213</sv:value>
@@ -642,6 +739,22 @@ Hippo CMS Getting Started:&amp;nbsp;&lt;a href="http://www.onehippo.org/trails/g
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
               <sv:value>6a9aba8b-eb8b-45a3-8091-c613d06ed038</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:description">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Lorem ipsum dolor sit amet, mea ex movet exerci voluptua, ex sit viris congue, quod mutat porro no ius. Idque facer causae sit ne, ne movet populo mei. Eos cu soluta omittam. Quas fugit putent sit eu, cum eu omnes fastidii. No autem menandri referrentur pri. Graeci invidunt mea in, sit labores facilisis laboramus id.&lt;/p&gt;
+
+&lt;p&gt;Soluta utroque definitionem eu pri, novum nominavi mel te. Est in atqui eleifend. His legere integre cu. Mei ut affert tritani, in mei autem reque suavitate.&lt;/p&gt;
+
+&lt;p&gt;Munere volumus temporibus ex pri, facer eripuit ponderum usu eu. An feugiat saperet veritus mea. Erroribus molestiae eam ex, et pri choro alienum definitiones. Vel wisi civibus ad.&lt;/p&gt;
+
+&lt;p&gt;Vis verterem argumentum in, per mazim aeterno accumsan te. Case sensibus at ius. Ignota postulant qualisque cu has. Albucius indoctum sea ea. Alii doming inermis eum et. Quo quando alienum pericula te, est id munere reprimique dissentiet.&lt;/p&gt;
+
+&lt;p&gt;Cum choro admodum ad. Facete interesset cum ad, in per movet molestiae mnesarchum, nihil voluptatum reprimique qui ex. In mundi corpora elaboraret cum, est at modo habeo. Ad nam quem decore scripserit, eam eu solum accumsan ponderum. Eam eu nominati persequeris, his ad scripta debitis liberavisse, sit ne posse adipiscing. His habeo vulputate in, ei unum ignota aliquip vix.&lt;/p&gt;</sv:value>
             </sv:property>
           </sv:node>
         </sv:node>
@@ -670,6 +783,9 @@ Hippo CMS Getting Started:&amp;nbsp;&lt;a href="http://www.onehippo.org/trails/g
           <sv:property sv:name="bostonjavameetup:endDate" sv:type="Date">
             <sv:value>2016-05-03T20:00:00.000-04:00</sv:value>
           </sv:property>
+          <sv:property sv:name="bostonjavameetup:startDate" sv:type="Date">
+            <sv:value>2016-05-03T18:00:00.000-04:00</sv:value>
+          </sv:property>
           <sv:property sv:name="bostonjavameetup:starteDate" sv:type="Date">
             <sv:value>2016-05-03T18:00:00.000-04:00</sv:value>
           </sv:property>
@@ -694,7 +810,7 @@ Hippo CMS Getting Started:&amp;nbsp;&lt;a href="http://www.onehippo.org/trails/g
             <sv:value>2016-05-06T19:57:50.033-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2016-05-06T19:59:52.517-04:00</sv:value>
+            <sv:value>2016-05-07T19:11:37.243-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
@@ -740,6 +856,22 @@ Hippo CMS Getting Started:&amp;nbsp;&lt;a href="http://www.onehippo.org/trails/g
               <sv:value>6a9aba8b-eb8b-45a3-8091-c613d06ed038</sv:value>
             </sv:property>
           </sv:node>
+          <sv:node sv:name="bostonjavameetup:description">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Lorem ipsum dolor sit amet, mea ex movet exerci voluptua, ex sit viris congue, quod mutat porro no ius. Idque facer causae sit ne, ne movet populo mei. Eos cu soluta omittam. Quas fugit putent sit eu, cum eu omnes fastidii. No autem menandri referrentur pri. Graeci invidunt mea in, sit labores facilisis laboramus id.&lt;/p&gt;
+
+&lt;p&gt;Soluta utroque definitionem eu pri, novum nominavi mel te. Est in atqui eleifend. His legere integre cu. Mei ut affert tritani, in mei autem reque suavitate.&lt;/p&gt;
+
+&lt;p&gt;Munere volumus temporibus ex pri, facer eripuit ponderum usu eu. An feugiat saperet veritus mea. Erroribus molestiae eam ex, et pri choro alienum definitiones. Vel wisi civibus ad.&lt;/p&gt;
+
+&lt;p&gt;Vis verterem argumentum in, per mazim aeterno accumsan te. Case sensibus at ius. Ignota postulant qualisque cu has. Albucius indoctum sea ea. Alii doming inermis eum et. Quo quando alienum pericula te, est id munere reprimique dissentiet.&lt;/p&gt;
+
+&lt;p&gt;Cum choro admodum ad. Facete interesset cum ad, in per movet molestiae mnesarchum, nihil voluptatum reprimique qui ex. In mundi corpora elaboraret cum, est at modo habeo. Ad nam quem decore scripserit, eam eu solum accumsan ponderum. Eam eu nominati persequeris, his ad scripta debitis liberavisse, sit ne posse adipiscing. His habeo vulputate in, ei unum ignota aliquip vix.&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
         </sv:node>
         <sv:node sv:name="hippo:translation">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -758,13 +890,15 @@ Hippo CMS Getting Started:&amp;nbsp;&lt;a href="http://www.onehippo.org/trails/g
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>mix:versionable</sv:value>
-            <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>db454342-a912-4e63-ad8e-70447c8e9ed8</sv:value>
           </sv:property>
           <sv:property sv:name="bostonjavameetup:endDate" sv:type="Date">
             <sv:value>2016-05-03T20:00:00.000-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:startDate" sv:type="Date">
+            <sv:value>2016-05-03T18:00:00.000-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="bostonjavameetup:starteDate" sv:type="Date">
             <sv:value>2016-05-03T18:00:00.000-04:00</sv:value>
@@ -791,7 +925,7 @@ Hippo CMS Getting Started:&amp;nbsp;&lt;a href="http://www.onehippo.org/trails/g
             <sv:value>2016-05-06T19:57:50.033-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2016-05-06T20:00:27.636-04:00</sv:value>
+            <sv:value>2016-05-07T13:34:49.133-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
@@ -837,6 +971,22 @@ Hippo CMS Getting Started:&amp;nbsp;&lt;a href="http://www.onehippo.org/trails/g
               <sv:value>6a9aba8b-eb8b-45a3-8091-c613d06ed038</sv:value>
             </sv:property>
           </sv:node>
+          <sv:node sv:name="bostonjavameetup:description">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Lorem ipsum dolor sit amet, mea ex movet exerci voluptua, ex sit viris congue, quod mutat porro no ius. Idque facer causae sit ne, ne movet populo mei. Eos cu soluta omittam. Quas fugit putent sit eu, cum eu omnes fastidii. No autem menandri referrentur pri. Graeci invidunt mea in, sit labores facilisis laboramus id.&lt;/p&gt;
+
+&lt;p&gt;Soluta utroque definitionem eu pri, novum nominavi mel te. Est in atqui eleifend. His legere integre cu. Mei ut affert tritani, in mei autem reque suavitate.&lt;/p&gt;
+
+&lt;p&gt;Munere volumus temporibus ex pri, facer eripuit ponderum usu eu. An feugiat saperet veritus mea. Erroribus molestiae eam ex, et pri choro alienum definitiones. Vel wisi civibus ad.&lt;/p&gt;
+
+&lt;p&gt;Vis verterem argumentum in, per mazim aeterno accumsan te. Case sensibus at ius. Ignota postulant qualisque cu has. Albucius indoctum sea ea. Alii doming inermis eum et. Quo quando alienum pericula te, est id munere reprimique dissentiet.&lt;/p&gt;
+
+&lt;p&gt;Cum choro admodum ad. Facete interesset cum ad, in per movet molestiae mnesarchum, nihil voluptatum reprimique qui ex. In mundi corpora elaboraret cum, est at modo habeo. Ad nam quem decore scripserit, eam eu solum accumsan ponderum. Eam eu nominati persequeris, his ad scripta debitis liberavisse, sit ne posse adipiscing. His habeo vulputate in, ei unum ignota aliquip vix.&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
         </sv:node>
         <sv:node sv:name="java-and-full-stack-development-with-nosql-and-lab">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -850,6 +1000,9 @@ Hippo CMS Getting Started:&amp;nbsp;&lt;a href="http://www.onehippo.org/trails/g
           </sv:property>
           <sv:property sv:name="bostonjavameetup:endDate" sv:type="Date">
             <sv:value>2016-05-03T20:00:00.000-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:startDate" sv:type="Date">
+            <sv:value>2016-05-03T18:00:00.000-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="bostonjavameetup:starteDate" sv:type="Date">
             <sv:value>2016-05-03T18:00:00.000-04:00</sv:value>
@@ -876,13 +1029,13 @@ Hippo CMS Getting Started:&amp;nbsp;&lt;a href="http://www.onehippo.org/trails/g
             <sv:value>2016-05-06T19:57:50.033-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2016-05-06T20:00:27.636-04:00</sv:value>
+            <sv:value>2016-05-07T13:34:49.133-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-            <sv:value>2016-05-06T20:00:29.572-04:00</sv:value>
+            <sv:value>2016-05-07T13:34:50.810-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippotranslation:id" sv:type="String">
             <sv:value>7cda8ed7-bdff-487a-a9b3-4c53a607db1a</sv:value>
@@ -923,6 +1076,22 @@ Hippo CMS Getting Started:&amp;nbsp;&lt;a href="http://www.onehippo.org/trails/g
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
               <sv:value>6a9aba8b-eb8b-45a3-8091-c613d06ed038</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:description">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Lorem ipsum dolor sit amet, mea ex movet exerci voluptua, ex sit viris congue, quod mutat porro no ius. Idque facer causae sit ne, ne movet populo mei. Eos cu soluta omittam. Quas fugit putent sit eu, cum eu omnes fastidii. No autem menandri referrentur pri. Graeci invidunt mea in, sit labores facilisis laboramus id.&lt;/p&gt;
+
+&lt;p&gt;Soluta utroque definitionem eu pri, novum nominavi mel te. Est in atqui eleifend. His legere integre cu. Mei ut affert tritani, in mei autem reque suavitate.&lt;/p&gt;
+
+&lt;p&gt;Munere volumus temporibus ex pri, facer eripuit ponderum usu eu. An feugiat saperet veritus mea. Erroribus molestiae eam ex, et pri choro alienum definitiones. Vel wisi civibus ad.&lt;/p&gt;
+
+&lt;p&gt;Vis verterem argumentum in, per mazim aeterno accumsan te. Case sensibus at ius. Ignota postulant qualisque cu has. Albucius indoctum sea ea. Alii doming inermis eum et. Quo quando alienum pericula te, est id munere reprimique dissentiet.&lt;/p&gt;
+
+&lt;p&gt;Cum choro admodum ad. Facete interesset cum ad, in per movet molestiae mnesarchum, nihil voluptatum reprimique qui ex. In mundi corpora elaboraret cum, est at modo habeo. Ad nam quem decore scripserit, eam eu solum accumsan ponderum. Eam eu nominati persequeris, his ad scripta debitis liberavisse, sit ne posse adipiscing. His habeo vulputate in, ei unum ignota aliquip vix.&lt;/p&gt;</sv:value>
             </sv:property>
           </sv:node>
         </sv:node>
@@ -984,6 +1153,9 @@ Hippo CMS Getting Started:&amp;nbsp;&lt;a href="http://www.onehippo.org/trails/g
           <sv:property sv:name="bostonjavameetup:endDate" sv:type="Date">
             <sv:value>2016-04-12T20:00:00.000-04:00</sv:value>
           </sv:property>
+          <sv:property sv:name="bostonjavameetup:startDate" sv:type="Date">
+            <sv:value>2016-04-12T18:00:00.000-04:00</sv:value>
+          </sv:property>
           <sv:property sv:name="bostonjavameetup:starteDate" sv:type="Date">
             <sv:value>2016-04-12T18:00:00.000-04:00</sv:value>
           </sv:property>
@@ -1008,7 +1180,7 @@ Hippo CMS Getting Started:&amp;nbsp;&lt;a href="http://www.onehippo.org/trails/g
             <sv:value>2016-05-06T20:00:44.130-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2016-05-06T20:00:44.155-04:00</sv:value>
+            <sv:value>2016-05-07T17:45:25.329-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
@@ -1032,7 +1204,7 @@ Hippo CMS Getting Started:&amp;nbsp;&lt;a href="http://www.onehippo.org/trails/g
               <sv:value>hippo:mirror</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+              <sv:value>5d2a0ec7-eaac-403c-b6ef-5ce2779a9b6c</sv:value>
             </sv:property>
           </sv:node>
           <sv:node sv:name="bostonjavameetup:images">
@@ -1051,7 +1223,23 @@ Hippo CMS Getting Started:&amp;nbsp;&lt;a href="http://www.onehippo.org/trails/g
               <sv:value>hippo:mirror</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+              <sv:value>6a9aba8b-eb8b-45a3-8091-c613d06ed038</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:description">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Lorem ipsum dolor sit amet, mea ex movet exerci voluptua, ex sit viris congue, quod mutat porro no ius. Idque facer causae sit ne, ne movet populo mei. Eos cu soluta omittam. Quas fugit putent sit eu, cum eu omnes fastidii. No autem menandri referrentur pri. Graeci invidunt mea in, sit labores facilisis laboramus id.&lt;/p&gt;
+
+&lt;p&gt;Soluta utroque definitionem eu pri, novum nominavi mel te. Est in atqui eleifend. His legere integre cu. Mei ut affert tritani, in mei autem reque suavitate.&lt;/p&gt;
+
+&lt;p&gt;Munere volumus temporibus ex pri, facer eripuit ponderum usu eu. An feugiat saperet veritus mea. Erroribus molestiae eam ex, et pri choro alienum definitiones. Vel wisi civibus ad.&lt;/p&gt;
+
+&lt;p&gt;Vis verterem argumentum in, per mazim aeterno accumsan te. Case sensibus at ius. Ignota postulant qualisque cu has. Albucius indoctum sea ea. Alii doming inermis eum et. Quo quando alienum pericula te, est id munere reprimique dissentiet.&lt;/p&gt;
+
+&lt;p&gt;Cum choro admodum ad. Facete interesset cum ad, in per movet molestiae mnesarchum, nihil voluptatum reprimique qui ex. In mundi corpora elaboraret cum, est at modo habeo. Ad nam quem decore scripserit, eam eu solum accumsan ponderum. Eam eu nominati persequeris, his ad scripta debitis liberavisse, sit ne posse adipiscing. His habeo vulputate in, ei unum ignota aliquip vix.&lt;/p&gt;</sv:value>
             </sv:property>
           </sv:node>
         </sv:node>
@@ -1061,13 +1249,15 @@ Hippo CMS Getting Started:&amp;nbsp;&lt;a href="http://www.onehippo.org/trails/g
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>mix:versionable</sv:value>
-            <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>74bb5e2c-621f-427e-8a95-00a0cb0efd21</sv:value>
           </sv:property>
           <sv:property sv:name="bostonjavameetup:endDate" sv:type="Date">
             <sv:value>2016-04-12T20:00:00.000-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:startDate" sv:type="Date">
+            <sv:value>2016-04-12T18:00:00.000-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="bostonjavameetup:starteDate" sv:type="Date">
             <sv:value>2016-04-12T18:00:00.000-04:00</sv:value>
@@ -1094,7 +1284,7 @@ Hippo CMS Getting Started:&amp;nbsp;&lt;a href="http://www.onehippo.org/trails/g
             <sv:value>2016-05-06T20:00:44.130-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2016-05-06T20:01:35.374-04:00</sv:value>
+            <sv:value>2016-05-07T17:45:39.917-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
@@ -1118,7 +1308,7 @@ Hippo CMS Getting Started:&amp;nbsp;&lt;a href="http://www.onehippo.org/trails/g
               <sv:value>hippo:mirror</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+              <sv:value>5d2a0ec7-eaac-403c-b6ef-5ce2779a9b6c</sv:value>
             </sv:property>
           </sv:node>
           <sv:node sv:name="bostonjavameetup:images">
@@ -1137,7 +1327,23 @@ Hippo CMS Getting Started:&amp;nbsp;&lt;a href="http://www.onehippo.org/trails/g
               <sv:value>hippo:mirror</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+              <sv:value>6a9aba8b-eb8b-45a3-8091-c613d06ed038</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:description">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Lorem ipsum dolor sit amet, mea ex movet exerci voluptua, ex sit viris congue, quod mutat porro no ius. Idque facer causae sit ne, ne movet populo mei. Eos cu soluta omittam. Quas fugit putent sit eu, cum eu omnes fastidii. No autem menandri referrentur pri. Graeci invidunt mea in, sit labores facilisis laboramus id.&lt;/p&gt;
+
+&lt;p&gt;Soluta utroque definitionem eu pri, novum nominavi mel te. Est in atqui eleifend. His legere integre cu. Mei ut affert tritani, in mei autem reque suavitate.&lt;/p&gt;
+
+&lt;p&gt;Munere volumus temporibus ex pri, facer eripuit ponderum usu eu. An feugiat saperet veritus mea. Erroribus molestiae eam ex, et pri choro alienum definitiones. Vel wisi civibus ad.&lt;/p&gt;
+
+&lt;p&gt;Vis verterem argumentum in, per mazim aeterno accumsan te. Case sensibus at ius. Ignota postulant qualisque cu has. Albucius indoctum sea ea. Alii doming inermis eum et. Quo quando alienum pericula te, est id munere reprimique dissentiet.&lt;/p&gt;
+
+&lt;p&gt;Cum choro admodum ad. Facete interesset cum ad, in per movet molestiae mnesarchum, nihil voluptatum reprimique qui ex. In mundi corpora elaboraret cum, est at modo habeo. Ad nam quem decore scripserit, eam eu solum accumsan ponderum. Eam eu nominati persequeris, his ad scripta debitis liberavisse, sit ne posse adipiscing. His habeo vulputate in, ei unum ignota aliquip vix.&lt;/p&gt;</sv:value>
             </sv:property>
           </sv:node>
         </sv:node>
@@ -1153,6 +1359,9 @@ Hippo CMS Getting Started:&amp;nbsp;&lt;a href="http://www.onehippo.org/trails/g
           </sv:property>
           <sv:property sv:name="bostonjavameetup:endDate" sv:type="Date">
             <sv:value>2016-04-12T20:00:00.000-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:startDate" sv:type="Date">
+            <sv:value>2016-04-12T18:00:00.000-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="bostonjavameetup:starteDate" sv:type="Date">
             <sv:value>2016-04-12T18:00:00.000-04:00</sv:value>
@@ -1179,13 +1388,13 @@ Hippo CMS Getting Started:&amp;nbsp;&lt;a href="http://www.onehippo.org/trails/g
             <sv:value>2016-05-06T20:00:44.130-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2016-05-06T20:01:35.374-04:00</sv:value>
+            <sv:value>2016-05-07T17:45:39.917-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-            <sv:value>2016-05-06T20:03:08.273-04:00</sv:value>
+            <sv:value>2016-05-07T17:45:41.765-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippotranslation:id" sv:type="String">
             <sv:value>4616a7f7-8005-450f-ac1d-afe2fc31f613</sv:value>
@@ -1206,7 +1415,7 @@ Hippo CMS Getting Started:&amp;nbsp;&lt;a href="http://www.onehippo.org/trails/g
               <sv:value>hippo:mirror</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+              <sv:value>5d2a0ec7-eaac-403c-b6ef-5ce2779a9b6c</sv:value>
             </sv:property>
           </sv:node>
           <sv:node sv:name="bostonjavameetup:images">
@@ -1225,7 +1434,23 @@ Hippo CMS Getting Started:&amp;nbsp;&lt;a href="http://www.onehippo.org/trails/g
               <sv:value>hippo:mirror</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+              <sv:value>6a9aba8b-eb8b-45a3-8091-c613d06ed038</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:description">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Lorem ipsum dolor sit amet, mea ex movet exerci voluptua, ex sit viris congue, quod mutat porro no ius. Idque facer causae sit ne, ne movet populo mei. Eos cu soluta omittam. Quas fugit putent sit eu, cum eu omnes fastidii. No autem menandri referrentur pri. Graeci invidunt mea in, sit labores facilisis laboramus id.&lt;/p&gt;
+
+&lt;p&gt;Soluta utroque definitionem eu pri, novum nominavi mel te. Est in atqui eleifend. His legere integre cu. Mei ut affert tritani, in mei autem reque suavitate.&lt;/p&gt;
+
+&lt;p&gt;Munere volumus temporibus ex pri, facer eripuit ponderum usu eu. An feugiat saperet veritus mea. Erroribus molestiae eam ex, et pri choro alienum definitiones. Vel wisi civibus ad.&lt;/p&gt;
+
+&lt;p&gt;Vis verterem argumentum in, per mazim aeterno accumsan te. Case sensibus at ius. Ignota postulant qualisque cu has. Albucius indoctum sea ea. Alii doming inermis eum et. Quo quando alienum pericula te, est id munere reprimique dissentiet.&lt;/p&gt;
+
+&lt;p&gt;Cum choro admodum ad. Facete interesset cum ad, in per movet molestiae mnesarchum, nihil voluptatum reprimique qui ex. In mundi corpora elaboraret cum, est at modo habeo. Ad nam quem decore scripserit, eam eu solum accumsan ponderum. Eam eu nominati persequeris, his ad scripta debitis liberavisse, sit ne posse adipiscing. His habeo vulputate in, ei unum ignota aliquip vix.&lt;/p&gt;</sv:value>
             </sv:property>
           </sv:node>
         </sv:node>
@@ -1276,6 +1501,9 @@ Hippo CMS Getting Started:&amp;nbsp;&lt;a href="http://www.onehippo.org/trails/g
           <sv:property sv:name="bostonjavameetup:endDate" sv:type="Date">
             <sv:value>2016-03-08T20:00:00.000-05:00</sv:value>
           </sv:property>
+          <sv:property sv:name="bostonjavameetup:startDate" sv:type="Date">
+            <sv:value>2016-03-08T18:00:00.000-05:00</sv:value>
+          </sv:property>
           <sv:property sv:name="bostonjavameetup:starteDate" sv:type="Date">
             <sv:value>2016-03-08T18:00:00.000-05:00</sv:value>
           </sv:property>
@@ -1300,7 +1528,7 @@ Hippo CMS Getting Started:&amp;nbsp;&lt;a href="http://www.onehippo.org/trails/g
             <sv:value>2016-05-06T20:04:33.713-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2016-05-06T20:04:33.745-04:00</sv:value>
+            <sv:value>2016-05-07T17:46:17.381-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
@@ -1324,7 +1552,7 @@ Hippo CMS Getting Started:&amp;nbsp;&lt;a href="http://www.onehippo.org/trails/g
               <sv:value>hippo:mirror</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+              <sv:value>a4a10594-59d2-4590-b379-fe4ab9d92222</sv:value>
             </sv:property>
           </sv:node>
           <sv:node sv:name="bostonjavameetup:images">
@@ -1343,7 +1571,23 @@ Hippo CMS Getting Started:&amp;nbsp;&lt;a href="http://www.onehippo.org/trails/g
               <sv:value>hippo:mirror</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+              <sv:value>6a9aba8b-eb8b-45a3-8091-c613d06ed038</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:description">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Lorem ipsum dolor sit amet, mea ex movet exerci voluptua, ex sit viris congue, quod mutat porro no ius. Idque facer causae sit ne, ne movet populo mei. Eos cu soluta omittam. Quas fugit putent sit eu, cum eu omnes fastidii. No autem menandri referrentur pri. Graeci invidunt mea in, sit labores facilisis laboramus id.&lt;/p&gt;
+
+&lt;p&gt;Soluta utroque definitionem eu pri, novum nominavi mel te. Est in atqui eleifend. His legere integre cu. Mei ut affert tritani, in mei autem reque suavitate.&lt;/p&gt;
+
+&lt;p&gt;Munere volumus temporibus ex pri, facer eripuit ponderum usu eu. An feugiat saperet veritus mea. Erroribus molestiae eam ex, et pri choro alienum definitiones. Vel wisi civibus ad.&lt;/p&gt;
+
+&lt;p&gt;Vis verterem argumentum in, per mazim aeterno accumsan te. Case sensibus at ius. Ignota postulant qualisque cu has. Albucius indoctum sea ea. Alii doming inermis eum et. Quo quando alienum pericula te, est id munere reprimique dissentiet.&lt;/p&gt;
+
+&lt;p&gt;Cum choro admodum ad. Facete interesset cum ad, in per movet molestiae mnesarchum, nihil voluptatum reprimique qui ex. In mundi corpora elaboraret cum, est at modo habeo. Ad nam quem decore scripserit, eam eu solum accumsan ponderum. Eam eu nominati persequeris, his ad scripta debitis liberavisse, sit ne posse adipiscing. His habeo vulputate in, ei unum ignota aliquip vix.&lt;/p&gt;</sv:value>
             </sv:property>
           </sv:node>
         </sv:node>
@@ -1364,13 +1608,15 @@ Hippo CMS Getting Started:&amp;nbsp;&lt;a href="http://www.onehippo.org/trails/g
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>mix:versionable</sv:value>
-            <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>8ea4776c-571c-496e-8775-0bac8ada2b62</sv:value>
           </sv:property>
           <sv:property sv:name="bostonjavameetup:endDate" sv:type="Date">
             <sv:value>2016-03-08T20:00:00.000-05:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:startDate" sv:type="Date">
+            <sv:value>2016-03-08T18:00:00.000-05:00</sv:value>
           </sv:property>
           <sv:property sv:name="bostonjavameetup:starteDate" sv:type="Date">
             <sv:value>2016-03-08T18:00:00.000-05:00</sv:value>
@@ -1397,7 +1643,7 @@ Hippo CMS Getting Started:&amp;nbsp;&lt;a href="http://www.onehippo.org/trails/g
             <sv:value>2016-05-06T20:04:33.713-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2016-05-06T20:05:12.606-04:00</sv:value>
+            <sv:value>2016-05-07T17:46:22.209-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
@@ -1421,7 +1667,7 @@ Hippo CMS Getting Started:&amp;nbsp;&lt;a href="http://www.onehippo.org/trails/g
               <sv:value>hippo:mirror</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+              <sv:value>a4a10594-59d2-4590-b379-fe4ab9d92222</sv:value>
             </sv:property>
           </sv:node>
           <sv:node sv:name="bostonjavameetup:images">
@@ -1440,7 +1686,23 @@ Hippo CMS Getting Started:&amp;nbsp;&lt;a href="http://www.onehippo.org/trails/g
               <sv:value>hippo:mirror</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+              <sv:value>6a9aba8b-eb8b-45a3-8091-c613d06ed038</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:description">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Lorem ipsum dolor sit amet, mea ex movet exerci voluptua, ex sit viris congue, quod mutat porro no ius. Idque facer causae sit ne, ne movet populo mei. Eos cu soluta omittam. Quas fugit putent sit eu, cum eu omnes fastidii. No autem menandri referrentur pri. Graeci invidunt mea in, sit labores facilisis laboramus id.&lt;/p&gt;
+
+&lt;p&gt;Soluta utroque definitionem eu pri, novum nominavi mel te. Est in atqui eleifend. His legere integre cu. Mei ut affert tritani, in mei autem reque suavitate.&lt;/p&gt;
+
+&lt;p&gt;Munere volumus temporibus ex pri, facer eripuit ponderum usu eu. An feugiat saperet veritus mea. Erroribus molestiae eam ex, et pri choro alienum definitiones. Vel wisi civibus ad.&lt;/p&gt;
+
+&lt;p&gt;Vis verterem argumentum in, per mazim aeterno accumsan te. Case sensibus at ius. Ignota postulant qualisque cu has. Albucius indoctum sea ea. Alii doming inermis eum et. Quo quando alienum pericula te, est id munere reprimique dissentiet.&lt;/p&gt;
+
+&lt;p&gt;Cum choro admodum ad. Facete interesset cum ad, in per movet molestiae mnesarchum, nihil voluptatum reprimique qui ex. In mundi corpora elaboraret cum, est at modo habeo. Ad nam quem decore scripserit, eam eu solum accumsan ponderum. Eam eu nominati persequeris, his ad scripta debitis liberavisse, sit ne posse adipiscing. His habeo vulputate in, ei unum ignota aliquip vix.&lt;/p&gt;</sv:value>
             </sv:property>
           </sv:node>
         </sv:node>
@@ -1456,6 +1718,9 @@ Hippo CMS Getting Started:&amp;nbsp;&lt;a href="http://www.onehippo.org/trails/g
           </sv:property>
           <sv:property sv:name="bostonjavameetup:endDate" sv:type="Date">
             <sv:value>2016-03-08T20:00:00.000-05:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:startDate" sv:type="Date">
+            <sv:value>2016-03-08T18:00:00.000-05:00</sv:value>
           </sv:property>
           <sv:property sv:name="bostonjavameetup:starteDate" sv:type="Date">
             <sv:value>2016-03-08T18:00:00.000-05:00</sv:value>
@@ -1482,13 +1747,13 @@ Hippo CMS Getting Started:&amp;nbsp;&lt;a href="http://www.onehippo.org/trails/g
             <sv:value>2016-05-06T20:04:33.713-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2016-05-06T20:05:12.606-04:00</sv:value>
+            <sv:value>2016-05-07T17:46:22.209-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-            <sv:value>2016-05-06T20:05:14.565-04:00</sv:value>
+            <sv:value>2016-05-07T17:46:23.658-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippotranslation:id" sv:type="String">
             <sv:value>36549acc-bb9b-4da1-a807-2a7a88c90624</sv:value>
@@ -1509,7 +1774,7 @@ Hippo CMS Getting Started:&amp;nbsp;&lt;a href="http://www.onehippo.org/trails/g
               <sv:value>hippo:mirror</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+              <sv:value>a4a10594-59d2-4590-b379-fe4ab9d92222</sv:value>
             </sv:property>
           </sv:node>
           <sv:node sv:name="bostonjavameetup:images">
@@ -1528,7 +1793,23 @@ Hippo CMS Getting Started:&amp;nbsp;&lt;a href="http://www.onehippo.org/trails/g
               <sv:value>hippo:mirror</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+              <sv:value>6a9aba8b-eb8b-45a3-8091-c613d06ed038</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:description">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Lorem ipsum dolor sit amet, mea ex movet exerci voluptua, ex sit viris congue, quod mutat porro no ius. Idque facer causae sit ne, ne movet populo mei. Eos cu soluta omittam. Quas fugit putent sit eu, cum eu omnes fastidii. No autem menandri referrentur pri. Graeci invidunt mea in, sit labores facilisis laboramus id.&lt;/p&gt;
+
+&lt;p&gt;Soluta utroque definitionem eu pri, novum nominavi mel te. Est in atqui eleifend. His legere integre cu. Mei ut affert tritani, in mei autem reque suavitate.&lt;/p&gt;
+
+&lt;p&gt;Munere volumus temporibus ex pri, facer eripuit ponderum usu eu. An feugiat saperet veritus mea. Erroribus molestiae eam ex, et pri choro alienum definitiones. Vel wisi civibus ad.&lt;/p&gt;
+
+&lt;p&gt;Vis verterem argumentum in, per mazim aeterno accumsan te. Case sensibus at ius. Ignota postulant qualisque cu has. Albucius indoctum sea ea. Alii doming inermis eum et. Quo quando alienum pericula te, est id munere reprimique dissentiet.&lt;/p&gt;
+
+&lt;p&gt;Cum choro admodum ad. Facete interesset cum ad, in per movet molestiae mnesarchum, nihil voluptatum reprimique qui ex. In mundi corpora elaboraret cum, est at modo habeo. Ad nam quem decore scripserit, eam eu solum accumsan ponderum. Eam eu nominati persequeris, his ad scripta debitis liberavisse, sit ne posse adipiscing. His habeo vulputate in, ei unum ignota aliquip vix.&lt;/p&gt;</sv:value>
             </sv:property>
           </sv:node>
         </sv:node>
@@ -1588,7 +1869,10 @@ Hippo CMS Getting Started:&amp;nbsp;&lt;a href="http://www.onehippo.org/trails/g
             <sv:value>1e79e104-14b8-4027-be8e-0004cc8d4434</sv:value>
           </sv:property>
           <sv:property sv:name="bostonjavameetup:endDate" sv:type="Date">
-            <sv:value>0001-01-01T07:00:00.000-05:00</sv:value>
+            <sv:value>2016-01-01T20:00:00.000-05:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:startDate" sv:type="Date">
+            <sv:value>2016-01-01T18:00:00.000-05:00</sv:value>
           </sv:property>
           <sv:property sv:name="bostonjavameetup:starteDate" sv:type="Date">
             <sv:value>0001-01-01T07:00:00.000-05:00</sv:value>
@@ -1614,7 +1898,7 @@ Hippo CMS Getting Started:&amp;nbsp;&lt;a href="http://www.onehippo.org/trails/g
             <sv:value>2016-05-06T21:18:08.228-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2016-05-06T21:18:13.208-04:00</sv:value>
+            <sv:value>2016-05-07T17:46:03.586-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
@@ -1638,7 +1922,7 @@ Hippo CMS Getting Started:&amp;nbsp;&lt;a href="http://www.onehippo.org/trails/g
               <sv:value>hippo:mirror</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+              <sv:value>a4a10594-59d2-4590-b379-fe4ab9d92222</sv:value>
             </sv:property>
           </sv:node>
           <sv:node sv:name="bostonjavameetup:images">
@@ -1657,7 +1941,23 @@ Hippo CMS Getting Started:&amp;nbsp;&lt;a href="http://www.onehippo.org/trails/g
               <sv:value>hippo:mirror</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+              <sv:value>6a9aba8b-eb8b-45a3-8091-c613d06ed038</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:description">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Lorem ipsum dolor sit amet, mea ex movet exerci voluptua, ex sit viris congue, quod mutat porro no ius. Idque facer causae sit ne, ne movet populo mei. Eos cu soluta omittam. Quas fugit putent sit eu, cum eu omnes fastidii. No autem menandri referrentur pri. Graeci invidunt mea in, sit labores facilisis laboramus id.&lt;/p&gt;
+
+&lt;p&gt;Soluta utroque definitionem eu pri, novum nominavi mel te. Est in atqui eleifend. His legere integre cu. Mei ut affert tritani, in mei autem reque suavitate.&lt;/p&gt;
+
+&lt;p&gt;Munere volumus temporibus ex pri, facer eripuit ponderum usu eu. An feugiat saperet veritus mea. Erroribus molestiae eam ex, et pri choro alienum definitiones. Vel wisi civibus ad.&lt;/p&gt;
+
+&lt;p&gt;Vis verterem argumentum in, per mazim aeterno accumsan te. Case sensibus at ius. Ignota postulant qualisque cu has. Albucius indoctum sea ea. Alii doming inermis eum et. Quo quando alienum pericula te, est id munere reprimique dissentiet.&lt;/p&gt;
+
+&lt;p&gt;Cum choro admodum ad. Facete interesset cum ad, in per movet molestiae mnesarchum, nihil voluptatum reprimique qui ex. In mundi corpora elaboraret cum, est at modo habeo. Ad nam quem decore scripserit, eam eu solum accumsan ponderum. Eam eu nominati persequeris, his ad scripta debitis liberavisse, sit ne posse adipiscing. His habeo vulputate in, ei unum ignota aliquip vix.&lt;/p&gt;</sv:value>
             </sv:property>
           </sv:node>
         </sv:node>
@@ -1667,13 +1967,15 @@ Hippo CMS Getting Started:&amp;nbsp;&lt;a href="http://www.onehippo.org/trails/g
           </sv:property>
           <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
             <sv:value>mix:versionable</sv:value>
-            <sv:value>mix:referenceable</sv:value>
           </sv:property>
           <sv:property sv:name="jcr:uuid" sv:type="String">
             <sv:value>ad065e03-20fb-4aa0-a410-6769e91d4b07</sv:value>
           </sv:property>
           <sv:property sv:name="bostonjavameetup:endDate" sv:type="Date">
-            <sv:value>0001-01-01T07:00:00.000-05:00</sv:value>
+            <sv:value>2016-01-01T20:00:00.000-05:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:startDate" sv:type="Date">
+            <sv:value>2016-01-01T18:00:00.000-05:00</sv:value>
           </sv:property>
           <sv:property sv:name="bostonjavameetup:starteDate" sv:type="Date">
             <sv:value>0001-01-01T07:00:00.000-05:00</sv:value>
@@ -1700,7 +2002,7 @@ Hippo CMS Getting Started:&amp;nbsp;&lt;a href="http://www.onehippo.org/trails/g
             <sv:value>2016-05-06T21:18:08.228-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2016-05-06T21:18:17.052-04:00</sv:value>
+            <sv:value>2016-05-07T17:46:12.413-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
@@ -1724,7 +2026,7 @@ Hippo CMS Getting Started:&amp;nbsp;&lt;a href="http://www.onehippo.org/trails/g
               <sv:value>hippo:mirror</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+              <sv:value>a4a10594-59d2-4590-b379-fe4ab9d92222</sv:value>
             </sv:property>
           </sv:node>
           <sv:node sv:name="bostonjavameetup:images">
@@ -1743,7 +2045,23 @@ Hippo CMS Getting Started:&amp;nbsp;&lt;a href="http://www.onehippo.org/trails/g
               <sv:value>hippo:mirror</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+              <sv:value>6a9aba8b-eb8b-45a3-8091-c613d06ed038</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:description">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Lorem ipsum dolor sit amet, mea ex movet exerci voluptua, ex sit viris congue, quod mutat porro no ius. Idque facer causae sit ne, ne movet populo mei. Eos cu soluta omittam. Quas fugit putent sit eu, cum eu omnes fastidii. No autem menandri referrentur pri. Graeci invidunt mea in, sit labores facilisis laboramus id.&lt;/p&gt;
+
+&lt;p&gt;Soluta utroque definitionem eu pri, novum nominavi mel te. Est in atqui eleifend. His legere integre cu. Mei ut affert tritani, in mei autem reque suavitate.&lt;/p&gt;
+
+&lt;p&gt;Munere volumus temporibus ex pri, facer eripuit ponderum usu eu. An feugiat saperet veritus mea. Erroribus molestiae eam ex, et pri choro alienum definitiones. Vel wisi civibus ad.&lt;/p&gt;
+
+&lt;p&gt;Vis verterem argumentum in, per mazim aeterno accumsan te. Case sensibus at ius. Ignota postulant qualisque cu has. Albucius indoctum sea ea. Alii doming inermis eum et. Quo quando alienum pericula te, est id munere reprimique dissentiet.&lt;/p&gt;
+
+&lt;p&gt;Cum choro admodum ad. Facete interesset cum ad, in per movet molestiae mnesarchum, nihil voluptatum reprimique qui ex. In mundi corpora elaboraret cum, est at modo habeo. Ad nam quem decore scripserit, eam eu solum accumsan ponderum. Eam eu nominati persequeris, his ad scripta debitis liberavisse, sit ne posse adipiscing. His habeo vulputate in, ei unum ignota aliquip vix.&lt;/p&gt;</sv:value>
             </sv:property>
           </sv:node>
         </sv:node>
@@ -1758,7 +2076,10 @@ Hippo CMS Getting Started:&amp;nbsp;&lt;a href="http://www.onehippo.org/trails/g
             <sv:value>f48514fe-aeba-442c-a2a1-e7e9e163dc33</sv:value>
           </sv:property>
           <sv:property sv:name="bostonjavameetup:endDate" sv:type="Date">
-            <sv:value>0001-01-01T07:00:00.000-05:00</sv:value>
+            <sv:value>2016-01-01T20:00:00.000-05:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:startDate" sv:type="Date">
+            <sv:value>2016-01-01T18:00:00.000-05:00</sv:value>
           </sv:property>
           <sv:property sv:name="bostonjavameetup:starteDate" sv:type="Date">
             <sv:value>0001-01-01T07:00:00.000-05:00</sv:value>
@@ -1785,13 +2106,13 @@ Hippo CMS Getting Started:&amp;nbsp;&lt;a href="http://www.onehippo.org/trails/g
             <sv:value>2016-05-06T21:18:08.228-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-            <sv:value>2016-05-06T21:18:17.052-04:00</sv:value>
+            <sv:value>2016-05-07T17:46:12.413-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
             <sv:value>admin</sv:value>
           </sv:property>
           <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-            <sv:value>2016-05-06T21:18:30.694-04:00</sv:value>
+            <sv:value>2016-05-07T17:46:14.379-04:00</sv:value>
           </sv:property>
           <sv:property sv:name="hippotranslation:id" sv:type="String">
             <sv:value>178d1c4c-267f-4f39-b4de-d4fd78d0a5c9</sv:value>
@@ -1812,7 +2133,7 @@ Hippo CMS Getting Started:&amp;nbsp;&lt;a href="http://www.onehippo.org/trails/g
               <sv:value>hippo:mirror</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+              <sv:value>a4a10594-59d2-4590-b379-fe4ab9d92222</sv:value>
             </sv:property>
           </sv:node>
           <sv:node sv:name="bostonjavameetup:images">
@@ -1831,7 +2152,23 @@ Hippo CMS Getting Started:&amp;nbsp;&lt;a href="http://www.onehippo.org/trails/g
               <sv:value>hippo:mirror</sv:value>
             </sv:property>
             <sv:property sv:name="hippo:docbase" sv:type="String">
-              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+              <sv:value>6a9aba8b-eb8b-45a3-8091-c613d06ed038</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:description">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Lorem ipsum dolor sit amet, mea ex movet exerci voluptua, ex sit viris congue, quod mutat porro no ius. Idque facer causae sit ne, ne movet populo mei. Eos cu soluta omittam. Quas fugit putent sit eu, cum eu omnes fastidii. No autem menandri referrentur pri. Graeci invidunt mea in, sit labores facilisis laboramus id.&lt;/p&gt;
+
+&lt;p&gt;Soluta utroque definitionem eu pri, novum nominavi mel te. Est in atqui eleifend. His legere integre cu. Mei ut affert tritani, in mei autem reque suavitate.&lt;/p&gt;
+
+&lt;p&gt;Munere volumus temporibus ex pri, facer eripuit ponderum usu eu. An feugiat saperet veritus mea. Erroribus molestiae eam ex, et pri choro alienum definitiones. Vel wisi civibus ad.&lt;/p&gt;
+
+&lt;p&gt;Vis verterem argumentum in, per mazim aeterno accumsan te. Case sensibus at ius. Ignota postulant qualisque cu has. Albucius indoctum sea ea. Alii doming inermis eum et. Quo quando alienum pericula te, est id munere reprimique dissentiet.&lt;/p&gt;
+
+&lt;p&gt;Cum choro admodum ad. Facete interesset cum ad, in per movet molestiae mnesarchum, nihil voluptatum reprimique qui ex. In mundi corpora elaboraret cum, est at modo habeo. Ad nam quem decore scripserit, eam eu solum accumsan ponderum. Eam eu nominati persequeris, his ad scripta debitis liberavisse, sit ne posse adipiscing. His habeo vulputate in, ei unum ignota aliquip vix.&lt;/p&gt;</sv:value>
             </sv:property>
           </sv:node>
         </sv:node>

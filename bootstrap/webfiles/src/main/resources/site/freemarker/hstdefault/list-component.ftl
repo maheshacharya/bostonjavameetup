@@ -1,6 +1,7 @@
 <#include "../include/imports.ftl">
 
 <#-- @ftlvariable name="pageable" type="org.onehippo.cms7.essentials.components.paging.Pageable" -->
+<div style="display:block">
 <#if pageable?? && pageable.items?has_content>
   <#list pageable.items as item>
     <#if item.title??>
@@ -25,3 +26,4 @@
 <#elseif editMode>
   <img src="<@hst.link path='/images/essentials/catalog-component-icons/generic-list.png'/>"> Click to edit Generic List
 </#if>
+</div>

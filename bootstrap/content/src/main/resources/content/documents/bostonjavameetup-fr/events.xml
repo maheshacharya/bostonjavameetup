@@ -1,0 +1,2166 @@
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="events">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hippostd:folder</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+    <sv:value>hippotranslation:translated</sv:value>
+    <sv:value>mix:versionable</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>effe9f3b-c557-44a0-aa3a-ab879cf84a88</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+    <sv:value>new-translated-folder</sv:value>
+    <sv:value>new-document</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:id" sv:type="String">
+    <sv:value>cbebf677-cc49-4b68-bb6d-9381b084b4d9</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:locale" sv:type="String">
+    <sv:value>fr</sv:value>
+  </sv:property>
+  <sv:node sv:name="2016">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippostd:folder</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippotranslation:translated</sv:value>
+      <sv:value>mix:versionable</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>063c577c-882f-447b-9061-1bf001b0163d</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+      <sv:value>new-translated-folder</sv:value>
+      <sv:value>new-document</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:id" sv:type="String">
+      <sv:value>f4726eba-2ff1-40f2-bc3f-808b375250b9</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:locale" sv:type="String">
+      <sv:value>fr</sv:value>
+    </sv:property>
+    <sv:node sv:name="05">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippostd:folder</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:versionable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>55e33493-f49b-4c14-8b6d-9c3105e7c6ec</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+        <sv:value>new-translated-folder</sv:value>
+        <sv:value>new-document</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>19de6b85-b06c-48ea-9f81-ed3f511027a1</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>fr</sv:value>
+      </sv:property>
+      <sv:node sv:name="java-et-cms-une-implementation-open-source-et-lab">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:handle</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+          <sv:value>hippo:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>27bfb321-3e02-41fd-bdaf-5ec592e48abe</sv:value>
+        </sv:property>
+        <sv:node sv:name="java-et-cms-une-implementation-open-source-et-lab">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>bostonjavameetup:EventDocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:versionable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>57a2b74a-a86d-4191-b871-c2cda3c0b2f1</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:endDate" sv:type="Date">
+            <sv:value>2016-05-10T20:00:00.000-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:startDate" sv:type="Date">
+            <sv:value>2016-05-10T18:00:00.000-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:starteDate" sv:type="Date">
+            <sv:value>2016-05-10T18:00:00.000-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:title" sv:type="String">
+            <sv:value>Java et CMS: une implémentation Open Source et Lab</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:venue" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>preview</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>events/2016/05/java-et-cms-une-implementation-open-source-et-lab/java-et-cms-une-implementation-open-source-et-lab[3]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>unpublished</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2016-05-06T06:58:47.680-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2016-05-07T17:55:39.967-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>e3125aff-312a-4f9f-8e8d-5365b9962edb</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>fr</sv:value>
+          </sv:property>
+          <sv:node sv:name="bostonjavameetup:hippostd_html">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;These days Content Management Systems (CMS) are becoming the essential part of both enterprise and web content management applications/systems. There are numerous benefits of using a CMS solution based on open standards and technologies rather than re-inventing a solution by every project that deals with content. With the advent of &amp;nbsp;Java Content Repository (JCR) specs, there are several Java based CMS both Open and Closed Source projects/products offer varieties of implementation based on JCR. Hippo CMS is a well evolved Open Source CMS technology which uses Apache Jackrabbit Implementation of JCR.&amp;nbsp;&amp;nbsp;&lt;br /&gt;
+This session is about:A Quick overview of JCR (JSR 170) specs and Apache Jackrabbit ImplementationHippo CMS Introduction and Hands-on Lab (Develop a reusable business component with web presentation logic.)&amp;nbsp;&amp;nbsp;&lt;br /&gt;
+&lt;br /&gt;
+Links:&amp;nbsp;JCR 1.0 Specs :&amp;nbsp;&lt;a href="http://www.day.com/specs/jcr/1.0/index.html"&gt;http://www.day.com/specs/jcr/1.0/index.html&lt;/a&gt;&lt;br /&gt;
+Apache Jackrabbit:&amp;nbsp;&lt;a href="https://jackrabbit.apache.org/jcr/index.html"&gt;https://jackrabbit.apache.org/jcr/index.html&lt;/a&gt;&lt;br /&gt;
+Hippo CMS Getting Started:&amp;nbsp;&lt;a href="http://www.onehippo.org/trails/getting-started/hippo-essentials-getting-started.html"&gt;http://www.onehippo.org/trails/getting-started/hippo-essentials-getting-started.html&lt;/a&gt;&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:speaker">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>bd8feb4f-197b-45bc-b769-a6f2f394ba02</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:images">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:venue">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>6a9aba8b-eb8b-45a3-8091-c613d06ed038</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:description">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Lorem ipsum dolor sit amet, se déplace hors de mon exercice du projet, des hommes de la planification, qui est changé et aucun droit. La raison en est, je ne peux pas, pour se déplacer dans la maison du peuple. Ceux qui ont des congés payés. Ce que je pense est un ballon de football de vol, avec le football tout ennui. Non, mais menandri rapporté en premier. Mes Grecs plus facile, le travail est un travail facile.&lt;br /&gt;
+Sorti à la fois par la définition de football d&amp;apos;abord, nommé un nouveau miel vous. Mais au Japon. Après avoir lu dans son cu ensemble. Je ferai tritani en cas de mon charme.&lt;br /&gt;
+Dès la première fois que nous avons un cadeau, faire usage de poids livré football. Un eu craignant mon goût. Les erreurs de l&amp;apos;inconfort, et la première danse, définitions étrangères. Ou laisser mijoter les citoyens.&lt;br /&gt;
+Voulez-vous changer l&amp;apos;argument dans la couche que vous Mazim éternité. Case détecte à droite. Effacer la demande et ce que cu a. Albuciua apprentissage de la mer. Certains doming lui non armés. Les dangers qui, quand étranger à vous, est que la fonction de licences reprimique.&lt;br /&gt;
+Quand je danse très heureux. Élégamment une différence, il est en ce qui concerne, il se déplace à travers la mnesarchum de l&amp;apos;inconfort, qui à partir de rien reprimique de plaisir. Il a travaillé avec des organismes du monde, il est, mais ont seulement. Pour cet homme que la beauté de l&amp;apos;écrit, qu&amp;apos;il est seulement accumsan eu les poids. Il eu nommé, après que ses dettes ont été écrites dans le Il est, il ne devrait pas être en mesure de adipiscing. Ceux-ci il est eu vulputate dans, à son insu, que l&amp;apos;on aliquip peur.&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="java-et-cms-une-implementation-open-source-et-lab">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>bostonjavameetup:EventDocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>0d7dc836-121a-456a-bcfb-055ed64c41aa</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:endDate" sv:type="Date">
+            <sv:value>2016-05-10T20:00:00.000-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:startDate" sv:type="Date">
+            <sv:value>2016-05-10T18:00:00.000-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:starteDate" sv:type="Date">
+            <sv:value>2016-05-10T18:00:00.000-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:title" sv:type="String">
+            <sv:value>Java et CMS: une implémentation Open Source et Lab</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:venue" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>events/2016/05/java-et-cms-une-implementation-open-source-et-lab/java-et-cms-une-implementation-open-source-et-lab[3]</sv:value>
+            <sv:value>events/2016/05/java-et-cms-une-implementation-open-source-et-lab/java-et-cms-une-implementation-open-source-et-lab</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>draft</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2016-05-06T06:58:47.680-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2016-05-07T17:55:35.496-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>e3125aff-312a-4f9f-8e8d-5365b9962edb</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>fr</sv:value>
+          </sv:property>
+          <sv:node sv:name="bostonjavameetup:hippostd_html">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;These days Content Management Systems (CMS) are becoming the essential part of both enterprise and web content management applications/systems. There are numerous benefits of using a CMS solution based on open standards and technologies rather than re-inventing a solution by every project that deals with content. With the advent of &amp;nbsp;Java Content Repository (JCR) specs, there are several Java based CMS both Open and Closed Source projects/products offer varieties of implementation based on JCR. Hippo CMS is a well evolved Open Source CMS technology which uses Apache Jackrabbit Implementation of JCR.&amp;nbsp;&amp;nbsp;&lt;br /&gt;
+This session is about:A Quick overview of JCR (JSR 170) specs and Apache Jackrabbit ImplementationHippo CMS Introduction and Hands-on Lab (Develop a reusable business component with web presentation logic.)&amp;nbsp;&amp;nbsp;&lt;br /&gt;
+&lt;br /&gt;
+Links:&amp;nbsp;JCR 1.0 Specs :&amp;nbsp;&lt;a href="http://www.day.com/specs/jcr/1.0/index.html"&gt;http://www.day.com/specs/jcr/1.0/index.html&lt;/a&gt;&lt;br /&gt;
+Apache Jackrabbit:&amp;nbsp;&lt;a href="https://jackrabbit.apache.org/jcr/index.html"&gt;https://jackrabbit.apache.org/jcr/index.html&lt;/a&gt;&lt;br /&gt;
+Hippo CMS Getting Started:&amp;nbsp;&lt;a href="http://www.onehippo.org/trails/getting-started/hippo-essentials-getting-started.html"&gt;http://www.onehippo.org/trails/getting-started/hippo-essentials-getting-started.html&lt;/a&gt;&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:speaker">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>bd8feb4f-197b-45bc-b769-a6f2f394ba02</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:images">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:venue">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>6a9aba8b-eb8b-45a3-8091-c613d06ed038</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:description">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Lorem ipsum dolor sit amet, se déplace hors de mon exercice du projet, des hommes de la planification, qui est changé et aucun droit. La raison en est, je ne peux pas, pour se déplacer dans la maison du peuple. Ceux qui ont des congés payés. Ce que je pense est un ballon de football de vol, avec le football tout ennui. Non, mais menandri rapporté en premier. Mes Grecs plus facile, le travail est un travail facile.&lt;br /&gt;
+Sorti à la fois par la définition de football d&amp;apos;abord, nommé un nouveau miel vous. Mais au Japon. Après avoir lu dans son cu ensemble. Je ferai tritani en cas de mon charme.&lt;br /&gt;
+Dès la première fois que nous avons un cadeau, faire usage de poids livré football. Un eu craignant mon goût. Les erreurs de l&amp;apos;inconfort, et la première danse, définitions étrangères. Ou laisser mijoter les citoyens.&lt;br /&gt;
+Voulez-vous changer l&amp;apos;argument dans la couche que vous Mazim éternité. Case détecte à droite. Effacer la demande et ce que cu a. Albuciua apprentissage de la mer. Certains doming lui non armés. Les dangers qui, quand étranger à vous, est que la fonction de licences reprimique.&lt;br /&gt;
+Quand je danse très heureux. Élégamment une différence, il est en ce qui concerne, il se déplace à travers la mnesarchum de l&amp;apos;inconfort, qui à partir de rien reprimique de plaisir. Il a travaillé avec des organismes du monde, il est, mais ont seulement. Pour cet homme que la beauté de l&amp;apos;écrit, qu&amp;apos;il est seulement accumsan eu les poids. Il eu nommé, après que ses dettes ont été écrites dans le Il est, il ne devrait pas être en mesure de adipiscing. Ceux-ci il est eu vulputate dans, à son insu, que l&amp;apos;on aliquip peur.&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="hippo:translation">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:translation</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:language" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="hippo:message" sv:type="String">
+            <sv:value>Java et CMS: une implémentation Open Source et Lab</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="java-et-cms-une-implementation-open-source-et-lab">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>bostonjavameetup:EventDocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>32243648-66d3-4e70-aea2-539d0cfac3d8</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:endDate" sv:type="Date">
+            <sv:value>2016-05-10T20:00:00.000-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:startDate" sv:type="Date">
+            <sv:value>2016-05-10T18:00:00.000-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:starteDate" sv:type="Date">
+            <sv:value>2016-05-10T18:00:00.000-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:title" sv:type="String">
+            <sv:value>Java et CMS: une implémentation Open Source et Lab</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:venue" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>events/2016/05/java-et-cms-une-implementation-open-source-et-lab/java-et-cms-une-implementation-open-source-et-lab</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>published</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2016-05-06T06:58:47.680-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2016-05-07T17:55:39.967-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+            <sv:value>2016-05-07T17:55:42.254-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>e3125aff-312a-4f9f-8e8d-5365b9962edb</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>fr</sv:value>
+          </sv:property>
+          <sv:node sv:name="bostonjavameetup:hippostd_html">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;These days Content Management Systems (CMS) are becoming the essential part of both enterprise and web content management applications/systems. There are numerous benefits of using a CMS solution based on open standards and technologies rather than re-inventing a solution by every project that deals with content. With the advent of &amp;nbsp;Java Content Repository (JCR) specs, there are several Java based CMS both Open and Closed Source projects/products offer varieties of implementation based on JCR. Hippo CMS is a well evolved Open Source CMS technology which uses Apache Jackrabbit Implementation of JCR.&amp;nbsp;&amp;nbsp;&lt;br /&gt;
+This session is about:A Quick overview of JCR (JSR 170) specs and Apache Jackrabbit ImplementationHippo CMS Introduction and Hands-on Lab (Develop a reusable business component with web presentation logic.)&amp;nbsp;&amp;nbsp;&lt;br /&gt;
+&lt;br /&gt;
+Links:&amp;nbsp;JCR 1.0 Specs :&amp;nbsp;&lt;a href="http://www.day.com/specs/jcr/1.0/index.html"&gt;http://www.day.com/specs/jcr/1.0/index.html&lt;/a&gt;&lt;br /&gt;
+Apache Jackrabbit:&amp;nbsp;&lt;a href="https://jackrabbit.apache.org/jcr/index.html"&gt;https://jackrabbit.apache.org/jcr/index.html&lt;/a&gt;&lt;br /&gt;
+Hippo CMS Getting Started:&amp;nbsp;&lt;a href="http://www.onehippo.org/trails/getting-started/hippo-essentials-getting-started.html"&gt;http://www.onehippo.org/trails/getting-started/hippo-essentials-getting-started.html&lt;/a&gt;&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:speaker">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>bd8feb4f-197b-45bc-b769-a6f2f394ba02</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:images">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:venue">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>6a9aba8b-eb8b-45a3-8091-c613d06ed038</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:description">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Lorem ipsum dolor sit amet, se déplace hors de mon exercice du projet, des hommes de la planification, qui est changé et aucun droit. La raison en est, je ne peux pas, pour se déplacer dans la maison du peuple. Ceux qui ont des congés payés. Ce que je pense est un ballon de football de vol, avec le football tout ennui. Non, mais menandri rapporté en premier. Mes Grecs plus facile, le travail est un travail facile.&lt;br /&gt;
+Sorti à la fois par la définition de football d&amp;apos;abord, nommé un nouveau miel vous. Mais au Japon. Après avoir lu dans son cu ensemble. Je ferai tritani en cas de mon charme.&lt;br /&gt;
+Dès la première fois que nous avons un cadeau, faire usage de poids livré football. Un eu craignant mon goût. Les erreurs de l&amp;apos;inconfort, et la première danse, définitions étrangères. Ou laisser mijoter les citoyens.&lt;br /&gt;
+Voulez-vous changer l&amp;apos;argument dans la couche que vous Mazim éternité. Case détecte à droite. Effacer la demande et ce que cu a. Albuciua apprentissage de la mer. Certains doming lui non armés. Les dangers qui, quand étranger à vous, est que la fonction de licences reprimique.&lt;br /&gt;
+Quand je danse très heureux. Élégamment une différence, il est en ce qui concerne, il se déplace à travers la mnesarchum de l&amp;apos;inconfort, qui à partir de rien reprimique de plaisir. Il a travaillé avec des organismes du monde, il est, mais ont seulement. Pour cet homme que la beauté de l&amp;apos;écrit, qu&amp;apos;il est seulement accumsan eu les poids. Il eu nommé, après que ses dettes ont été écrites dans le Il est, il ne devrait pas être en mesure de adipiscing. Ceux-ci il est eu vulputate dans, à son insu, que l&amp;apos;on aliquip peur.&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="java-et-web-services-utilisation-de-swagger-pour-definir-et-mettre-en-œuvre-des-api">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:handle</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+          <sv:value>hippo:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>1f92e02b-e8eb-4683-bc4a-840e5ee36ca1</sv:value>
+        </sv:property>
+        <sv:node sv:name="java-et-web-services-utilisation-de-swagger-pour-definir-et-mettre-en-œuvre-des-api">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>bostonjavameetup:EventDocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:versionable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>33ab80e7-6c5a-4254-8954-27b5f7361c24</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:endDate" sv:type="Date">
+            <sv:value>2016-05-19T20:00:00.000-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:startDate" sv:type="Date">
+            <sv:value>2016-05-19T18:00:00.000-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:starteDate" sv:type="Date">
+            <sv:value>2016-05-19T18:00:00.000-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:title" sv:type="String">
+            <sv:value>Java et Web Services: Utilisation de Swagger pour définir et mettre en œuvre des API</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>preview</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>events/2016/05/java-et-web-services-utilisation-de-swagger-pour-definir-et-mettre-en-œuvre-des-api/java-et-web-services-utilisation-de-swagger-pour-definir-et-mettre-en-œuvre-des-api[3]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>unpublished</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2016-05-06T19:53:46.933-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2016-05-07T19:11:15.365-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>927e7fa4-573e-4cf5-ba09-dae4af60a213</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>fr</sv:value>
+          </sv:property>
+          <sv:node sv:name="bostonjavameetup:hippostd_html">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Swagger can provide beautiful documentation for your web service, but also defines a powerful interface. With the right tooling, that interface can be used to auto generate client SDKs and even servers.&amp;nbsp; In this talk, we’ll use open-source and SAAS tools to generate both client and server implementations so you can worry about your business logic instead of web service plumbing.&amp;nbsp;&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:speaker">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>a4a10594-59d2-4590-b379-fe4ab9d92222</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:images">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:venue">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>6a9aba8b-eb8b-45a3-8091-c613d06ed038</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:description">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Lorem ipsum dolor sit amet, mea ex movet exerci voluptua, ex sit viris congue, quod mutat porro no ius. Idque facer causae sit ne, ne movet populo mei. Eos cu soluta omittam. Quas fugit putent sit eu, cum eu omnes fastidii. No autem menandri referrentur pri. Graeci invidunt mea in, sit labores facilisis laboramus id.&lt;/p&gt;
+
+&lt;p&gt;Soluta utroque definitionem eu pri, novum nominavi mel te. Est in atqui eleifend. His legere integre cu. Mei ut affert tritani, in mei autem reque suavitate.&lt;/p&gt;
+
+&lt;p&gt;Munere volumus temporibus ex pri, facer eripuit ponderum usu eu. An feugiat saperet veritus mea. Erroribus molestiae eam ex, et pri choro alienum definitiones. Vel wisi civibus ad.&lt;/p&gt;
+
+&lt;p&gt;Vis verterem argumentum in, per mazim aeterno accumsan te. Case sensibus at ius. Ignota postulant qualisque cu has. Albucius indoctum sea ea. Alii doming inermis eum et. Quo quando alienum pericula te, est id munere reprimique dissentiet.&lt;/p&gt;
+
+&lt;p&gt;Cum choro admodum ad. Facete interesset cum ad, in per movet molestiae mnesarchum, nihil voluptatum reprimique qui ex. In mundi corpora elaboraret cum, est at modo habeo. Ad nam quem decore scripserit, eam eu solum accumsan ponderum. Eam eu nominati persequeris, his ad scripta debitis liberavisse, sit ne posse adipiscing. His habeo vulputate in, ei unum ignota aliquip vix.&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="hippo:translation">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:translation</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:language" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="hippo:message" sv:type="String">
+            <sv:value> Java et Web Services: Utilisation de Swagger pour définir et mettre en œuvre des API</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="java-et-web-services-utilisation-de-swagger-pour-definir-et-mettre-en-œuvre-des-api">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>bostonjavameetup:EventDocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>558c4dcc-0d3f-4767-830c-ee8c9bcebf74</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:endDate" sv:type="Date">
+            <sv:value>2016-05-19T20:00:00.000-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:startDate" sv:type="Date">
+            <sv:value>2016-05-19T18:00:00.000-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:starteDate" sv:type="Date">
+            <sv:value>2016-05-19T18:00:00.000-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:title" sv:type="String">
+            <sv:value>Java et Web Services: Utilisation de Swagger pour définir et mettre en œuvre des API</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>events/2016/05/java-et-web-services-utilisation-de-swagger-pour-definir-et-mettre-en-œuvre-des-api/java-et-web-services-utilisation-de-swagger-pour-definir-et-mettre-en-œuvre-des-api</sv:value>
+            <sv:value>events/2016/05/java-et-web-services-utilisation-de-swagger-pour-definir-et-mettre-en-œuvre-des-api/java-et-web-services-utilisation-de-swagger-pour-definir-et-mettre-en-œuvre-des-api[3]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>draft</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2016-05-06T19:53:46.933-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2016-05-07T19:11:10.059-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>927e7fa4-573e-4cf5-ba09-dae4af60a213</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>fr</sv:value>
+          </sv:property>
+          <sv:node sv:name="bostonjavameetup:hippostd_html">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Swagger can provide beautiful documentation for your web service, but also defines a powerful interface. With the right tooling, that interface can be used to auto generate client SDKs and even servers.&amp;nbsp; In this talk, we’ll use open-source and SAAS tools to generate both client and server implementations so you can worry about your business logic instead of web service plumbing.&amp;nbsp;&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:speaker">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>a4a10594-59d2-4590-b379-fe4ab9d92222</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:images">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:venue">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>6a9aba8b-eb8b-45a3-8091-c613d06ed038</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:description">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Lorem ipsum dolor sit amet, mea ex movet exerci voluptua, ex sit viris congue, quod mutat porro no ius. Idque facer causae sit ne, ne movet populo mei. Eos cu soluta omittam. Quas fugit putent sit eu, cum eu omnes fastidii. No autem menandri referrentur pri. Graeci invidunt mea in, sit labores facilisis laboramus id.&lt;/p&gt;
+
+&lt;p&gt;Soluta utroque definitionem eu pri, novum nominavi mel te. Est in atqui eleifend. His legere integre cu. Mei ut affert tritani, in mei autem reque suavitate.&lt;/p&gt;
+
+&lt;p&gt;Munere volumus temporibus ex pri, facer eripuit ponderum usu eu. An feugiat saperet veritus mea. Erroribus molestiae eam ex, et pri choro alienum definitiones. Vel wisi civibus ad.&lt;/p&gt;
+
+&lt;p&gt;Vis verterem argumentum in, per mazim aeterno accumsan te. Case sensibus at ius. Ignota postulant qualisque cu has. Albucius indoctum sea ea. Alii doming inermis eum et. Quo quando alienum pericula te, est id munere reprimique dissentiet.&lt;/p&gt;
+
+&lt;p&gt;Cum choro admodum ad. Facete interesset cum ad, in per movet molestiae mnesarchum, nihil voluptatum reprimique qui ex. In mundi corpora elaboraret cum, est at modo habeo. Ad nam quem decore scripserit, eam eu solum accumsan ponderum. Eam eu nominati persequeris, his ad scripta debitis liberavisse, sit ne posse adipiscing. His habeo vulputate in, ei unum ignota aliquip vix.&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="java-et-web-services-utilisation-de-swagger-pour-definir-et-mettre-en-œuvre-des-api">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>bostonjavameetup:EventDocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>64f2ea91-6661-4e0c-a551-9d3c588d41d2</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:endDate" sv:type="Date">
+            <sv:value>2016-05-19T20:00:00.000-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:startDate" sv:type="Date">
+            <sv:value>2016-05-19T18:00:00.000-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:starteDate" sv:type="Date">
+            <sv:value>2016-05-19T18:00:00.000-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:title" sv:type="String">
+            <sv:value>Java et Web Services: Utilisation de Swagger pour définir et mettre en œuvre des API</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>events/2016/05/java-et-web-services-utilisation-de-swagger-pour-definir-et-mettre-en-œuvre-des-api/java-et-web-services-utilisation-de-swagger-pour-definir-et-mettre-en-œuvre-des-api</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>published</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2016-05-06T19:53:46.933-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2016-05-07T19:11:15.365-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+            <sv:value>2016-05-07T19:11:17.427-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>927e7fa4-573e-4cf5-ba09-dae4af60a213</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>fr</sv:value>
+          </sv:property>
+          <sv:node sv:name="bostonjavameetup:hippostd_html">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Swagger can provide beautiful documentation for your web service, but also defines a powerful interface. With the right tooling, that interface can be used to auto generate client SDKs and even servers.&amp;nbsp; In this talk, we’ll use open-source and SAAS tools to generate both client and server implementations so you can worry about your business logic instead of web service plumbing.&amp;nbsp;&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:speaker">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>a4a10594-59d2-4590-b379-fe4ab9d92222</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:images">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:venue">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>6a9aba8b-eb8b-45a3-8091-c613d06ed038</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:description">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Lorem ipsum dolor sit amet, mea ex movet exerci voluptua, ex sit viris congue, quod mutat porro no ius. Idque facer causae sit ne, ne movet populo mei. Eos cu soluta omittam. Quas fugit putent sit eu, cum eu omnes fastidii. No autem menandri referrentur pri. Graeci invidunt mea in, sit labores facilisis laboramus id.&lt;/p&gt;
+
+&lt;p&gt;Soluta utroque definitionem eu pri, novum nominavi mel te. Est in atqui eleifend. His legere integre cu. Mei ut affert tritani, in mei autem reque suavitate.&lt;/p&gt;
+
+&lt;p&gt;Munere volumus temporibus ex pri, facer eripuit ponderum usu eu. An feugiat saperet veritus mea. Erroribus molestiae eam ex, et pri choro alienum definitiones. Vel wisi civibus ad.&lt;/p&gt;
+
+&lt;p&gt;Vis verterem argumentum in, per mazim aeterno accumsan te. Case sensibus at ius. Ignota postulant qualisque cu has. Albucius indoctum sea ea. Alii doming inermis eum et. Quo quando alienum pericula te, est id munere reprimique dissentiet.&lt;/p&gt;
+
+&lt;p&gt;Cum choro admodum ad. Facete interesset cum ad, in per movet molestiae mnesarchum, nihil voluptatum reprimique qui ex. In mundi corpora elaboraret cum, est at modo habeo. Ad nam quem decore scripserit, eam eu solum accumsan ponderum. Eam eu nominati persequeris, his ad scripta debitis liberavisse, sit ne posse adipiscing. His habeo vulputate in, ei unum ignota aliquip vix.&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="java-et-full-stack-developpement-avec-nosql-et-lab">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:handle</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+          <sv:value>hippo:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>42c0491e-13ab-4ab9-9f25-5a22c0370420</sv:value>
+        </sv:property>
+        <sv:node sv:name="java-et-full-stack-developpement-avec-nosql-et-lab">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>bostonjavameetup:EventDocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:versionable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>63b13793-3823-465c-b05a-7ffe5e1ebe98</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:endDate" sv:type="Date">
+            <sv:value>2016-05-03T20:00:00.000-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:startDate" sv:type="Date">
+            <sv:value>2016-05-03T18:00:00.000-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:starteDate" sv:type="Date">
+            <sv:value>2016-05-03T18:00:00.000-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:title" sv:type="String">
+            <sv:value>Java et Full-Stack: Développement avec NoSQL et Lab</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>preview</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>events/2016/05/java-et-full-stack-developpement-avec-nosql-et-lab/java-et-full-stack-developpement-avec-nosql-et-lab[3]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>unpublished</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2016-05-06T19:57:50.033-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2016-05-07T19:12:01.227-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>7cda8ed7-bdff-487a-a9b3-4c53a607db1a</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>fr</sv:value>
+          </sv:property>
+          <sv:node sv:name="bostonjavameetup:hippostd_html">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:speaker">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>a4a10594-59d2-4590-b379-fe4ab9d92222</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:images">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:venue">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>6a9aba8b-eb8b-45a3-8091-c613d06ed038</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:description">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Lorem ipsum dolor sit amet, mea ex movet exerci voluptua, ex sit viris congue, quod mutat porro no ius. Idque facer causae sit ne, ne movet populo mei. Eos cu soluta omittam. Quas fugit putent sit eu, cum eu omnes fastidii. No autem menandri referrentur pri. Graeci invidunt mea in, sit labores facilisis laboramus id.&lt;/p&gt;
+
+&lt;p&gt;Soluta utroque definitionem eu pri, novum nominavi mel te. Est in atqui eleifend. His legere integre cu. Mei ut affert tritani, in mei autem reque suavitate.&lt;/p&gt;
+
+&lt;p&gt;Munere volumus temporibus ex pri, facer eripuit ponderum usu eu. An feugiat saperet veritus mea. Erroribus molestiae eam ex, et pri choro alienum definitiones. Vel wisi civibus ad.&lt;/p&gt;
+
+&lt;p&gt;Vis verterem argumentum in, per mazim aeterno accumsan te. Case sensibus at ius. Ignota postulant qualisque cu has. Albucius indoctum sea ea. Alii doming inermis eum et. Quo quando alienum pericula te, est id munere reprimique dissentiet.&lt;/p&gt;
+
+&lt;p&gt;Cum choro admodum ad. Facete interesset cum ad, in per movet molestiae mnesarchum, nihil voluptatum reprimique qui ex. In mundi corpora elaboraret cum, est at modo habeo. Ad nam quem decore scripserit, eam eu solum accumsan ponderum. Eam eu nominati persequeris, his ad scripta debitis liberavisse, sit ne posse adipiscing. His habeo vulputate in, ei unum ignota aliquip vix.&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="hippo:translation">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:translation</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:language" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="hippo:message" sv:type="String">
+            <sv:value>Java et Full-Stack: Développement avec NoSQL et Lab</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="java-et-full-stack-developpement-avec-nosql-et-lab">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>bostonjavameetup:EventDocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>e895843f-303a-44f1-8e1f-ce7c7b4fd043</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:endDate" sv:type="Date">
+            <sv:value>2016-05-03T20:00:00.000-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:startDate" sv:type="Date">
+            <sv:value>2016-05-03T18:00:00.000-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:starteDate" sv:type="Date">
+            <sv:value>2016-05-03T18:00:00.000-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:title" sv:type="String">
+            <sv:value>Java et Full-Stack: Développement avec NoSQL et Lab</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>events/2016/05/java-et-full-stack-developpement-avec-nosql-et-lab/java-et-full-stack-developpement-avec-nosql-et-lab</sv:value>
+            <sv:value>events/2016/05/java-et-full-stack-developpement-avec-nosql-et-lab/java-et-full-stack-developpement-avec-nosql-et-lab[3]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>draft</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2016-05-06T19:57:50.033-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2016-05-07T19:11:54.571-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>7cda8ed7-bdff-487a-a9b3-4c53a607db1a</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>fr</sv:value>
+          </sv:property>
+          <sv:node sv:name="bostonjavameetup:hippostd_html">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:speaker">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>a4a10594-59d2-4590-b379-fe4ab9d92222</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:images">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:venue">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>6a9aba8b-eb8b-45a3-8091-c613d06ed038</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:description">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Lorem ipsum dolor sit amet, mea ex movet exerci voluptua, ex sit viris congue, quod mutat porro no ius. Idque facer causae sit ne, ne movet populo mei. Eos cu soluta omittam. Quas fugit putent sit eu, cum eu omnes fastidii. No autem menandri referrentur pri. Graeci invidunt mea in, sit labores facilisis laboramus id.&lt;/p&gt;
+
+&lt;p&gt;Soluta utroque definitionem eu pri, novum nominavi mel te. Est in atqui eleifend. His legere integre cu. Mei ut affert tritani, in mei autem reque suavitate.&lt;/p&gt;
+
+&lt;p&gt;Munere volumus temporibus ex pri, facer eripuit ponderum usu eu. An feugiat saperet veritus mea. Erroribus molestiae eam ex, et pri choro alienum definitiones. Vel wisi civibus ad.&lt;/p&gt;
+
+&lt;p&gt;Vis verterem argumentum in, per mazim aeterno accumsan te. Case sensibus at ius. Ignota postulant qualisque cu has. Albucius indoctum sea ea. Alii doming inermis eum et. Quo quando alienum pericula te, est id munere reprimique dissentiet.&lt;/p&gt;
+
+&lt;p&gt;Cum choro admodum ad. Facete interesset cum ad, in per movet molestiae mnesarchum, nihil voluptatum reprimique qui ex. In mundi corpora elaboraret cum, est at modo habeo. Ad nam quem decore scripserit, eam eu solum accumsan ponderum. Eam eu nominati persequeris, his ad scripta debitis liberavisse, sit ne posse adipiscing. His habeo vulputate in, ei unum ignota aliquip vix.&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="java-et-full-stack-developpement-avec-nosql-et-lab">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>bostonjavameetup:EventDocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>f720437a-ac2b-45da-838c-ceae31ab1b09</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:endDate" sv:type="Date">
+            <sv:value>2016-05-03T20:00:00.000-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:startDate" sv:type="Date">
+            <sv:value>2016-05-03T18:00:00.000-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:starteDate" sv:type="Date">
+            <sv:value>2016-05-03T18:00:00.000-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:title" sv:type="String">
+            <sv:value>Java et Full-Stack: Développement avec NoSQL et Lab</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>events/2016/05/java-et-full-stack-developpement-avec-nosql-et-lab/java-et-full-stack-developpement-avec-nosql-et-lab</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>published</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2016-05-06T19:57:50.033-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2016-05-07T19:12:01.227-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+            <sv:value>2016-05-07T19:12:03.572-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>7cda8ed7-bdff-487a-a9b3-4c53a607db1a</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>fr</sv:value>
+          </sv:property>
+          <sv:node sv:name="bostonjavameetup:hippostd_html">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:speaker">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>a4a10594-59d2-4590-b379-fe4ab9d92222</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:images">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:venue">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>6a9aba8b-eb8b-45a3-8091-c613d06ed038</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:description">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Lorem ipsum dolor sit amet, mea ex movet exerci voluptua, ex sit viris congue, quod mutat porro no ius. Idque facer causae sit ne, ne movet populo mei. Eos cu soluta omittam. Quas fugit putent sit eu, cum eu omnes fastidii. No autem menandri referrentur pri. Graeci invidunt mea in, sit labores facilisis laboramus id.&lt;/p&gt;
+
+&lt;p&gt;Soluta utroque definitionem eu pri, novum nominavi mel te. Est in atqui eleifend. His legere integre cu. Mei ut affert tritani, in mei autem reque suavitate.&lt;/p&gt;
+
+&lt;p&gt;Munere volumus temporibus ex pri, facer eripuit ponderum usu eu. An feugiat saperet veritus mea. Erroribus molestiae eam ex, et pri choro alienum definitiones. Vel wisi civibus ad.&lt;/p&gt;
+
+&lt;p&gt;Vis verterem argumentum in, per mazim aeterno accumsan te. Case sensibus at ius. Ignota postulant qualisque cu has. Albucius indoctum sea ea. Alii doming inermis eum et. Quo quando alienum pericula te, est id munere reprimique dissentiet.&lt;/p&gt;
+
+&lt;p&gt;Cum choro admodum ad. Facete interesset cum ad, in per movet molestiae mnesarchum, nihil voluptatum reprimique qui ex. In mundi corpora elaboraret cum, est at modo habeo. Ad nam quem decore scripserit, eam eu solum accumsan ponderum. Eam eu nominati persequeris, his ad scripta debitis liberavisse, sit ne posse adipiscing. His habeo vulputate in, ei unum ignota aliquip vix.&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="04">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippostd:folder</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:versionable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>36d1c0ac-430a-419d-bd5a-75cd7a442750</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+        <sv:value>new-translated-folder</sv:value>
+        <sv:value>new-document</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>50c5dd15-eb44-41fe-a5ef-4e745f996920</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>fr</sv:value>
+      </sv:property>
+      <sv:node sv:name="java-et-securite-une-plate-forme-dintegration-microservice">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:handle</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+          <sv:value>hippo:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>0e62100e-2fe7-416b-b6b1-2399d2c8adc7</sv:value>
+        </sv:property>
+        <sv:node sv:name="java-et-securite-une-plate-forme-dintegration-microservice">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>bostonjavameetup:EventDocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:versionable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>20855272-ebb1-4e70-80a2-c8c0bdb5d430</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:endDate" sv:type="Date">
+            <sv:value>2016-04-12T20:00:00.000-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:startDate" sv:type="Date">
+            <sv:value>2016-04-12T18:00:00.000-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:starteDate" sv:type="Date">
+            <sv:value>2016-04-12T18:00:00.000-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:title" sv:type="String">
+            <sv:value>Java et sécurité: Une plate-forme d'intégration Microservice</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>preview</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>events/2016/04/java-et-securite-une-plate-forme-dintegration-microservice/java-et-securite-une-plate-forme-dintegration-microservice[3]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>unpublished</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2016-05-06T20:00:44.130-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2016-05-07T19:12:58.194-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>4616a7f7-8005-450f-ac1d-afe2fc31f613</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>fr</sv:value>
+          </sv:property>
+          <sv:node sv:name="bostonjavameetup:hippostd_html">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:speaker">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>5d2a0ec7-eaac-403c-b6ef-5ce2779a9b6c</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:images">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:venue">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>6a9aba8b-eb8b-45a3-8091-c613d06ed038</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:description">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Lorem ipsum dolor sit amet, mea ex movet exerci voluptua, ex sit viris congue, quod mutat porro no ius. Idque facer causae sit ne, ne movet populo mei. Eos cu soluta omittam. Quas fugit putent sit eu, cum eu omnes fastidii. No autem menandri referrentur pri. Graeci invidunt mea in, sit labores facilisis laboramus id.&lt;/p&gt;
+
+&lt;p&gt;Soluta utroque definitionem eu pri, novum nominavi mel te. Est in atqui eleifend. His legere integre cu. Mei ut affert tritani, in mei autem reque suavitate.&lt;/p&gt;
+
+&lt;p&gt;Munere volumus temporibus ex pri, facer eripuit ponderum usu eu. An feugiat saperet veritus mea. Erroribus molestiae eam ex, et pri choro alienum definitiones. Vel wisi civibus ad.&lt;/p&gt;
+
+&lt;p&gt;Vis verterem argumentum in, per mazim aeterno accumsan te. Case sensibus at ius. Ignota postulant qualisque cu has. Albucius indoctum sea ea. Alii doming inermis eum et. Quo quando alienum pericula te, est id munere reprimique dissentiet.&lt;/p&gt;
+
+&lt;p&gt;Cum choro admodum ad. Facete interesset cum ad, in per movet molestiae mnesarchum, nihil voluptatum reprimique qui ex. In mundi corpora elaboraret cum, est at modo habeo. Ad nam quem decore scripserit, eam eu solum accumsan ponderum. Eam eu nominati persequeris, his ad scripta debitis liberavisse, sit ne posse adipiscing. His habeo vulputate in, ei unum ignota aliquip vix.&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="hippo:translation">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:translation</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:language" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="hippo:message" sv:type="String">
+            <sv:value> Java et sécurité: Une plate-forme d'intégration Microservice</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="java-et-securite-une-plate-forme-dintegration-microservice">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>bostonjavameetup:EventDocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>d3a50481-82b1-4315-a2fa-3e1068ed292b</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:endDate" sv:type="Date">
+            <sv:value>2016-04-12T20:00:00.000-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:startDate" sv:type="Date">
+            <sv:value>2016-04-12T18:00:00.000-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:starteDate" sv:type="Date">
+            <sv:value>2016-04-12T18:00:00.000-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:title" sv:type="String">
+            <sv:value>Java et sécurité: Une plate-forme d'intégration Microservice</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>events/2016/04/java-et-securite-une-plate-forme-dintegration-microservice/java-et-securite-une-plate-forme-dintegration-microservice</sv:value>
+            <sv:value>events/2016/04/java-et-securite-une-plate-forme-dintegration-microservice/java-et-securite-une-plate-forme-dintegration-microservice[3]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>draft</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2016-05-06T20:00:44.130-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2016-05-07T19:12:55.097-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>4616a7f7-8005-450f-ac1d-afe2fc31f613</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>fr</sv:value>
+          </sv:property>
+          <sv:node sv:name="bostonjavameetup:hippostd_html">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:speaker">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>5d2a0ec7-eaac-403c-b6ef-5ce2779a9b6c</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:images">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:venue">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>6a9aba8b-eb8b-45a3-8091-c613d06ed038</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:description">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Lorem ipsum dolor sit amet, mea ex movet exerci voluptua, ex sit viris congue, quod mutat porro no ius. Idque facer causae sit ne, ne movet populo mei. Eos cu soluta omittam. Quas fugit putent sit eu, cum eu omnes fastidii. No autem menandri referrentur pri. Graeci invidunt mea in, sit labores facilisis laboramus id.&lt;/p&gt;
+
+&lt;p&gt;Soluta utroque definitionem eu pri, novum nominavi mel te. Est in atqui eleifend. His legere integre cu. Mei ut affert tritani, in mei autem reque suavitate.&lt;/p&gt;
+
+&lt;p&gt;Munere volumus temporibus ex pri, facer eripuit ponderum usu eu. An feugiat saperet veritus mea. Erroribus molestiae eam ex, et pri choro alienum definitiones. Vel wisi civibus ad.&lt;/p&gt;
+
+&lt;p&gt;Vis verterem argumentum in, per mazim aeterno accumsan te. Case sensibus at ius. Ignota postulant qualisque cu has. Albucius indoctum sea ea. Alii doming inermis eum et. Quo quando alienum pericula te, est id munere reprimique dissentiet.&lt;/p&gt;
+
+&lt;p&gt;Cum choro admodum ad. Facete interesset cum ad, in per movet molestiae mnesarchum, nihil voluptatum reprimique qui ex. In mundi corpora elaboraret cum, est at modo habeo. Ad nam quem decore scripserit, eam eu solum accumsan ponderum. Eam eu nominati persequeris, his ad scripta debitis liberavisse, sit ne posse adipiscing. His habeo vulputate in, ei unum ignota aliquip vix.&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="java-et-securite-une-plate-forme-dintegration-microservice">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>bostonjavameetup:EventDocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>5034ee0a-a433-402f-a111-070ab70139a1</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:endDate" sv:type="Date">
+            <sv:value>2016-04-12T20:00:00.000-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:startDate" sv:type="Date">
+            <sv:value>2016-04-12T18:00:00.000-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:starteDate" sv:type="Date">
+            <sv:value>2016-04-12T18:00:00.000-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:title" sv:type="String">
+            <sv:value>Java et sécurité: Une plate-forme d'intégration Microservice</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>events/2016/04/java-et-securite-une-plate-forme-dintegration-microservice/java-et-securite-une-plate-forme-dintegration-microservice</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>published</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2016-05-06T20:00:44.130-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2016-05-07T19:12:58.194-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+            <sv:value>2016-05-07T19:12:59.863-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>4616a7f7-8005-450f-ac1d-afe2fc31f613</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>fr</sv:value>
+          </sv:property>
+          <sv:node sv:name="bostonjavameetup:hippostd_html">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:speaker">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>5d2a0ec7-eaac-403c-b6ef-5ce2779a9b6c</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:images">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:venue">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>6a9aba8b-eb8b-45a3-8091-c613d06ed038</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:description">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Lorem ipsum dolor sit amet, mea ex movet exerci voluptua, ex sit viris congue, quod mutat porro no ius. Idque facer causae sit ne, ne movet populo mei. Eos cu soluta omittam. Quas fugit putent sit eu, cum eu omnes fastidii. No autem menandri referrentur pri. Graeci invidunt mea in, sit labores facilisis laboramus id.&lt;/p&gt;
+
+&lt;p&gt;Soluta utroque definitionem eu pri, novum nominavi mel te. Est in atqui eleifend. His legere integre cu. Mei ut affert tritani, in mei autem reque suavitate.&lt;/p&gt;
+
+&lt;p&gt;Munere volumus temporibus ex pri, facer eripuit ponderum usu eu. An feugiat saperet veritus mea. Erroribus molestiae eam ex, et pri choro alienum definitiones. Vel wisi civibus ad.&lt;/p&gt;
+
+&lt;p&gt;Vis verterem argumentum in, per mazim aeterno accumsan te. Case sensibus at ius. Ignota postulant qualisque cu has. Albucius indoctum sea ea. Alii doming inermis eum et. Quo quando alienum pericula te, est id munere reprimique dissentiet.&lt;/p&gt;
+
+&lt;p&gt;Cum choro admodum ad. Facete interesset cum ad, in per movet molestiae mnesarchum, nihil voluptatum reprimique qui ex. In mundi corpora elaboraret cum, est at modo habeo. Ad nam quem decore scripserit, eam eu solum accumsan ponderum. Eam eu nominati persequeris, his ad scripta debitis liberavisse, sit ne posse adipiscing. His habeo vulputate in, ei unum ignota aliquip vix.&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="03">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippostd:folder</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:versionable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>cab5f48a-dd50-4a03-beb5-53750d2217a2</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+        <sv:value>new-translated-folder</sv:value>
+        <sv:value>new-document</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>20e60337-ba42-48c9-ad97-087576ff2a56</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>fr</sv:value>
+      </sv:property>
+      <sv:node sv:name="java-et-integration-les-mains-sur-lab-avec-spring-integration">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:handle</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+          <sv:value>hippo:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>a23c6fb4-b4c5-4002-9423-7b31c87c3a75</sv:value>
+        </sv:property>
+        <sv:node sv:name="java-et-integration-les-mains-sur-lab-avec-spring-integration">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>bostonjavameetup:EventDocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:versionable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>ecb3525a-37d7-4c34-bc3f-c6c57095f36c</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:endDate" sv:type="Date">
+            <sv:value>2016-03-08T20:00:00.000-05:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:startDate" sv:type="Date">
+            <sv:value>2016-03-08T18:00:00.000-05:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:starteDate" sv:type="Date">
+            <sv:value>2016-03-08T18:00:00.000-05:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:title" sv:type="String">
+            <sv:value>Java et intégration: Les mains sur Lab avec Spring Integration</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>preview</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>events/2016/03/java-et-integration-les-mains-sur-lab-avec-spring-integration/java-et-integration-les-mains-sur-lab-avec-spring-integration[3]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>unpublished</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2016-05-06T20:04:33.713-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2016-05-07T19:13:58.048-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>36549acc-bb9b-4da1-a807-2a7a88c90624</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>fr</sv:value>
+          </sv:property>
+          <sv:node sv:name="bostonjavameetup:hippostd_html">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:speaker">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>a4a10594-59d2-4590-b379-fe4ab9d92222</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:images">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:venue">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>6a9aba8b-eb8b-45a3-8091-c613d06ed038</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:description">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Lorem ipsum dolor sit amet, mea ex movet exerci voluptua, ex sit viris congue, quod mutat porro no ius. Idque facer causae sit ne, ne movet populo mei. Eos cu soluta omittam. Quas fugit putent sit eu, cum eu omnes fastidii. No autem menandri referrentur pri. Graeci invidunt mea in, sit labores facilisis laboramus id.&lt;/p&gt;
+
+&lt;p&gt;Soluta utroque definitionem eu pri, novum nominavi mel te. Est in atqui eleifend. His legere integre cu. Mei ut affert tritani, in mei autem reque suavitate.&lt;/p&gt;
+
+&lt;p&gt;Munere volumus temporibus ex pri, facer eripuit ponderum usu eu. An feugiat saperet veritus mea. Erroribus molestiae eam ex, et pri choro alienum definitiones. Vel wisi civibus ad.&lt;/p&gt;
+
+&lt;p&gt;Vis verterem argumentum in, per mazim aeterno accumsan te. Case sensibus at ius. Ignota postulant qualisque cu has. Albucius indoctum sea ea. Alii doming inermis eum et. Quo quando alienum pericula te, est id munere reprimique dissentiet.&lt;/p&gt;
+
+&lt;p&gt;Cum choro admodum ad. Facete interesset cum ad, in per movet molestiae mnesarchum, nihil voluptatum reprimique qui ex. In mundi corpora elaboraret cum, est at modo habeo. Ad nam quem decore scripserit, eam eu solum accumsan ponderum. Eam eu nominati persequeris, his ad scripta debitis liberavisse, sit ne posse adipiscing. His habeo vulputate in, ei unum ignota aliquip vix.&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="hippo:translation">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:translation</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:language" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="hippo:message" sv:type="String">
+            <sv:value>Java et intégration: Les mains sur Lab avec Spring Integration</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="java-et-integration-les-mains-sur-lab-avec-spring-integration">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>bostonjavameetup:EventDocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>eb96aec1-110a-481b-adaf-6862935c2d89</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:endDate" sv:type="Date">
+            <sv:value>2016-03-08T20:00:00.000-05:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:startDate" sv:type="Date">
+            <sv:value>2016-03-08T18:00:00.000-05:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:starteDate" sv:type="Date">
+            <sv:value>2016-03-08T18:00:00.000-05:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:title" sv:type="String">
+            <sv:value>Java et intégration: Les mains sur Lab avec Spring Integration</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>events/2016/03/java-et-integration-les-mains-sur-lab-avec-spring-integration/java-et-integration-les-mains-sur-lab-avec-spring-integration[3]</sv:value>
+            <sv:value>events/2016/03/java-et-integration-les-mains-sur-lab-avec-spring-integration/java-et-integration-les-mains-sur-lab-avec-spring-integration</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>draft</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2016-05-06T20:04:33.713-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2016-05-07T19:13:54.820-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>36549acc-bb9b-4da1-a807-2a7a88c90624</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>fr</sv:value>
+          </sv:property>
+          <sv:node sv:name="bostonjavameetup:hippostd_html">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:speaker">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>a4a10594-59d2-4590-b379-fe4ab9d92222</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:images">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:venue">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>6a9aba8b-eb8b-45a3-8091-c613d06ed038</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:description">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Lorem ipsum dolor sit amet, mea ex movet exerci voluptua, ex sit viris congue, quod mutat porro no ius. Idque facer causae sit ne, ne movet populo mei. Eos cu soluta omittam. Quas fugit putent sit eu, cum eu omnes fastidii. No autem menandri referrentur pri. Graeci invidunt mea in, sit labores facilisis laboramus id.&lt;/p&gt;
+
+&lt;p&gt;Soluta utroque definitionem eu pri, novum nominavi mel te. Est in atqui eleifend. His legere integre cu. Mei ut affert tritani, in mei autem reque suavitate.&lt;/p&gt;
+
+&lt;p&gt;Munere volumus temporibus ex pri, facer eripuit ponderum usu eu. An feugiat saperet veritus mea. Erroribus molestiae eam ex, et pri choro alienum definitiones. Vel wisi civibus ad.&lt;/p&gt;
+
+&lt;p&gt;Vis verterem argumentum in, per mazim aeterno accumsan te. Case sensibus at ius. Ignota postulant qualisque cu has. Albucius indoctum sea ea. Alii doming inermis eum et. Quo quando alienum pericula te, est id munere reprimique dissentiet.&lt;/p&gt;
+
+&lt;p&gt;Cum choro admodum ad. Facete interesset cum ad, in per movet molestiae mnesarchum, nihil voluptatum reprimique qui ex. In mundi corpora elaboraret cum, est at modo habeo. Ad nam quem decore scripserit, eam eu solum accumsan ponderum. Eam eu nominati persequeris, his ad scripta debitis liberavisse, sit ne posse adipiscing. His habeo vulputate in, ei unum ignota aliquip vix.&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="java-et-integration-les-mains-sur-lab-avec-spring-integration">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>bostonjavameetup:EventDocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>59575dee-b644-4144-9372-62d45785fd1f</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:endDate" sv:type="Date">
+            <sv:value>2016-03-08T20:00:00.000-05:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:startDate" sv:type="Date">
+            <sv:value>2016-03-08T18:00:00.000-05:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:starteDate" sv:type="Date">
+            <sv:value>2016-03-08T18:00:00.000-05:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:title" sv:type="String">
+            <sv:value>Java et intégration: Les mains sur Lab avec Spring Integration</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>events/2016/03/java-et-integration-les-mains-sur-lab-avec-spring-integration/java-et-integration-les-mains-sur-lab-avec-spring-integration</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>published</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2016-05-06T20:04:33.713-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2016-05-07T19:13:58.048-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+            <sv:value>2016-05-07T19:13:59.975-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>36549acc-bb9b-4da1-a807-2a7a88c90624</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>fr</sv:value>
+          </sv:property>
+          <sv:node sv:name="bostonjavameetup:hippostd_html">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:speaker">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>a4a10594-59d2-4590-b379-fe4ab9d92222</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:images">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:venue">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>6a9aba8b-eb8b-45a3-8091-c613d06ed038</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:description">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Lorem ipsum dolor sit amet, mea ex movet exerci voluptua, ex sit viris congue, quod mutat porro no ius. Idque facer causae sit ne, ne movet populo mei. Eos cu soluta omittam. Quas fugit putent sit eu, cum eu omnes fastidii. No autem menandri referrentur pri. Graeci invidunt mea in, sit labores facilisis laboramus id.&lt;/p&gt;
+
+&lt;p&gt;Soluta utroque definitionem eu pri, novum nominavi mel te. Est in atqui eleifend. His legere integre cu. Mei ut affert tritani, in mei autem reque suavitate.&lt;/p&gt;
+
+&lt;p&gt;Munere volumus temporibus ex pri, facer eripuit ponderum usu eu. An feugiat saperet veritus mea. Erroribus molestiae eam ex, et pri choro alienum definitiones. Vel wisi civibus ad.&lt;/p&gt;
+
+&lt;p&gt;Vis verterem argumentum in, per mazim aeterno accumsan te. Case sensibus at ius. Ignota postulant qualisque cu has. Albucius indoctum sea ea. Alii doming inermis eum et. Quo quando alienum pericula te, est id munere reprimique dissentiet.&lt;/p&gt;
+
+&lt;p&gt;Cum choro admodum ad. Facete interesset cum ad, in per movet molestiae mnesarchum, nihil voluptatum reprimique qui ex. In mundi corpora elaboraret cum, est at modo habeo. Ad nam quem decore scripserit, eam eu solum accumsan ponderum. Eam eu nominati persequeris, his ad scripta debitis liberavisse, sit ne posse adipiscing. His habeo vulputate in, ei unum ignota aliquip vix.&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="01">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippostd:folder</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:versionable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>d6e76358-aaf2-4f1c-9c1b-a2f57b7cdc87</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+        <sv:value>new-translated-folder</sv:value>
+        <sv:value>new-document</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>c8c0da86-21e5-4236-b269-68d07e5a252a</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>fr</sv:value>
+      </sv:property>
+      <sv:node sv:name="java-et-microservices-hands-on-tutorial-avec-cloud-foundry">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:handle</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+          <sv:value>hippo:translated</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>e32c5f6f-67a1-4ea5-80d5-9a78725ed401</sv:value>
+        </sv:property>
+        <sv:node sv:name="java-et-microservices-hands-on-tutorial-avec-cloud-foundry">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>bostonjavameetup:EventDocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:versionable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>9efebe23-d938-4c83-a44e-0a9e3620fd48</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:endDate" sv:type="Date">
+            <sv:value>2016-01-01T20:00:00.000-05:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:startDate" sv:type="Date">
+            <sv:value>2016-01-01T18:00:00.000-05:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:starteDate" sv:type="Date">
+            <sv:value>0001-01-01T07:00:00.000-05:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:title" sv:type="String">
+            <sv:value>Java et Microservices: Hands On-Tutorial avec Cloud Foundry</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>preview</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>events/2016/01/java-et-microservices-hands-on-tutorial-avec-cloud-foundry/java-et-microservices-hands-on-tutorial-avec-cloud-foundry[3]</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>unpublished</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2016-05-06T21:18:08.228-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2016-05-07T19:14:46.449-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>178d1c4c-267f-4f39-b4de-d4fd78d0a5c9</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>fr</sv:value>
+          </sv:property>
+          <sv:node sv:name="bostonjavameetup:hippostd_html">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value/>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:speaker">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>a4a10594-59d2-4590-b379-fe4ab9d92222</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:images">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:venue">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>6a9aba8b-eb8b-45a3-8091-c613d06ed038</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:description">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Lorem ipsum dolor sit amet, mea ex movet exerci voluptua, ex sit viris congue, quod mutat porro no ius. Idque facer causae sit ne, ne movet populo mei. Eos cu soluta omittam. Quas fugit putent sit eu, cum eu omnes fastidii. No autem menandri referrentur pri. Graeci invidunt mea in, sit labores facilisis laboramus id.&lt;/p&gt;
+
+&lt;p&gt;Soluta utroque definitionem eu pri, novum nominavi mel te. Est in atqui eleifend. His legere integre cu. Mei ut affert tritani, in mei autem reque suavitate.&lt;/p&gt;
+
+&lt;p&gt;Munere volumus temporibus ex pri, facer eripuit ponderum usu eu. An feugiat saperet veritus mea. Erroribus molestiae eam ex, et pri choro alienum definitiones. Vel wisi civibus ad.&lt;/p&gt;
+
+&lt;p&gt;Vis verterem argumentum in, per mazim aeterno accumsan te. Case sensibus at ius. Ignota postulant qualisque cu has. Albucius indoctum sea ea. Alii doming inermis eum et. Quo quando alienum pericula te, est id munere reprimique dissentiet.&lt;/p&gt;
+
+&lt;p&gt;Cum choro admodum ad. Facete interesset cum ad, in per movet molestiae mnesarchum, nihil voluptatum reprimique qui ex. In mundi corpora elaboraret cum, est at modo habeo. Ad nam quem decore scripserit, eam eu solum accumsan ponderum. Eam eu nominati persequeris, his ad scripta debitis liberavisse, sit ne posse adipiscing. His habeo vulputate in, ei unum ignota aliquip vix.&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="hippo:translation">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippo:translation</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:language" sv:type="String">
+            <sv:value/>
+          </sv:property>
+          <sv:property sv:name="hippo:message" sv:type="String">
+            <sv:value>Java et Microservices: Hands On-Tutorial avec Cloud Foundry</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="java-et-microservices-hands-on-tutorial-avec-cloud-foundry">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>bostonjavameetup:EventDocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>5d55e1f9-70c8-4464-9cc5-248d6af10a0e</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:endDate" sv:type="Date">
+            <sv:value>2016-01-01T20:00:00.000-05:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:startDate" sv:type="Date">
+            <sv:value>2016-01-01T18:00:00.000-05:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:starteDate" sv:type="Date">
+            <sv:value>0001-01-01T07:00:00.000-05:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:title" sv:type="String">
+            <sv:value>Java et Microservices: Hands On-Tutorial avec Cloud Foundry</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>events/2016/01/java-et-microservices-hands-on-tutorial-avec-cloud-foundry/java-et-microservices-hands-on-tutorial-avec-cloud-foundry[3]</sv:value>
+            <sv:value>events/2016/01/java-et-microservices-hands-on-tutorial-avec-cloud-foundry/java-et-microservices-hands-on-tutorial-avec-cloud-foundry</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>draft</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2016-05-06T21:18:08.228-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2016-05-07T19:14:39.874-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>178d1c4c-267f-4f39-b4de-d4fd78d0a5c9</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>fr</sv:value>
+          </sv:property>
+          <sv:node sv:name="bostonjavameetup:hippostd_html">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value/>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:speaker">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>a4a10594-59d2-4590-b379-fe4ab9d92222</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:images">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:venue">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>6a9aba8b-eb8b-45a3-8091-c613d06ed038</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:description">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Lorem ipsum dolor sit amet, mea ex movet exerci voluptua, ex sit viris congue, quod mutat porro no ius. Idque facer causae sit ne, ne movet populo mei. Eos cu soluta omittam. Quas fugit putent sit eu, cum eu omnes fastidii. No autem menandri referrentur pri. Graeci invidunt mea in, sit labores facilisis laboramus id.&lt;/p&gt;
+
+&lt;p&gt;Soluta utroque definitionem eu pri, novum nominavi mel te. Est in atqui eleifend. His legere integre cu. Mei ut affert tritani, in mei autem reque suavitate.&lt;/p&gt;
+
+&lt;p&gt;Munere volumus temporibus ex pri, facer eripuit ponderum usu eu. An feugiat saperet veritus mea. Erroribus molestiae eam ex, et pri choro alienum definitiones. Vel wisi civibus ad.&lt;/p&gt;
+
+&lt;p&gt;Vis verterem argumentum in, per mazim aeterno accumsan te. Case sensibus at ius. Ignota postulant qualisque cu has. Albucius indoctum sea ea. Alii doming inermis eum et. Quo quando alienum pericula te, est id munere reprimique dissentiet.&lt;/p&gt;
+
+&lt;p&gt;Cum choro admodum ad. Facete interesset cum ad, in per movet molestiae mnesarchum, nihil voluptatum reprimique qui ex. In mundi corpora elaboraret cum, est at modo habeo. Ad nam quem decore scripserit, eam eu solum accumsan ponderum. Eam eu nominati persequeris, his ad scripta debitis liberavisse, sit ne posse adipiscing. His habeo vulputate in, ei unum ignota aliquip vix.&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+        <sv:node sv:name="java-et-microservices-hands-on-tutorial-avec-cloud-foundry">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>bostonjavameetup:EventDocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>858e6613-97d3-45da-b2de-717eddc7f4ce</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:endDate" sv:type="Date">
+            <sv:value>2016-01-01T20:00:00.000-05:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:startDate" sv:type="Date">
+            <sv:value>2016-01-01T18:00:00.000-05:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:starteDate" sv:type="Date">
+            <sv:value>0001-01-01T07:00:00.000-05:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="bostonjavameetup:title" sv:type="String">
+            <sv:value>Java et Microservices: Hands On-Tutorial avec Cloud Foundry</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>events/2016/01/java-et-microservices-hands-on-tutorial-avec-cloud-foundry/java-et-microservices-hands-on-tutorial-avec-cloud-foundry</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>published</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2016-05-06T21:18:08.228-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2016-05-07T19:14:46.449-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+            <sv:value>2016-05-07T19:14:48.389-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>178d1c4c-267f-4f39-b4de-d4fd78d0a5c9</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>fr</sv:value>
+          </sv:property>
+          <sv:node sv:name="bostonjavameetup:hippostd_html">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value/>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:speaker">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>a4a10594-59d2-4590-b379-fe4ab9d92222</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:images">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippogallerypicker:imagelink</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+            <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:venue">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>6a9aba8b-eb8b-45a3-8091-c613d06ed038</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="bostonjavameetup:description">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;p&gt;Lorem ipsum dolor sit amet, mea ex movet exerci voluptua, ex sit viris congue, quod mutat porro no ius. Idque facer causae sit ne, ne movet populo mei. Eos cu soluta omittam. Quas fugit putent sit eu, cum eu omnes fastidii. No autem menandri referrentur pri. Graeci invidunt mea in, sit labores facilisis laboramus id.&lt;/p&gt;
+
+&lt;p&gt;Soluta utroque definitionem eu pri, novum nominavi mel te. Est in atqui eleifend. His legere integre cu. Mei ut affert tritani, in mei autem reque suavitate.&lt;/p&gt;
+
+&lt;p&gt;Munere volumus temporibus ex pri, facer eripuit ponderum usu eu. An feugiat saperet veritus mea. Erroribus molestiae eam ex, et pri choro alienum definitiones. Vel wisi civibus ad.&lt;/p&gt;
+
+&lt;p&gt;Vis verterem argumentum in, per mazim aeterno accumsan te. Case sensibus at ius. Ignota postulant qualisque cu has. Albucius indoctum sea ea. Alii doming inermis eum et. Quo quando alienum pericula te, est id munere reprimique dissentiet.&lt;/p&gt;
+
+&lt;p&gt;Cum choro admodum ad. Facete interesset cum ad, in per movet molestiae mnesarchum, nihil voluptatum reprimique qui ex. In mundi corpora elaboraret cum, est at modo habeo. Ad nam quem decore scripserit, eam eu solum accumsan ponderum. Eam eu nominati persequeris, his ad scripta debitis liberavisse, sit ne posse adipiscing. His habeo vulputate in, ei unum ignota aliquip vix.&lt;/p&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+</sv:node>

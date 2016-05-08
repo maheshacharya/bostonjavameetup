@@ -21,12 +21,6 @@ import org.onehippo.cms7.essentials.components.rest.adapters.HippoHtmlAdapter;
 @Node(jcrType = "bostonjavameetup:EventDocument")
 public class EventDocument extends BaseDocument {
     @XmlElement
-    @HippoEssentialsGenerated(internalName = "bostonjavameetup:starteDate")
-    public Calendar getStarteDate() {
-        return getProperty("bostonjavameetup:starteDate");
-    }
-
-    @XmlElement
     @HippoEssentialsGenerated(internalName = "bostonjavameetup:endDate")
     public Calendar getEndDate() {
         return getProperty("bostonjavameetup:endDate");
@@ -36,13 +30,6 @@ public class EventDocument extends BaseDocument {
     @HippoEssentialsGenerated(internalName = "bostonjavameetup:title")
     public String getTitle() {
         return getProperty("bostonjavameetup:title");
-    }
-
-    @XmlJavaTypeAdapter(HippoHtmlAdapter.class)
-    @XmlElement
-    @HippoEssentialsGenerated(internalName = "bostonjavameetup:hippostd_html")
-    public HippoHtml getHippostd_html() {
-        return getHippoHtml("bostonjavameetup:hippostd_html");
     }
 
     @HippoEssentialsGenerated(internalName = "bostonjavameetup:speaker")
@@ -59,5 +46,15 @@ public class EventDocument extends BaseDocument {
     @HippoEssentialsGenerated(internalName = "bostonjavameetup:venue")
     public HippoBean getVenue() {
         return getLinkedBean("bostonjavameetup:venue", HippoBean.class);
+    }
+
+    @HippoEssentialsGenerated(internalName = "bostonjavameetup:description")
+    public HippoHtml getDescription() {
+        return getHippoHtml("bostonjavameetup:description");
+    }
+
+    @HippoEssentialsGenerated(internalName = "bostonjavameetup:startDate")
+    public Calendar getStartDate() {
+        return getProperty("bostonjavameetup:startDate");
     }
 }

@@ -50,7 +50,7 @@
         <style type="text/css">
             /* Carousel base class */
             .carousel {
-              margin-top:40px;
+
                 height: ${cparam.carouselHeight}px;
                 /*width: ${cparam.carouselWidth}px;*/
                 margin-bottom: 60px;

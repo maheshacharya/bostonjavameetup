@@ -47,10 +47,9 @@
       </sv:property>
       <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
         <sv:value>live</sv:value>
-        <sv:value>preview</sv:value>
       </sv:property>
       <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-        <sv:value>labels/global</sv:value>
+        <sv:value>labels/global/global[3]</sv:value>
       </sv:property>
       <sv:property sv:name="hippostd:state" sv:type="String">
         <sv:value>published</sv:value>
@@ -65,13 +64,13 @@
         <sv:value>2014-08-21T22:10:13.443+02:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2014-08-21T22:10:52.812+02:00</sv:value>
+        <sv:value>2016-05-07T20:56:21.905-04:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-        <sv:value>2014-08-21T22:10:54.657+02:00</sv:value>
+        <sv:value>2016-05-07T20:56:23.616-04:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippotranslation:id" sv:type="String">
         <sv:value>c148ae89-83ec-4246-98b2-739428c263e0</sv:value>
@@ -81,15 +80,183 @@
       </sv:property>
       <sv:property sv:name="resourcebundle:descriptions" sv:type="String" sv:multiple="true">
         <sv:value>Text shown in the global page footer.</sv:value>
+        <sv:value/>
+        <sv:value/>
+        <sv:value/>
       </sv:property>
       <sv:property sv:name="resourcebundle:id" sv:type="String">
         <sv:value>essentials.global</sv:value>
       </sv:property>
       <sv:property sv:name="resourcebundle:keys" sv:type="String" sv:multiple="true">
         <sv:value>footer.text</sv:value>
+        <sv:value>footer.title</sv:value>
+        <sv:value>footer.subtitle</sv:value>
+        <sv:value>search</sv:value>
       </sv:property>
       <sv:property sv:name="resourcebundle:messages" sv:type="String" sv:multiple="true">
-        <sv:value>©2016</sv:value>
+        <sv:value>©2016 Hippo USA Inc.,</sv:value>
+        <sv:value>Boston Java Meetup Group</sv:value>
+        <sv:value>Java and CMS: An Open Source Implementation and Lab</sv:value>
+        <sv:value>Search</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:messages_en_US" sv:type="String" sv:multiple="true">
+        <sv:value>©2016 Hippo USA Inc.,</sv:value>
+        <sv:value>Boston Java Meetup Group</sv:value>
+        <sv:value>Java and CMS: An Open Source Implementation and Lab</sv:value>
+        <sv:value>Search</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:messages_fr_FR" sv:type="String" sv:multiple="true">
+        <sv:value>©2016 Hippo USA Inc.,</sv:value>
+        <sv:value>Boston Java Meetup Group</sv:value>
+        <sv:value>Java et CMS: une implémentation Open Source et Lab</sv:value>
+        <sv:value>Rechercher</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="global">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>resourcebundle:resourcebundle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>fbf43098-ff35-4ba7-949a-d0bfbd3f9526</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>labels/global/global</sv:value>
+        <sv:value>labels/global/global[3]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>draft</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2014-08-21T22:10:13.443+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2016-05-07T20:56:02.046-04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>c148ae89-83ec-4246-98b2-739428c263e0</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>document-type-locale</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:descriptions" sv:type="String" sv:multiple="true">
+        <sv:value>Text shown in the global page footer.</sv:value>
+        <sv:value/>
+        <sv:value/>
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:id" sv:type="String">
+        <sv:value>essentials.global</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:keys" sv:type="String" sv:multiple="true">
+        <sv:value>footer.text</sv:value>
+        <sv:value>footer.title</sv:value>
+        <sv:value>footer.subtitle</sv:value>
+        <sv:value>search</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:messages" sv:type="String" sv:multiple="true">
+        <sv:value>©2016 Hippo USA Inc.,</sv:value>
+        <sv:value>Boston Java Meetup Group</sv:value>
+        <sv:value>Java and CMS: An Open Source Implementation and Lab</sv:value>
+        <sv:value>Search</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:messages_en_US" sv:type="String" sv:multiple="true">
+        <sv:value>©2016 Hippo USA Inc.,</sv:value>
+        <sv:value>Boston Java Meetup Group</sv:value>
+        <sv:value>Java and CMS: An Open Source Implementation and Lab</sv:value>
+        <sv:value>Search</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:messages_fr_FR" sv:type="String" sv:multiple="true">
+        <sv:value>©2016 Hippo USA Inc.,</sv:value>
+        <sv:value>Boston Java Meetup Group</sv:value>
+        <sv:value>Java et CMS: une implémentation Open Source et Lab</sv:value>
+        <sv:value>Rechercher</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="global">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>resourcebundle:resourcebundle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:versionable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>9bca2bcb-11a3-48ed-8cd1-8417559b4874</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>labels/global/global</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>unpublished</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2014-08-21T22:10:13.443+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2016-05-07T20:56:21.905-04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>c148ae89-83ec-4246-98b2-739428c263e0</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>document-type-locale</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:descriptions" sv:type="String" sv:multiple="true">
+        <sv:value>Text shown in the global page footer.</sv:value>
+        <sv:value/>
+        <sv:value/>
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:id" sv:type="String">
+        <sv:value>essentials.global</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:keys" sv:type="String" sv:multiple="true">
+        <sv:value>footer.text</sv:value>
+        <sv:value>footer.title</sv:value>
+        <sv:value>footer.subtitle</sv:value>
+        <sv:value>search</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:messages" sv:type="String" sv:multiple="true">
+        <sv:value>©2016 Hippo USA Inc.,</sv:value>
+        <sv:value>Boston Java Meetup Group</sv:value>
+        <sv:value>Java and CMS: An Open Source Implementation and Lab</sv:value>
+        <sv:value>Search</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:messages_en_US" sv:type="String" sv:multiple="true">
+        <sv:value>©2016 Hippo USA Inc.,</sv:value>
+        <sv:value>Boston Java Meetup Group</sv:value>
+        <sv:value>Java and CMS: An Open Source Implementation and Lab</sv:value>
+        <sv:value>Search</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:messages_fr_FR" sv:type="String" sv:multiple="true">
+        <sv:value>©2016 Hippo USA Inc.,</sv:value>
+        <sv:value>Boston Java Meetup Group</sv:value>
+        <sv:value>Java et CMS: une implémentation Open Source et Lab</sv:value>
+        <sv:value>Rechercher</sv:value>
       </sv:property>
     </sv:node>
   </sv:node>
@@ -397,6 +564,271 @@
         <sv:value>document(s)</sv:value>
         <sv:value>previous</sv:value>
         <sv:value>next</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="event-detail">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>mix:referenceable</sv:value>
+      <sv:value>hippo:translated</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>a5eece1d-aee4-4439-ae17-271d9fdb5219</sv:value>
+    </sv:property>
+    <sv:node sv:name="event-detail">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>resourcebundle:resourcebundle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>398a2127-bdcc-44fa-916a-45275eac2657</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>labels/event-detail/event-detail[2]</sv:value>
+        <sv:value>labels/event-detail/event-detail[3]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>draft</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2016-05-07T17:33:02.832-04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2016-05-07T17:50:27.607-04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>32feb7ef-d329-4703-ba5f-0596b3af390a</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>document-type-locale</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:descriptions" sv:type="String" sv:multiple="true">
+        <sv:value/>
+        <sv:value/>
+        <sv:value/>
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:id" sv:type="String">
+        <sv:value>event.detail</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:keys" sv:type="String" sv:multiple="true">
+        <sv:value>start.date.time</sv:value>
+        <sv:value>end.time</sv:value>
+        <sv:value>location</sv:value>
+        <sv:value>speaker</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:messages" sv:type="String" sv:multiple="true">
+        <sv:value>Start Date/Time</sv:value>
+        <sv:value>End Time</sv:value>
+        <sv:value>Location</sv:value>
+        <sv:value>Speaker</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:messages_en_US" sv:type="String" sv:multiple="true">
+        <sv:value>Start Date/Time</sv:value>
+        <sv:value>End Time</sv:value>
+        <sv:value>Location</sv:value>
+        <sv:value>Speaker</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:messages_es_ES" sv:type="String" sv:multiple="true">
+        <sv:value>Fecha / hora</sv:value>
+        <sv:value>Hora de finalización</sv:value>
+        <sv:value>Ubicación</sv:value>
+        <sv:value>Altavoz</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:messages_fr_FR" sv:type="String" sv:multiple="true">
+        <sv:value>Date de début / Heure</sv:value>
+        <sv:value>Heure de fin</sv:value>
+        <sv:value>Lieu</sv:value>
+        <sv:value>Présentateur</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="hippo:translation">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:translation</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:language" sv:type="String">
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="hippo:message" sv:type="String">
+        <sv:value>Event Detail</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="event-detail">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>resourcebundle:resourcebundle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:versionable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>53f6bf24-f211-4595-9549-9083a442d6d0</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>labels/event-detail/event-detail[3]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>unpublished</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2016-05-07T17:33:02.832-04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2016-05-07T17:52:37.363-04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>32feb7ef-d329-4703-ba5f-0596b3af390a</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>document-type-locale</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:descriptions" sv:type="String" sv:multiple="true">
+        <sv:value/>
+        <sv:value/>
+        <sv:value/>
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:id" sv:type="String">
+        <sv:value>event.detail</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:keys" sv:type="String" sv:multiple="true">
+        <sv:value>start.date.time</sv:value>
+        <sv:value>end.time</sv:value>
+        <sv:value>location</sv:value>
+        <sv:value>speaker</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:messages" sv:type="String" sv:multiple="true">
+        <sv:value>Start Date/Time</sv:value>
+        <sv:value>End Time</sv:value>
+        <sv:value>Location</sv:value>
+        <sv:value>Speaker</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:messages_en_US" sv:type="String" sv:multiple="true">
+        <sv:value>Start Date/Time</sv:value>
+        <sv:value>End Time</sv:value>
+        <sv:value>Location</sv:value>
+        <sv:value>Speaker</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:messages_es_ES" sv:type="String" sv:multiple="true">
+        <sv:value>Fecha / hora</sv:value>
+        <sv:value>Hora de finalización</sv:value>
+        <sv:value>Ubicación</sv:value>
+        <sv:value>Altavoz</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:messages_fr_FR" sv:type="String" sv:multiple="true">
+        <sv:value>Date de début / Heure</sv:value>
+        <sv:value>Heure de fin</sv:value>
+        <sv:value>Lieu</sv:value>
+        <sv:value>Présentateur</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="event-detail">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>resourcebundle:resourcebundle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>f3dd0839-6944-4a17-a616-b2ad9ebc6a0e</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>labels/event-detail/event-detail[2]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2016-05-07T17:33:02.832-04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2016-05-07T17:52:37.363-04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2016-05-07T17:52:39.177-04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>32feb7ef-d329-4703-ba5f-0596b3af390a</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>document-type-locale</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:descriptions" sv:type="String" sv:multiple="true">
+        <sv:value/>
+        <sv:value/>
+        <sv:value/>
+        <sv:value/>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:id" sv:type="String">
+        <sv:value>event.detail</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:keys" sv:type="String" sv:multiple="true">
+        <sv:value>start.date.time</sv:value>
+        <sv:value>end.time</sv:value>
+        <sv:value>location</sv:value>
+        <sv:value>speaker</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:messages" sv:type="String" sv:multiple="true">
+        <sv:value>Start Date/Time</sv:value>
+        <sv:value>End Time</sv:value>
+        <sv:value>Location</sv:value>
+        <sv:value>Speaker</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:messages_en_US" sv:type="String" sv:multiple="true">
+        <sv:value>Start Date/Time</sv:value>
+        <sv:value>End Time</sv:value>
+        <sv:value>Location</sv:value>
+        <sv:value>Speaker</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:messages_es_ES" sv:type="String" sv:multiple="true">
+        <sv:value>Fecha / hora</sv:value>
+        <sv:value>Hora de finalización</sv:value>
+        <sv:value>Ubicación</sv:value>
+        <sv:value>Altavoz</sv:value>
+      </sv:property>
+      <sv:property sv:name="resourcebundle:messages_fr_FR" sv:type="String" sv:multiple="true">
+        <sv:value>Date de début / Heure</sv:value>
+        <sv:value>Heure de fin</sv:value>
+        <sv:value>Lieu</sv:value>
+        <sv:value>Présentateur</sv:value>
       </sv:property>
     </sv:node>
   </sv:node>

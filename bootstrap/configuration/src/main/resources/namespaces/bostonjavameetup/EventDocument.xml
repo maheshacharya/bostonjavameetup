@@ -28,7 +28,7 @@
         <sv:value>hipposysedit:remodel</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
-        <sv:value>fe7fc270-0bd9-45c9-97ac-77960b9d20df</sv:value>
+        <sv:value>a5145dfa-73f2-4d3a-a76d-d8ce0df03363</sv:value>
       </sv:property>
       <sv:property sv:name="hipposysedit:node" sv:type="Boolean">
         <sv:value>true</sv:value>
@@ -55,7 +55,7 @@
           <sv:value>false</sv:value>
         </sv:property>
         <sv:property sv:name="hipposysedit:path" sv:type="String">
-          <sv:value>bostonjavameetup:hippostd_html</sv:value>
+          <sv:value>bostonjavameetup:description</sv:value>
         </sv:property>
         <sv:property sv:name="hipposysedit:primary" sv:type="Boolean">
           <sv:value>false</sv:value>
@@ -78,7 +78,7 @@
           <sv:value>false</sv:value>
         </sv:property>
         <sv:property sv:name="hipposysedit:path" sv:type="String">
-          <sv:value>bostonjavameetup:starteDate</sv:value>
+          <sv:value>bostonjavameetup:startDate</sv:value>
         </sv:property>
         <sv:property sv:name="hipposysedit:primary" sv:type="Boolean">
           <sv:value>false</sv:value>
@@ -216,12 +216,12 @@
         <sv:value>mix:referenceable</sv:value>
       </sv:property>
       <sv:property sv:name="jcr:uuid" sv:type="String">
-        <sv:value>091cb0cf-3d20-48b9-9268-ef6a1db46401</sv:value>
+        <sv:value>00bab5bc-d2fc-49a8-a00d-4c65b5201e23</sv:value>
       </sv:property>
       <sv:property sv:name="bostonjavameetup:endDate" sv:type="Date">
         <sv:value>0001-01-01T07:00:00.000-05:00</sv:value>
       </sv:property>
-      <sv:property sv:name="bostonjavameetup:starteDate" sv:type="Date">
+      <sv:property sv:name="bostonjavameetup:startDate" sv:type="Date">
         <sv:value>0001-01-01T07:00:00.000-05:00</sv:value>
       </sv:property>
       <sv:property sv:name="bostonjavameetup:title" sv:type="String">
@@ -255,14 +255,6 @@
       <sv:property sv:name="hippotranslation:locale" sv:type="String">
         <sv:value>document-type-locale</sv:value>
       </sv:property>
-      <sv:node sv:name="bostonjavameetup:hippostd_html">
-        <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>hippostd:html</sv:value>
-        </sv:property>
-        <sv:property sv:name="hippostd:content" sv:type="String">
-          <sv:value/>
-        </sv:property>
-      </sv:node>
       <sv:node sv:name="bostonjavameetup:speaker">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>hippo:mirror</sv:value>
@@ -288,6 +280,14 @@
         </sv:property>
         <sv:property sv:name="hippo:docbase" sv:type="String">
           <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="bostonjavameetup:description">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value/>
         </sv:property>
       </sv:node>
     </sv:node>
@@ -384,7 +384,7 @@
           </sv:property>
         </sv:node>
       </sv:node>
-      <sv:node sv:name="hippostd_html">
+      <sv:node sv:name="description">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>frontend:plugin</sv:value>
         </sv:property>
@@ -393,6 +393,9 @@
         </sv:property>
         <sv:property sv:name="field" sv:type="String">
           <sv:value>hippostd_html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hint" sv:type="String">
+          <sv:value/>
         </sv:property>
         <sv:property sv:name="plugin.class" sv:type="String">
           <sv:value>org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin</sv:value>
@@ -406,7 +409,7 @@
           </sv:property>
         </sv:node>
       </sv:node>
-      <sv:node sv:name="starteDate">
+      <sv:node sv:name="startDate">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>frontend:plugin</sv:value>
         </sv:property>
@@ -415,6 +418,9 @@
         </sv:property>
         <sv:property sv:name="field" sv:type="String">
           <sv:value>starteDate</sv:value>
+        </sv:property>
+        <sv:property sv:name="hint" sv:type="String">
+          <sv:value/>
         </sv:property>
         <sv:property sv:name="plugin.class" sv:type="String">
           <sv:value>org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin</sv:value>

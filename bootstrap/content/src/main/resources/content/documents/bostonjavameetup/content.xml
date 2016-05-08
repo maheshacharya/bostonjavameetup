@@ -142,7 +142,7 @@
         <sv:value>2014-03-25T16:52:00.000+01:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2016-05-05T20:52:25.869-04:00</sv:value>
+        <sv:value>2016-05-07T17:44:45.543-04:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
@@ -1152,7 +1152,7 @@
         <sv:value>2016-05-06T06:34:21.098-04:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2016-05-06T20:12:16.247-04:00</sv:value>
+        <sv:value>2016-05-07T10:51:35.766-04:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
@@ -1168,7 +1168,7 @@
           <sv:value>hippostd:html</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:content" sv:type="String">
-          <sv:value>&lt;table border="0" cellpadding="1" cellspacing="1" style="width:100%"&gt;
+          <sv:value>&lt;table border="0" cellpadding="5" cellspacing="5" style="width:100%"&gt;
  &lt;tbody&gt;
   &lt;tr&gt;
    &lt;td style="vertical-align:top"&gt;
@@ -1176,41 +1176,39 @@
 
    &lt;p style="text-align:justify"&gt;The Hippo architecture is highly modular. This modular and clean architecture has several technical benefits such as ease of integration and great scalability, and also functional benefits such as content reuse. In the next sections, details are provided on each module in the Hippo stack. We highlight the three modules listed in the diagram below;&amp;nbsp;&lt;em&gt;Content Repository&lt;/em&gt;,&amp;nbsp;&lt;em&gt;CMS&lt;/em&gt;&amp;nbsp;and&amp;nbsp;&lt;em&gt;Delivery Tier&lt;/em&gt;&amp;nbsp;(also known as HST).&lt;/p&gt;
 
-   &lt;h3&gt;High Level Component Overview&lt;/h3&gt;
+   &lt;h3 style="text-align:justify"&gt;High Level Component Overview&lt;/h3&gt;
 
-   &lt;p&gt;At high level Hippo&amp;apos;s architecture consists of three major components:&lt;/p&gt;
+   &lt;p style="text-align:justify"&gt;At high level Hippo&amp;apos;s architecture consists of three major components:&lt;/p&gt;
 
    &lt;ul&gt;
-    &lt;li&gt;Content repository (&amp;quot;Hippo Repository&amp;quot;)&lt;/li&gt;
-    &lt;li&gt;Authoring application (&amp;quot;Hippo CMS&amp;quot;)&lt;/li&gt;
-    &lt;li&gt;Delivery tier (&amp;quot;HST&amp;quot;)&lt;/li&gt;
+    &lt;li style="text-align:justify"&gt;Content repository (&amp;quot;Hippo Repository&amp;quot;)&lt;/li&gt;
+    &lt;li style="text-align:justify"&gt;Authoring application (&amp;quot;Hippo CMS&amp;quot;)&lt;/li&gt;
+    &lt;li style="text-align:justify"&gt;Delivery tier (&amp;quot;HST&amp;quot;)&lt;/li&gt;
    &lt;/ul&gt;
 
-   &lt;p&gt;The diagram on the right shows how they are interconnected.&amp;nbsp;The following sections describe each component in more detail.&lt;/p&gt;
+   &lt;p style="text-align:justify"&gt;The diagram on the right shows how they are interconnected.&amp;nbsp;The following sections describe each component in more detail.&lt;/p&gt;
 
-   &lt;p&gt;&amp;nbsp;&lt;/p&gt;
+   &lt;p style="text-align:justify"&gt;&amp;nbsp;&lt;/p&gt;
 
-   &lt;h3&gt;Content Repository&lt;/h3&gt;
+   &lt;h3 style="text-align:justify"&gt;Content Repository&lt;/h3&gt;
 
-   &lt;p&gt;The core of Hippo CMS is the Hippo Repository. All content, metadata and configuration is stored in this central component. In addition to providing a storage layer, the repository is also responsible for the base content management services such as meta-data and workflow, content searching, processing, scheduling, transformation and aggregation, and the orchestration thereof.&lt;/p&gt;
-
-   &lt;p&gt;Hippo Repository is based on&amp;nbsp;&lt;a href="http://jackrabbit.apache.org/" target="_blank"&gt;Apache JackRabbit&lt;/a&gt;, an open source implementation of the&amp;nbsp;&amp;nbsp;&lt;a href="https://jcp.org/aboutJava/communityprocess/final/jsr170/" target="_blank"&gt;JSR-170&lt;/a&gt;&amp;nbsp;and&amp;nbsp;&lt;a href="https://jcp.org/en/jsr/detail?id=283" target="_blank"&gt;JSR-283&lt;/a&gt;Java specifications. All content management functionality is exposed through a standard set of API interfaces. This allows your application or process to integrate with Hippo for automatic creation, import, export and&amp;nbsp;publication of content, in addition to the web based authoring application.&lt;/p&gt;
+   &lt;p style="text-align:justify"&gt;The core of Hippo CMS is the Hippo Repository. All content, metadata and configuration is stored in this central component. In addition to providing a storage layer, the repository is also responsible for the base content management services such as meta-data and workflow, content searching, processing, scheduling, transformation and aggregation, and the orchestration thereof.&lt;/p&gt;
 
    &lt;p&gt;&amp;nbsp;&lt;/p&gt;
    &lt;/td&gt;
-   &lt;td style="vertical-align:top"&gt;&lt;img src="hipp-cms-high-level-component-view.png/{_document}/hippogallery:original" /&gt;&lt;/td&gt;
+   &lt;td style="vertical-align:top"&gt;&lt;img src="hippo-cms-architecture-1.png/{_document}/hippogallery:original" /&gt;&lt;/td&gt;
   &lt;/tr&gt;
  &lt;/tbody&gt;
 &lt;/table&gt;
 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;</sv:value>
         </sv:property>
-        <sv:node sv:name="hipp-cms-high-level-component-view.png">
+        <sv:node sv:name="hippo-cms-architecture-1.png">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippo:facetselect</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:docbase" sv:type="String">
-            <sv:value>0c2325de-c19a-4b07-b41d-b830a818818d</sv:value>
+            <sv:value>44a6fc79-44af-4294-a90b-aae4fc0f3075</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
           <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
@@ -1267,7 +1265,7 @@
         <sv:value>2016-05-06T06:34:21.098-04:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2016-05-06T20:12:22.077-04:00</sv:value>
+        <sv:value>2016-05-07T10:51:47.964-04:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
@@ -1283,7 +1281,7 @@
           <sv:value>hippostd:html</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:content" sv:type="String">
-          <sv:value>&lt;table border="0" cellpadding="1" cellspacing="1" style="width:100%"&gt;
+          <sv:value>&lt;table border="0" cellpadding="5" cellspacing="5" style="width:100%"&gt;
  &lt;tbody&gt;
   &lt;tr&gt;
    &lt;td style="vertical-align:top"&gt;
@@ -1291,41 +1289,39 @@
 
    &lt;p style="text-align:justify"&gt;The Hippo architecture is highly modular. This modular and clean architecture has several technical benefits such as ease of integration and great scalability, and also functional benefits such as content reuse. In the next sections, details are provided on each module in the Hippo stack. We highlight the three modules listed in the diagram below;&amp;nbsp;&lt;em&gt;Content Repository&lt;/em&gt;,&amp;nbsp;&lt;em&gt;CMS&lt;/em&gt;&amp;nbsp;and&amp;nbsp;&lt;em&gt;Delivery Tier&lt;/em&gt;&amp;nbsp;(also known as HST).&lt;/p&gt;
 
-   &lt;h3&gt;High Level Component Overview&lt;/h3&gt;
+   &lt;h3 style="text-align:justify"&gt;High Level Component Overview&lt;/h3&gt;
 
-   &lt;p&gt;At high level Hippo&amp;apos;s architecture consists of three major components:&lt;/p&gt;
+   &lt;p style="text-align:justify"&gt;At high level Hippo&amp;apos;s architecture consists of three major components:&lt;/p&gt;
 
    &lt;ul&gt;
-    &lt;li&gt;Content repository (&amp;quot;Hippo Repository&amp;quot;)&lt;/li&gt;
-    &lt;li&gt;Authoring application (&amp;quot;Hippo CMS&amp;quot;)&lt;/li&gt;
-    &lt;li&gt;Delivery tier (&amp;quot;HST&amp;quot;)&lt;/li&gt;
+    &lt;li style="text-align:justify"&gt;Content repository (&amp;quot;Hippo Repository&amp;quot;)&lt;/li&gt;
+    &lt;li style="text-align:justify"&gt;Authoring application (&amp;quot;Hippo CMS&amp;quot;)&lt;/li&gt;
+    &lt;li style="text-align:justify"&gt;Delivery tier (&amp;quot;HST&amp;quot;)&lt;/li&gt;
    &lt;/ul&gt;
 
-   &lt;p&gt;The diagram on the right shows how they are interconnected.&amp;nbsp;The following sections describe each component in more detail.&lt;/p&gt;
+   &lt;p style="text-align:justify"&gt;The diagram on the right shows how they are interconnected.&amp;nbsp;The following sections describe each component in more detail.&lt;/p&gt;
 
-   &lt;p&gt;&amp;nbsp;&lt;/p&gt;
+   &lt;p style="text-align:justify"&gt;&amp;nbsp;&lt;/p&gt;
 
-   &lt;h3&gt;Content Repository&lt;/h3&gt;
+   &lt;h3 style="text-align:justify"&gt;Content Repository&lt;/h3&gt;
 
-   &lt;p&gt;The core of Hippo CMS is the Hippo Repository. All content, metadata and configuration is stored in this central component. In addition to providing a storage layer, the repository is also responsible for the base content management services such as meta-data and workflow, content searching, processing, scheduling, transformation and aggregation, and the orchestration thereof.&lt;/p&gt;
-
-   &lt;p&gt;Hippo Repository is based on&amp;nbsp;&lt;a href="http://jackrabbit.apache.org/" target="_blank"&gt;Apache JackRabbit&lt;/a&gt;, an open source implementation of the&amp;nbsp;&amp;nbsp;&lt;a href="https://jcp.org/aboutJava/communityprocess/final/jsr170/" target="_blank"&gt;JSR-170&lt;/a&gt;&amp;nbsp;and&amp;nbsp;&lt;a href="https://jcp.org/en/jsr/detail?id=283" target="_blank"&gt;JSR-283&lt;/a&gt;Java specifications. All content management functionality is exposed through a standard set of API interfaces. This allows your application or process to integrate with Hippo for automatic creation, import, export and&amp;nbsp;publication of content, in addition to the web based authoring application.&lt;/p&gt;
+   &lt;p style="text-align:justify"&gt;The core of Hippo CMS is the Hippo Repository. All content, metadata and configuration is stored in this central component. In addition to providing a storage layer, the repository is also responsible for the base content management services such as meta-data and workflow, content searching, processing, scheduling, transformation and aggregation, and the orchestration thereof.&lt;/p&gt;
 
    &lt;p&gt;&amp;nbsp;&lt;/p&gt;
    &lt;/td&gt;
-   &lt;td style="vertical-align:top"&gt;&lt;img src="hipp-cms-high-level-component-view.png/{_document}/hippogallery:original" /&gt;&lt;/td&gt;
+   &lt;td style="vertical-align:top"&gt;&lt;img src="hippo-cms-architecture-1.png/{_document}/hippogallery:original" /&gt;&lt;/td&gt;
   &lt;/tr&gt;
  &lt;/tbody&gt;
 &lt;/table&gt;
 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;</sv:value>
         </sv:property>
-        <sv:node sv:name="hipp-cms-high-level-component-view.png">
+        <sv:node sv:name="hippo-cms-architecture-1.png">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippo:facetselect</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:docbase" sv:type="String">
-            <sv:value>0c2325de-c19a-4b07-b41d-b830a818818d</sv:value>
+            <sv:value>44a6fc79-44af-4294-a90b-aae4fc0f3075</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
           <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
@@ -1371,13 +1367,13 @@
         <sv:value>2016-05-06T06:34:21.098-04:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2016-05-06T20:12:22.077-04:00</sv:value>
+        <sv:value>2016-05-07T10:51:47.964-04:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-        <sv:value>2016-05-06T20:12:23.768-04:00</sv:value>
+        <sv:value>2016-05-07T10:51:50.007-04:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippotranslation:id" sv:type="String">
         <sv:value>e762682b-25fe-41f7-a926-7c6836f6dc6e</sv:value>
@@ -1390,7 +1386,7 @@
           <sv:value>hippostd:html</sv:value>
         </sv:property>
         <sv:property sv:name="hippostd:content" sv:type="String">
-          <sv:value>&lt;table border="0" cellpadding="1" cellspacing="1" style="width:100%"&gt;
+          <sv:value>&lt;table border="0" cellpadding="5" cellspacing="5" style="width:100%"&gt;
  &lt;tbody&gt;
   &lt;tr&gt;
    &lt;td style="vertical-align:top"&gt;
@@ -1398,41 +1394,39 @@
 
    &lt;p style="text-align:justify"&gt;The Hippo architecture is highly modular. This modular and clean architecture has several technical benefits such as ease of integration and great scalability, and also functional benefits such as content reuse. In the next sections, details are provided on each module in the Hippo stack. We highlight the three modules listed in the diagram below;&amp;nbsp;&lt;em&gt;Content Repository&lt;/em&gt;,&amp;nbsp;&lt;em&gt;CMS&lt;/em&gt;&amp;nbsp;and&amp;nbsp;&lt;em&gt;Delivery Tier&lt;/em&gt;&amp;nbsp;(also known as HST).&lt;/p&gt;
 
-   &lt;h3&gt;High Level Component Overview&lt;/h3&gt;
+   &lt;h3 style="text-align:justify"&gt;High Level Component Overview&lt;/h3&gt;
 
-   &lt;p&gt;At high level Hippo&amp;apos;s architecture consists of three major components:&lt;/p&gt;
+   &lt;p style="text-align:justify"&gt;At high level Hippo&amp;apos;s architecture consists of three major components:&lt;/p&gt;
 
    &lt;ul&gt;
-    &lt;li&gt;Content repository (&amp;quot;Hippo Repository&amp;quot;)&lt;/li&gt;
-    &lt;li&gt;Authoring application (&amp;quot;Hippo CMS&amp;quot;)&lt;/li&gt;
-    &lt;li&gt;Delivery tier (&amp;quot;HST&amp;quot;)&lt;/li&gt;
+    &lt;li style="text-align:justify"&gt;Content repository (&amp;quot;Hippo Repository&amp;quot;)&lt;/li&gt;
+    &lt;li style="text-align:justify"&gt;Authoring application (&amp;quot;Hippo CMS&amp;quot;)&lt;/li&gt;
+    &lt;li style="text-align:justify"&gt;Delivery tier (&amp;quot;HST&amp;quot;)&lt;/li&gt;
    &lt;/ul&gt;
 
-   &lt;p&gt;The diagram on the right shows how they are interconnected.&amp;nbsp;The following sections describe each component in more detail.&lt;/p&gt;
+   &lt;p style="text-align:justify"&gt;The diagram on the right shows how they are interconnected.&amp;nbsp;The following sections describe each component in more detail.&lt;/p&gt;
 
-   &lt;p&gt;&amp;nbsp;&lt;/p&gt;
+   &lt;p style="text-align:justify"&gt;&amp;nbsp;&lt;/p&gt;
 
-   &lt;h3&gt;Content Repository&lt;/h3&gt;
+   &lt;h3 style="text-align:justify"&gt;Content Repository&lt;/h3&gt;
 
-   &lt;p&gt;The core of Hippo CMS is the Hippo Repository. All content, metadata and configuration is stored in this central component. In addition to providing a storage layer, the repository is also responsible for the base content management services such as meta-data and workflow, content searching, processing, scheduling, transformation and aggregation, and the orchestration thereof.&lt;/p&gt;
-
-   &lt;p&gt;Hippo Repository is based on&amp;nbsp;&lt;a href="http://jackrabbit.apache.org/" target="_blank"&gt;Apache JackRabbit&lt;/a&gt;, an open source implementation of the&amp;nbsp;&amp;nbsp;&lt;a href="https://jcp.org/aboutJava/communityprocess/final/jsr170/" target="_blank"&gt;JSR-170&lt;/a&gt;&amp;nbsp;and&amp;nbsp;&lt;a href="https://jcp.org/en/jsr/detail?id=283" target="_blank"&gt;JSR-283&lt;/a&gt;Java specifications. All content management functionality is exposed through a standard set of API interfaces. This allows your application or process to integrate with Hippo for automatic creation, import, export and&amp;nbsp;publication of content, in addition to the web based authoring application.&lt;/p&gt;
+   &lt;p style="text-align:justify"&gt;The core of Hippo CMS is the Hippo Repository. All content, metadata and configuration is stored in this central component. In addition to providing a storage layer, the repository is also responsible for the base content management services such as meta-data and workflow, content searching, processing, scheduling, transformation and aggregation, and the orchestration thereof.&lt;/p&gt;
 
    &lt;p&gt;&amp;nbsp;&lt;/p&gt;
    &lt;/td&gt;
-   &lt;td style="vertical-align:top"&gt;&lt;img src="hipp-cms-high-level-component-view.png/{_document}/hippogallery:original" /&gt;&lt;/td&gt;
+   &lt;td style="vertical-align:top"&gt;&lt;img src="hippo-cms-architecture-1.png/{_document}/hippogallery:original" /&gt;&lt;/td&gt;
   &lt;/tr&gt;
  &lt;/tbody&gt;
 &lt;/table&gt;
 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;</sv:value>
         </sv:property>
-        <sv:node sv:name="hipp-cms-high-level-component-view.png">
+        <sv:node sv:name="hippo-cms-architecture-1.png">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hippo:facetselect</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:docbase" sv:type="String">
-            <sv:value>0c2325de-c19a-4b07-b41d-b830a818818d</sv:value>
+            <sv:value>44a6fc79-44af-4294-a90b-aae4fc0f3075</sv:value>
           </sv:property>
           <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
           <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>

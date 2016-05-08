@@ -7,28 +7,31 @@
       <sv:value>hst:sitemenu</sv:value>
     </sv:property>
     <sv:property sv:name="hst:lastmodified" sv:type="Date">
-      <sv:value>2016-05-07T09:19:56.328-04:00</sv:value>
+      <sv:value>2016-05-07T18:14:15.292-04:00</sv:value>
     </sv:property>
-    <sv:node sv:name="home">
+    <sv:node sv:name="HOME">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hst:sitemenuitem</sv:value>
       </sv:property>
       <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
         <sv:value>root</sv:value>
       </sv:property>
+      <sv:property sv:name="hst:repobased" sv:type="Boolean">
+        <sv:value>false</sv:value>
+      </sv:property>
     </sv:node>
-    <sv:node sv:name="events">
+    <sv:node sv:name="EVENTS">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hst:sitemenuitem</sv:value>
       </sv:property>
       <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
-        <sv:value>content</sv:value>
+        <sv:value>events</sv:value>
       </sv:property>
       <sv:property sv:name="hst:repobased" sv:type="Boolean">
         <sv:value>false</sv:value>
       </sv:property>
     </sv:node>
-    <sv:node sv:name="docs">
+    <sv:node sv:name="DOCS">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hst:sitemenuitem</sv:value>
       </sv:property>
@@ -39,34 +42,12 @@
         <sv:value>false</sv:value>
       </sv:property>
     </sv:node>
-    <sv:node sv:name="news">
+    <sv:node sv:name="HIPPO CONNECT BOSTON">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hst:sitemenuitem</sv:value>
       </sv:property>
-      <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
-        <sv:value/>
-      </sv:property>
-      <sv:property sv:name="hst:repobased" sv:type="Boolean">
-        <sv:value>false</sv:value>
-      </sv:property>
-    </sv:node>
-    <sv:node sv:name="blogs">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hst:sitemenuitem</sv:value>
-      </sv:property>
-      <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
-        <sv:value/>
-      </sv:property>
-      <sv:property sv:name="hst:repobased" sv:type="Boolean">
-        <sv:value>false</sv:value>
-      </sv:property>
-    </sv:node>
-    <sv:node sv:name="about">
-      <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hst:sitemenuitem</sv:value>
-      </sv:property>
-      <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
-        <sv:value/>
+      <sv:property sv:name="hst:externallink" sv:type="String">
+        <sv:value>http://www.onehippo.com/connect/boston</sv:value>
       </sv:property>
       <sv:property sv:name="hst:repobased" sv:type="Boolean">
         <sv:value>false</sv:value>
