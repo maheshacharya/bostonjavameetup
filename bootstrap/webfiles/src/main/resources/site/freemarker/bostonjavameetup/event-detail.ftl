@@ -11,7 +11,7 @@
     padding: 10px;
   }
 
-  .inline {
+  .inline-block {
     display: inline-block;
     vertical-align: top;
 
@@ -33,7 +33,7 @@
 </style>
 
 <div>
-  <div class="left-container inline">
+  <div class="left-container inline-block">
 
     <h2>${document.title}</h2>
     <ul class="event-header-ul">
@@ -68,7 +68,7 @@
     <@hst.html hippohtml=document.description/>
     </div>
   </div>
-  <div class="right-container inline">
+  <div class="right-container inline-block">
   <@hst.include ref="right-container"/>
   </div>
 </div>

@@ -90,4 +90,28 @@
       <sv:value>webfile:/freemarker/bostonjavameetup/event-list-main.ftl</sv:value>
     </sv:property>
   </sv:node>
+  <sv:node sv:name="calendar">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>webfile:/freemarker/bostonjavameetup/calendar.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="three-rows-landingpage">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>webfile:/freemarker/bostonjavameetup/three-rows-landingpage.ftl</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="search-results">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:template</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:renderpath" sv:type="String">
+      <sv:value>webfile:/freemarker/bostonjavameetup/search-main.ftl</sv:value>
+    </sv:property>
+  </sv:node>
 </sv:node>

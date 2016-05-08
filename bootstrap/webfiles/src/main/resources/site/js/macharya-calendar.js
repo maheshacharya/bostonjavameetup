@@ -19,79 +19,69 @@
  */
 
 function Calendar(props) {
+    //default day of week labels.
     var dayofweek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+    //default month labels.
     var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
     var el = null;
     var current_component = null;
     var startDate = null;
-    var endDate= null;
+    var endDate = null;
     var month = null;
     var year = null;
 
     $(document).ready(function () {
         if (props === undefined) {
             props = {
-                "width": 500, //width of the calendar dialog
-                "height": 300, //height of the calendar dialog
+                "width": 500, //width of the calendar display
+                "height": 300, //height of the calendar display
                 "max_years": 100, //max. number of years shown in the year selector
                 "future_years": 10, //number of future years shown in the year selector.
                 "background_color": "rgba(255,255,255,0.96)", //background color of the calendar dialog.
                 "color": "rgba(0,0,0,1.0)", //font color of elements within calendar
                 "date_field_class": "event-calendar", //Class name of input field that is will invoke the calendar dialog.
-                // "time_value": "00:00:00"//OPTIONAL Default Time Value
+                //"dayofweek": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+                //"months": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
             };
 
         }
-
 
         el = document.createElement("div");
         $(el).attr("id", "calendar");
         $(el).css("background-color", props.background_color);
         $(el).width(props.width);
         $(el).height(props.height);
-        $("."+props.date_field_class).append(el);
-        layoutCalendar(el , new Date(), true);
-
-        var endpoint = props.rest_endpoint+"?start="+(month+1)+"-"+start+"-"+year+"&end="+(month+1)+"-"+end+"-"+year;
-
-
+        if (props.dayofweek !== undefined) {
+            dayofweek = props.dayofweek;
+        }
+        if (props.months !== undefined) {
+            months = props.months;
+        }
+        $("." + props.date_field_class).append(el);
+        layoutCalendar(el, new Date(), true);
+        var endpoint = props.rest_endpoint + "?start=" + (month + 1) + "-" + start + "-" + year + "&end=" + (month + 1) + "-" + end + "-" + year;
         updateEventsView($(el), endpoint);
-
 
 
     });
 
-    //Enable closing of dialog,
-    //this is useful for tablet devices
-    function _createCloseButton() {
-        $(el).append("<p><div style='position:absolute;right:0;top:10px;z-index:9999999'>"
-                + "<span class='calendar-close-button' style='padding:10px;font-size:30px;font-weight:bold;cursor:pointer'> &times; </span>"
-                + "</div></p>");
-        $(".calendar-close-button").hover(function () {
-            $(this).css("text-shadow", "0 0 6px black");
-            $(this).css("color", "white");
-        }, function () {
-            $(this).css("text-shadow", "none");
-            $(this).css("color", "#333333");
-        });
-        $(".calendar-close-button").on('click', function () {
-            //$(el).fadeOut();
-        });
-    }
+
     /**
      * Add L&F colors, effects, etc..
      * @returns {undefined}
      */
     function _addCalendarStyle() {
         //Calendar main diaglog
-        $(el).css({"font-family": "arial",
-           // "box-shadow": "0 0 6px #666666",
+        $(el).css({
+            "font-family": "arial",
+            // "box-shadow": "0 0 6px #666666",
             "-webkit-touch-callout": "none",
             "-webkit-user-select": "none",
             "-khtml-user-select": "none",
             "-moz-user-select": "none",
             "-ms-user-select:": "none",
-            "user-select": "none"});
+            "user-select": "none"
+        });
         //calendar Navigation Controls, especially the arrows
         //for navigating trhough months/years
         $(".calendar-control").css({
@@ -125,6 +115,7 @@ function Calendar(props) {
         });
 
     }
+
     /**
      *
      * local
@@ -148,6 +139,7 @@ function Calendar(props) {
         return new Date(year, month, 0).getDate();
 
     }
+
     /**
      * public function for gettng a day of week  number
      * @param {type} date
@@ -191,13 +183,13 @@ function Calendar(props) {
         var h = props.width * .08;
         var tr = $(table).prepend("<tr style='font-size:" + h + "px' class='calendar-heading'><tr>").find("tr.calendar-heading");
         $(tr).append("<td colspan ='7' style='text-align:center;padding-bottom:10px;background-color:rgba(0,0,0,0.02);height:" + h + "px;'>"
-                + "<span style='display:inline;' class='year-control calendar-control' name='calendar-control' title='Previous Year'>&#171;</span>"
-                + "<span style='display:inline;' class='month-control calendar-control' name='calendar-control' title='Previous Month'>&lsaquo;</span>"
-                + "<span><select class='calendar-month-selector' name='calendar-control' style='display:inline;height:" + h + "px;font-size:" + h / 2 + "px;border:none;background-color:rgba(0,0,0,0.0)'></select></span>"
-                + "<span><select class='calendar-year-selector' name='calendar-control' style='display:inline;height:" + h + "px;font-size:" + h / 2 + "px;border:none;background-color:rgba(0,0,0,0.0)'></select></span>"
-                + "<span style='display:inline;' class='month-control calendar-control' name='calendar-control' title='Next Month'>&rsaquo;</span>"
-                + "<span style='display:inline;' class='year-control calendar-control' name='calendar-control' title='Next Year'> &#187;</span>"
-                + "</td>");
+            + "<span style='display:inline;' class='year-control calendar-control' name='calendar-control' title='Previous Year'>&#171;</span>"
+            + "<span style='display:inline;' class='month-control calendar-control' name='calendar-control' title='Previous Month'>&lsaquo;</span>"
+            + "<span><select class='calendar-month-selector' name='calendar-control' style='display:inline;height:" + h + "px;font-size:" + h / 2 + "px;border:none;background-color:rgba(0,0,0,0.0)'></select></span>"
+            + "<span><select class='calendar-year-selector' name='calendar-control' style='display:inline;height:" + h + "px;font-size:" + h / 2 + "px;border:none;background-color:rgba(0,0,0,0.0)'></select></span>"
+            + "<span style='display:inline;' class='month-control calendar-control' name='calendar-control' title='Next Month'>&rsaquo;</span>"
+            + "<span style='display:inline;' class='year-control calendar-control' name='calendar-control' title='Next Year'> &#187;</span>"
+            + "</td>");
 
         $.each(months, function (i, m) {
             var selected = "";
@@ -208,9 +200,7 @@ function Calendar(props) {
             $(el).find(".calendar-month-selector").append("<option " + selected + ">" + m + "</option>");
         });
 
-
         var yearend = date.getFullYear() + props.future_years;
-
         var yearstart = yearend - props.max_years;
         if (yearstart < 0) {
             yearstart = yearstart * -1;
@@ -223,7 +213,7 @@ function Calendar(props) {
             }
 
 
-              $(el).find(".calendar-year-selector").append("<option " + selected + ">" + y + "</option>");
+            $(el).find(".calendar-year-selector").append("<option " + selected + ">" + y + "</option>");
         }
         $(".calendar-control").on("click", function (e) {
             e.stopPropagation();
@@ -255,21 +245,22 @@ function Calendar(props) {
             }
 
             layoutCalendar(el, new Date(month + 1 + "/" + _getSelectedDay() + "/" + year), false);
-             var endpoint = props.rest_endpoint+"?start="+(month+1)+"-"+start+"-"+year+"&end="+(month+1)+"-"+end+"-"+year;
+            var endpoint = props.rest_endpoint + "?start=" + (month + 1) + "-" + start + "-" + year + "&end=" + (month + 1) + "-" + end + "-" + year;
 
-                    updateEventsView($(el), endpoint);
+            updateEventsView($(el), endpoint);
         });
 
         $(".calendar-month-selector, .calendar-year-selector").change(function () {
 
             layoutCalendar(el, _getSelectedDate(), false);
-             var endpoint = props.rest_endpoint+"?start="+(month+1)+"-"+start+"-"+year+"&end="+(month+1)+"-"+end+"-"+year;
+            var endpoint = props.rest_endpoint + "?start=" + (month + 1) + "-" + start + "-" + year + "&end=" + (month + 1) + "-" + end + "-" + year;
 
-                    updateEventsView($(el), endpoint);
+            updateEventsView($(el), endpoint);
         });
 
 
     }
+
     //get selected date
     function _getSelectedDate() {
         var month = $(".calendar-month-selector").val();
@@ -324,9 +315,9 @@ function Calendar(props) {
         var cw = (props.width - props.width * .05) / 7;
         //cell height
         var ch = (props.height - props.height * .60) / rows;
-        var fsize =     props.height * .04;//Math.ceil(ch / 2) + 4;
-        if(fsize<10){
-          fsize = 10;
+        var fsize = props.height * .04;//Math.ceil(ch / 2) + 4;
+        if (fsize < 10) {
+            fsize = 10;
         }
         //day of week
         var d = (date.getMonth() + 1) + "/1/" + date.getFullYear();
@@ -367,20 +358,19 @@ function Calendar(props) {
                                 css += ";background-color:rgba(0,0,0,0.8);color:#fff;";
                             }
                             var id = guid();
-                            var m = (month+1);
-                            if((month+1)<10){
-                                m ="0"+m;
+                            var m = (month + 1);
+                            if ((month + 1) < 10) {
+                                m = "0" + m;
 
                             }
                             var d = day;
-                            if(day<10){
-                            d = "0"+day;
+                            if (day < 10) {
+                                d = "0" + day;
                             }
-                            var td = $(tr).append("<td day='"+label+"' id='" + id + "' class='calendar-day-td "+m+"-"+d+"-"+year+"' style='font-size:" + fsize + "px;position:relative;text-align:left" + css + "' click='' day='" + dday + "'>" + label + "</td>").find("td#" + id);
+                            var td = $(tr).append("<td day='" + label + "' id='" + id + "' class='calendar-day-td " + m + "-" + d + "-" + year + "' style='font-size:" + fsize + "px;position:relative;text-align:left" + css + "' click='' day='" + dday + "'>" + label + "</td>").find("td#" + id);
 
                             $(td).css("width", cw + "px");
                             $(td).css("height", ch + "px");
-
 
 
                             if (day > 0) {
@@ -410,21 +400,21 @@ function Calendar(props) {
                 $(this).css("font-weight", "bold");
             }
             var el = $(this).find(".event-details");
-            if(el!=null){
-            $(el).fadeIn();
+            if (el != null) {
+                $(el).fadeIn();
             }
         }, function () {
             $(this).css("box-shadow", "none");
             $(this).css("font-weight", "normal");
             var el = $(this).find(".event-details");
-                        if(el!=null){
-                        $(el).fadeOut();
-                        }
+            if (el != null) {
+                $(el).fadeOut();
+            }
         });
         //table cell click event
         $(el).find(".calendar-day-td").on("click", function () {
             var day = $(this).text();
-           // $(el).fadeOut();
+            // $(el).fadeOut();
             var month = $(".calendar-month-selector").val();
             var year = $(".calendar-year-selector").val();
             var monthnum = 0;
@@ -456,8 +446,6 @@ function Calendar(props) {
 
         //build time selector
         buildTimeSelector(date, table);
-        //create close button
-      //  _createCloseButton();
         //add styles
         _addCalendarStyle();
     }
@@ -467,19 +455,12 @@ function Calendar(props) {
         var tr = $(table).append("<tr class='calendar-time-selector'></tr>").find("tr.calendar-time-selector");
         $(tr).css("height", "40px");
 
-       // $(tr).append("<td colspan='7'><span>Local Time: </span><span class='calendar-time'></span>"
-                // + "<span class='calendar-quick-button' day='TOMORROW'>TOMORROW</span>"
-      //          + "<span class='calendar-quick-button' day='TODAY' title='Click Choose Today'>TODAY</span>"
-                // + "<span class='calendar-quick-button' dat='YESTERDAY'>YESTERDAY</span>"
-         //       + "</td>");
-
         setInterval(function () {
             $(".calendar-time").html(DateFormat("hh:mm:ss", new Date()));
         }, 1000);
 
 
     }
-
 
 
 }
@@ -551,12 +532,15 @@ function DateFormat(formatString, date) {
         case "hh":
             return strHOUR;
             break;
-            //More cases to meet your requirements.
+        //More cases to meet your requirements.
     }
 }
-
-function isDate(dateString)
-{
+/**
+ *
+ * @param dateString
+ * @returns {boolean}
+ */
+function isDate(dateString) {
     // First check for the pattern
     if (!/^\d{1,2}\/\d{1,2}\/\d{4}$/.test(dateString))
         return false;
@@ -585,78 +569,41 @@ function isDate(dateString)
 var guid = (function () {
     function s4() {
         return Math.floor((1 + Math.random()) * 0x10000)
-                .toString(16)
-                .substring(1);
+            .toString(16)
+            .substring(1);
     }
+
     return function () {
         return s4() + '' + s4() + '-' + s4() + '-' + s4() + '-' + s4() + '-' + s4() + s4() + s4();
     };
 })();
 
-function scrollToBottom(el) {
-    if (el === undefined) {
-        return;
+/**
+ *
+ * @param cal
+ * @param endpoint
+ */
+function updateEventsView(cal, endpoint) {
+
+    var port = window.location.port;
+    if (port === undefined || port != "") {
+        port = ":" + port;
     }
-    var div_height = $(el).height();
-    if ($(el).offset() === undefined) {
-        return;
-    }
-    var div_offset = $(el).offset().top;
-    var window_height = $(window).height();
-    $('html,body').animate({
-        scrollTop: div_offset - window_height + div_height
-    }, 'slow');
-}
+    var x = "" + window.location.protocol + "//" + window.location.hostname + "" + port
+    $.ajax({
+        url: endpoint
+    }).done(function (data) {
+        if (data.code === 200) {
 
+            $(data.data.eventInfo).each(function (i, event) {
 
-function getDisplayOffset(el, width, height, offset) {
-    var offsetLocation = {};
-    var ww = window.innerWidth;
-    var wh = window.innerHeight;
-    //var ew = $(el).width();
-    //var eh = $(el).height();
-    var lo = $(el).offset().left;
-    var to = $(el).offset().top;
-
-    if (lo + width > ww) {
-        offsetLocation.left = ww - (width + offset);
-    } else {
-        offsetLocation.left = lo;
-    }
-    if (lo + height > wh) {
-        offsetLocation.top = wh - (height + offset);
-    } else {
-        offsetLocation.top = to;
-    }
-
-    return offsetLocation;
-}
-
-
-function updateEventsView(cal, endpoint){
-
-            var port = window.location.port;
-            if(port===undefined || port!=""){
-                port=":"+port;
-            }
-            var x = ""+window.location.protocol+"//"+window.location.hostname+""+port
-
-
-            $.ajax({
-            url:endpoint
-
-            }).done(function(data) {
-                if(data.code===200){
-
-                    $(data.data.eventInfo).each(function(i, event){
-
-                     var el = $(cal).find("."+event.startDate);
-                      $(el).css("background-color", "rgba(250,216,22,.9)");
-                      $(el).append("<div class='event-details' style='display:none;padding:10px;position:absolute;background:rgba(250,216,22,.9);z-index:99999;border:1px solid #333'>"
-                      +"<div>"+event.startTime+"</div>"
-                      +"<div style='font-weight:bold'><a href='"+x+context+event.link+"'>"+event.title+"</a></div>"
-                      +"</div>");
-                    });
-                }
+                var el = $(cal).find("." + event.startDate);
+                $(el).css("background-color", "rgba(250,216,22,.9)");
+                $(el).append("<div class='event-details' style='display:none;padding:10px;position:absolute;background:rgba(250,216,22,.9);z-index:99999;border:1px solid #333'>"
+                    + "<div>" + event.startTime + "</div>"
+                    + "<div style='font-weight:bold'><a href='" + x + context + event.link + "'>" + event.title + "</a></div>"
+                    + "</div>");
             });
- }
+        }
+    });
+}

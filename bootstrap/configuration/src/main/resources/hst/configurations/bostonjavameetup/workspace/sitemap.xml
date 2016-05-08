@@ -2,4 +2,18 @@
   <sv:property sv:name="jcr:primaryType" sv:type="Name">
     <sv:value>hst:sitemap</sv:value>
   </sv:property>
+  <sv:node sv:name="calendar">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:sitemapitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+      <sv:value>hst:pages/calendar-thee-col-landingpage</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:lastmodified" sv:type="Date">
+      <sv:value>2016-05-08T09:55:03.710-04:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:pagetitle" sv:type="String">
+      <sv:value>Calendar</sv:value>
+    </sv:property>
+  </sv:node>
 </sv:node>

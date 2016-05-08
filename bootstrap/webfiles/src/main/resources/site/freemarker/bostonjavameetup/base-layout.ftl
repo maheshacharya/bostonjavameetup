@@ -5,16 +5,16 @@
   <meta charset="utf-8"/>
   <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="<@hst.webfile  path="/css/bootstrap.css"/>" type="text/css"/>
+  <link rel="stylesheet" href="<@hst.webfile  path="/css/style.css"/>" type="text/css"/>
+  <script src="<@hst.webfile path="/js/jquery-2.1.0.min.js"/>" type="text/javascript"></script>
+  <script src="<@hst.webfile path="/jsbootstrap.min.js"/>" type="text/javascript"></script>
 <@hst.defineObjects/>
 <#if hstRequest.requestContext.cmsRequest>
   <link rel="stylesheet" href="<@hst.webfile  path="/css/cms-request.css"/>" type="text/css"/>
 </#if>
 <@hst.headContributions categoryExcludes="htmlBodyEnd, scripts" xhtml=true/>
-  <style>
-    .top-menu-container {
-      background-color: #101010 ! important;
-    }
-  </style>
+
+
 </head>
 <body>
 <div>
@@ -28,6 +28,8 @@
   <@hst.include ref="footer"/>
   </div>
 </div>
+
 <@hst.headContributions categoryIncludes="htmlBodyEnd, scripts" xhtml=true/>
+
 </body>
 </html>

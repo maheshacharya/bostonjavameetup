@@ -64,10 +64,12 @@
             <table>
               <tr>
                 <td>
-                  <div class="right-inner-addon right-addon">
-                    <i class="glyphicon glyphicon-search"></i>
-                    <input type="text" class="form-control" placeholder="<@fmt.message key="search" />" style="width:500px;height:30px;padding:4px;font-size:20px"/>
-                  </div>
+                  <form action="<@hst.link path="/"/>search" method="POST">
+                    <div class="right-inner-addon right-addon">
+                      <i class="glyphicon glyphicon-search"></i>
+                      <input name="query" type="text" class="form-control" placeholder="<@fmt.message key="search" />" style="width:500px;height:30px;padding:4px;font-size:20px"/>
+                    </div>
+                  </form>
                 </td>
                 <td>
                     <#assign mountName = hstRequest.requestContext.resolvedMount.mount.name/>

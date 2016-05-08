@@ -248,3 +248,25 @@ h2 {
   font-weight: bold;
   color: #08b;
 }
+
+
+
+div .inline{
+
+  width: 33.33%;
+  width: calc(99.3% / 3);
+  display: inline-block;
+  vertical-align: top;
+  //padding-left:4px;
+
+
+}
+
+div .inline:nth-child(2){
+ // padding-left:10px;
+  padding:10px;
+  background-color: rgba(0,0,0,0.1);
+}
+div .inline:last-child{
+  border:none;
+}

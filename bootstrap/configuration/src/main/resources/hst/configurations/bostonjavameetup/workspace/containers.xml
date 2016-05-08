@@ -34,45 +34,6 @@
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
         <sv:value>hst:containercomponentfolder</sv:value>
       </sv:property>
-      <sv:node sv:name="left-container">
-        <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>hst:containercomponent</sv:value>
-        </sv:property>
-        <sv:property sv:name="hst:lastmodified" sv:type="Date">
-          <sv:value>2016-05-06T06:13:29.506-04:00</sv:value>
-        </sv:property>
-        <sv:property sv:name="hst:xtype" sv:type="String">
-          <sv:value>HST.vBox</sv:value>
-        </sv:property>
-        <sv:node sv:name="simplecontent">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hst:containeritemcomponent</sv:value>
-          </sv:property>
-          <sv:property sv:name="hst:componentclassname" sv:type="String">
-            <sv:value>org.onehippo.cms7.essentials.components.EssentialsDocumentComponent</sv:value>
-          </sv:property>
-          <sv:property sv:name="hst:iconpath" sv:type="String">
-            <sv:value>images/essentials/catalog-component-icons/simple-content.png</sv:value>
-          </sv:property>
-          <sv:property sv:name="hst:label" sv:type="String">
-            <sv:value>Simple Content</sv:value>
-          </sv:property>
-          <sv:property sv:name="hst:parameternames" sv:type="String" sv:multiple="true">
-            <sv:value>document</sv:value>
-            <sv:value>org.hippoecm.hst.core.component.template</sv:value>
-          </sv:property>
-          <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true">
-            <sv:value>content/jcr-data-structure</sv:value>
-            <sv:value>webfile:/freemarker/hstdefault/contentpage-main.ftl</sv:value>
-          </sv:property>
-          <sv:property sv:name="hst:template" sv:type="String">
-            <sv:value>contentpage-main</sv:value>
-          </sv:property>
-          <sv:property sv:name="hst:xtype" sv:type="String">
-            <sv:value>HST.Item</sv:value>
-          </sv:property>
-        </sv:node>
-      </sv:node>
       <sv:node sv:name="right-container">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>hst:containercomponent</sv:value>
@@ -112,12 +73,51 @@
           </sv:property>
         </sv:node>
       </sv:node>
+      <sv:node sv:name="left-container">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hst:containercomponent</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:lastmodified" sv:type="Date">
+          <sv:value>2016-05-08T10:11:40.374-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:xtype" sv:type="String">
+          <sv:value>HST.vBox</sv:value>
+        </sv:property>
+        <sv:node sv:name="simplecontent">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hst:containeritemcomponent</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:componentclassname" sv:type="String">
+            <sv:value>org.onehippo.cms7.essentials.components.EssentialsDocumentComponent</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:iconpath" sv:type="String">
+            <sv:value>images/essentials/catalog-component-icons/simple-content.png</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:label" sv:type="String">
+            <sv:value>Simple Content</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:parameternames" sv:type="String" sv:multiple="true">
+            <sv:value>document</sv:value>
+            <sv:value>org.hippoecm.hst.core.component.template</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true">
+            <sv:value>content/jcr-data-structure</sv:value>
+            <sv:value>webfile:/freemarker/hstdefault/contentpage-main.ftl</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:template" sv:type="String">
+            <sv:value>contentpage-main</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:xtype" sv:type="String">
+            <sv:value>HST.Item</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
       <sv:node sv:name="center-container">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>hst:containercomponent</sv:value>
         </sv:property>
         <sv:property sv:name="hst:lastmodified" sv:type="Date">
-          <sv:value>2016-05-06T21:53:02.159-04:00</sv:value>
+          <sv:value>2016-05-08T11:12:34.883-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hst:xtype" sv:type="String">
           <sv:value>HST.vBox</sv:value>
@@ -211,7 +211,7 @@
           </sv:property>
           <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true">
             <sv:value>videos/video-example</sv:value>
-            <sv:value>360</sv:value>
+            <sv:value>340</sv:value>
             <sv:value>webfile:/freemarker/hstdefault/video-component/bare.ftl</sv:value>
             <sv:value>200</sv:value>
           </sv:property>
