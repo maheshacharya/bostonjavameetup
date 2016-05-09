@@ -20,9 +20,26 @@
 
 function Calendar(props) {
     //default day of week labels.
-    var dayofweek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+    var dayofweek = ["Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"];
     //default month labels.
-    var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+    var months = ["January",
+        "February",
+        "March",
+        "April",
+        "May",
+        "June",
+        "July",
+        "August",
+        "September",
+        "October",
+        "November",
+        "December"];
     var el = null;
     var current_component = null;
     var month = null;
@@ -37,7 +54,7 @@ function Calendar(props) {
                 "future_years": 10, //number of future years shown in the year selector.
                 "background_color": "rgba(255,255,255,0.96)", //background color of the calendar display.
                 "color": "rgba(0,0,0,1.0)", //font color of elements within calendar
-                "date_field_class": "event-calendar", //Class name of input field that is will invoke the calendar display.
+                "date_field_class": "event-calendar", //class name of input field that is will invoke the calendar display.
 
             };
 
@@ -56,7 +73,10 @@ function Calendar(props) {
         }
         $("." + props.date_field_class).append(el);
         layoutCalendar(el, new Date(), true);
-        var endpoint = props.rest_endpoint + "?start=" + (month + 1) + "-" + start + "-" + year + "&end=" + (month + 1) + "-" + end + "-" + year;
+        var endpoint = props.rest_endpoint + "?start="
+            + (month + 1) + "-" + start + "-"
+            + year + "&end=" + (month + 1)
+            + "-" + end + "-" + year;
         updateEventsView($(el), endpoint);
 
 
@@ -177,14 +197,23 @@ function Calendar(props) {
     function buildNavigation(table, date) {
 
         var h = props.width * .08;
-        var tr = $(table).prepend("<tr style='font-size:" + h + "px' class='calendar-heading'><tr>").find("tr.calendar-heading");
+        var tr = $(table).prepend("<tr style='font-size:" + h
+            + "px' class='calendar-heading'><tr>").find("tr.calendar-heading");
         $(tr).append("<td colspan ='7' style='text-align:center;padding-bottom:10px;background-color:rgba(0,0,0,0.02);height:" + h + "px;'>"
-            + "<span style='display:inline;' class='year-control calendar-control' name='calendar-control' title='Previous Year'>&#171;</span>"
-            + "<span style='display:inline;' class='month-control calendar-control' name='calendar-control' title='Previous Month'>&lsaquo;</span>"
-            + "<span><select class='calendar-month-selector' name='calendar-control' style='display:inline;height:" + h + "px;font-size:" + h / 2 + "px;border:none;background-color:rgba(0,0,0,0.0)'></select></span>"
-            + "<span><select class='calendar-year-selector' name='calendar-control' style='display:inline;height:" + h + "px;font-size:" + h / 2 + "px;border:none;background-color:rgba(0,0,0,0.0)'></select></span>"
-            + "<span style='display:inline;' class='month-control calendar-control' name='calendar-control' title='Next Month'>&rsaquo;</span>"
-            + "<span style='display:inline;' class='year-control calendar-control' name='calendar-control' title='Next Year'> &#187;</span>"
+            + "<span style='display:inline;' class='year-control calendar-control' " +
+            "name='calendar-control' title='Previous Year'>&#171;</span>"
+            + "<span style='display:inline;' class='month-control calendar-control' " +
+            "name='calendar-control' title='Previous Month'>&lsaquo;</span>"
+            + "<span><select class='calendar-month-selector'" +
+            " name='calendar-control' style='display:inline;height:" + h + "px;font-size:"
+            + h / 2 + "px;border:none;background-color:rgba(0,0,0,0.0)'></select></span>"
+            + "<span><select class='calendar-year-selector' " +
+            "name='calendar-control' style='display:inline;height:" + h + "px;font-size:"
+            + h / 2 + "px;border:none;background-color:rgba(0,0,0,0.0)'></select></span>"
+            + "<span style='display:inline;' class='month-control calendar-control' " +
+            "name='calendar-control' title='Next Month'>&rsaquo;</span>"
+            + "<span style='display:inline;' class='year-control calendar-control' " +
+            "name='calendar-control' title='Next Year'> &#187;</span>"
             + "</td>");
 
         $.each(months, function (i, m) {
@@ -241,7 +270,9 @@ function Calendar(props) {
             }
 
             layoutCalendar(el, new Date(month + 1 + "/" + _getSelectedDay() + "/" + year), false);
-            var endpoint = props.rest_endpoint + "?start=" + (month + 1) + "-" + start + "-" + year + "&end=" + (month + 1) + "-" + end + "-" + year;
+            var endpoint = props.rest_endpoint + "?start=" + (month + 1)
+                + "-" + start + "-" + year + "&end="
+                + (month + 1) + "-" + end + "-" + year;
 
             updateEventsView($(el), endpoint);
         });
@@ -249,7 +280,10 @@ function Calendar(props) {
         $(".calendar-month-selector, .calendar-year-selector").change(function () {
 
             layoutCalendar(el, _getSelectedDate(), false);
-            var endpoint = props.rest_endpoint + "?start=" + (month + 1) + "-" + start + "-" + year + "&end=" + (month + 1) + "-" + end + "-" + year;
+            var endpoint = props.rest_endpoint + "?start="
+                + (month + 1) + "-" + start + "-"
+                + year + "&end=" + (month + 1) + "-"
+                + end + "-" + year;
 
             updateEventsView($(el), endpoint);
         });
@@ -321,7 +355,9 @@ function Calendar(props) {
         var dow = _getDayForDate(d);
         var labels = $(table).append("<tr class='calendar-week-labels'></tr>").find("tr.calendar-week-labels");
         $.each(dayofweek, function (i, dow) {
-            $(labels).append("<td style='font-size:" + fsize + "px;text-align:left;border-bottom:1px solid #cccccc;background-color:rgba(0,0,0,0.2);padding:4px'>" + dow.substring(0, 3) + "</td>");
+            $(labels).append("<td style='font-size:" + fsize
+                + "px;text-align:left;border-bottom:1px solid #cccccc;background-color:rgba(0,0,0,0.2);padding:4px'>"
+                + dow.substring(0, 3) + "</td>");
         });
 
         start = 1;
@@ -362,7 +398,12 @@ function Calendar(props) {
                             if (day < 10) {
                                 d = "0" + day;
                             }
-                            var td = $(tr).append("<td day='" + label + "' id='" + id + "' class='calendar-day-td " + m + "-" + d + "-" + year + "' style='font-size:" + fsize + "px;position:relative;text-align:left" + css + "' click='' day='" + dday + "'>" + label + "</td>").find("td#" + id);
+                            var td = $(tr).append("<td day='" + label + "' id='"
+                                + id + "' class='calendar-day-td " + m + "-"
+                                + d + "-" + year + "' style='font-size:"
+                                + fsize + "px;position:relative;text-align:left"
+                                + css + "' click='' day='" + dday + "'>"
+                                + label + "</td>").find("td#" + id);
 
                             $(td).css("width", cw + "px");
                             $(td).css("height", ch + "px");
@@ -376,7 +417,10 @@ function Calendar(props) {
                         } else {
                             css += "color:#cccccc;background-color:rgba(0,0,0,0.02)";
                             label = "&nbsp;&nbsp;";
-                            $(tr).append("<td class='calendar-day-td' style='font-size:" + fsize + "px;" + css + ";width:" + cw + "px;height:" + ch + "px;'> " + label + " </td>");
+                            $(tr).append("<td class='calendar-day-td' style='font-size:"
+                                + fsize + "px;" + css + ";width:"
+                                + cw + "px;height:" + ch + "px;'> "
+                                + label + " </td>");
                         }
                     } catch (e) {
                     }
@@ -595,10 +639,13 @@ function updateEventsView(cal, endpoint) {
                 var el = $(cal).find("." + event.startDate);
                 $(el).css("background-color", "rgba(250,216,22,.9)");
                 var eventlink = x + context + "/" + event.link;
-
-                $(el).append("<div class='event-details' style='display:none;padding:10px;position:absolute;background:rgba(250,216,22,.9);z-index:99999;border:1px solid #333'>"
+                if (event.link.startsWith("http")) {
+                    eventlink = event.link;
+                }
+                $(el).append("<div class='event-details' " +
+                    "style='display:none;padding:10px;position:absolute;background:rgba(250,216,22,.9);z-index:99999;border:1px solid #333'>"
                     + "<div>" + event.startTime + "</div>"
-                    + "<div style='font-weight:bold'><a href='" +eventlink+ "'>" + event.title + "</a></div>"
+                    + "<div style='font-weight:bold'><a href='" + eventlink + "'>" + event.title + "</a></div>"
                     + "</div>");
             });
         }

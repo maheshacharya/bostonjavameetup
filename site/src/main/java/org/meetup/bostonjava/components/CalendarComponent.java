@@ -16,6 +16,7 @@ public class CalendarComponent extends BaseHstComponent {
     @Override
     public void doBeforeRender(HstRequest request, HstResponse response) {
         super.doBeforeRender(request, response);
+
         CalendarComponentInfo info = getComponentParametersInfo(request);
         if (info != null) {
             request.setAttribute("info", info);

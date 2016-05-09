@@ -52,17 +52,6 @@
           <sv:property sv:name="hst:template" sv:type="String">
             <sv:value>three-column-container</sv:value>
           </sv:property>
-          <sv:node sv:name="left-container">
-            <sv:property sv:name="jcr:primaryType" sv:type="Name">
-              <sv:value>hst:containercomponent</sv:value>
-            </sv:property>
-            <sv:property sv:name="hst:lastmodified" sv:type="Date">
-              <sv:value>2016-05-08T10:46:49.908-04:00</sv:value>
-            </sv:property>
-            <sv:property sv:name="hst:xtype" sv:type="String">
-              <sv:value>HST.vBox</sv:value>
-            </sv:property>
-          </sv:node>
           <sv:node sv:name="center-container">
             <sv:property sv:name="jcr:primaryType" sv:type="Name">
               <sv:value>hst:containercomponent</sv:value>
@@ -80,6 +69,17 @@
             </sv:property>
             <sv:property sv:name="hst:lastmodified" sv:type="Date">
               <sv:value>2016-05-08T10:46:49.908-04:00</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:xtype" sv:type="String">
+              <sv:value>HST.vBox</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="left-container">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hst:containercomponent</sv:value>
+            </sv:property>
+            <sv:property sv:name="hst:lastmodified" sv:type="Date">
+              <sv:value>2016-05-09T12:13:55.623-04:00</sv:value>
             </sv:property>
             <sv:property sv:name="hst:xtype" sv:type="String">
               <sv:value>HST.vBox</sv:value>
@@ -792,6 +792,45 @@
           </sv:property>
         </sv:node>
       </sv:node>
+      <sv:node sv:name="top-container">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hst:containercomponent</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:lastmodified" sv:type="Date">
+          <sv:value>2016-05-09T10:20:46.096-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:xtype" sv:type="String">
+          <sv:value>HST.vBox</sv:value>
+        </sv:property>
+        <sv:node sv:name="imagecomponent">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hst:containeritemcomponent</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:componentclassname" sv:type="String">
+            <sv:value>org.onehippo.cms7.essentials.components.EssentialsImageComponent</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:iconpath" sv:type="String">
+            <sv:value>images/essentials/catalog-component-icons/image.png</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:label" sv:type="String">
+            <sv:value>Image</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:parameternames" sv:type="String" sv:multiple="true">
+            <sv:value>document</sv:value>
+            <sv:value>org.hippoecm.hst.core.component.template</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true">
+            <sv:value>/content/gallery/bostonjavameetup/banners/downtown_narrow.png</sv:value>
+            <sv:value>webfile:/freemarker/hstdefault/image-component.ftl</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:template" sv:type="String">
+            <sv:value>image-component</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:xtype" sv:type="String">
+            <sv:value>HST.Item</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
     </sv:node>
     <sv:node sv:name="event-list">
       <sv:property sv:name="jcr:primaryType" sv:type="Name">
@@ -923,16 +962,83 @@
           </sv:node>
         </sv:node>
       </sv:node>
+      <sv:node sv:name="bottom-container">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hst:containercomponent</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:lastmodified" sv:type="Date">
+          <sv:value>2016-05-07T11:59:47.730-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hst:xtype" sv:type="String">
+          <sv:value>HST.vBox</sv:value>
+        </sv:property>
+        <sv:node sv:name="imagecomponent">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hst:containeritemcomponent</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:componentclassname" sv:type="String">
+            <sv:value>org.onehippo.cms7.essentials.components.EssentialsImageComponent</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:iconpath" sv:type="String">
+            <sv:value>images/essentials/catalog-component-icons/image.png</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:label" sv:type="String">
+            <sv:value>Image</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:parameternames" sv:type="String" sv:multiple="true">
+            <sv:value>document</sv:value>
+            <sv:value>org.hippoecm.hst.core.component.template</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true">
+            <sv:value>/content/gallery/bostonjavameetup/banners/boston-lemons.png</sv:value>
+            <sv:value>webfile:/freemarker/hstdefault/image-component.ftl</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:template" sv:type="String">
+            <sv:value>image-component</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:xtype" sv:type="String">
+            <sv:value>HST.Item</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
       <sv:node sv:name="top-container">
         <sv:property sv:name="jcr:primaryType" sv:type="Name">
           <sv:value>hst:containercomponent</sv:value>
         </sv:property>
         <sv:property sv:name="hst:lastmodified" sv:type="Date">
-          <sv:value>2016-05-07T11:59:14.261-04:00</sv:value>
+          <sv:value>2016-05-09T07:09:03.393-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hst:xtype" sv:type="String">
           <sv:value>HST.vBox</sv:value>
         </sv:property>
+        <sv:node sv:name="imagecomponent">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hst:containeritemcomponent</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:componentclassname" sv:type="String">
+            <sv:value>org.onehippo.cms7.essentials.components.EssentialsImageComponent</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:iconpath" sv:type="String">
+            <sv:value>images/essentials/catalog-component-icons/image.png</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:label" sv:type="String">
+            <sv:value>Image</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:parameternames" sv:type="String" sv:multiple="true">
+            <sv:value>document</sv:value>
+            <sv:value>org.hippoecm.hst.core.component.template</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true">
+            <sv:value>/content/gallery/bostonjavameetup/banners/lemons_narrow.png</sv:value>
+            <sv:value>webfile:/freemarker/hstdefault/image-component.ftl</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:template" sv:type="String">
+            <sv:value>image-component</sv:value>
+          </sv:property>
+          <sv:property sv:name="hst:xtype" sv:type="String">
+            <sv:value>HST.Item</sv:value>
+          </sv:property>
+        </sv:node>
         <sv:node sv:name="list">
           <sv:property sv:name="jcr:primaryType" sv:type="Name">
             <sv:value>hst:containeritemcomponent</sv:value>
@@ -968,45 +1074,6 @@
           </sv:property>
           <sv:property sv:name="hst:template" sv:type="String">
             <sv:value>list-component</sv:value>
-          </sv:property>
-          <sv:property sv:name="hst:xtype" sv:type="String">
-            <sv:value>HST.Item</sv:value>
-          </sv:property>
-        </sv:node>
-      </sv:node>
-      <sv:node sv:name="bottom-container">
-        <sv:property sv:name="jcr:primaryType" sv:type="Name">
-          <sv:value>hst:containercomponent</sv:value>
-        </sv:property>
-        <sv:property sv:name="hst:lastmodified" sv:type="Date">
-          <sv:value>2016-05-07T11:59:47.730-04:00</sv:value>
-        </sv:property>
-        <sv:property sv:name="hst:xtype" sv:type="String">
-          <sv:value>HST.vBox</sv:value>
-        </sv:property>
-        <sv:node sv:name="imagecomponent">
-          <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hst:containeritemcomponent</sv:value>
-          </sv:property>
-          <sv:property sv:name="hst:componentclassname" sv:type="String">
-            <sv:value>org.onehippo.cms7.essentials.components.EssentialsImageComponent</sv:value>
-          </sv:property>
-          <sv:property sv:name="hst:iconpath" sv:type="String">
-            <sv:value>images/essentials/catalog-component-icons/image.png</sv:value>
-          </sv:property>
-          <sv:property sv:name="hst:label" sv:type="String">
-            <sv:value>Image</sv:value>
-          </sv:property>
-          <sv:property sv:name="hst:parameternames" sv:type="String" sv:multiple="true">
-            <sv:value>document</sv:value>
-            <sv:value>org.hippoecm.hst.core.component.template</sv:value>
-          </sv:property>
-          <sv:property sv:name="hst:parametervalues" sv:type="String" sv:multiple="true">
-            <sv:value>/content/gallery/bostonjavameetup/banners/boston-lemons.png</sv:value>
-            <sv:value>webfile:/freemarker/hstdefault/image-component.ftl</sv:value>
-          </sv:property>
-          <sv:property sv:name="hst:template" sv:type="String">
-            <sv:value>image-component</sv:value>
           </sv:property>
           <sv:property sv:name="hst:xtype" sv:type="String">
             <sv:value>HST.Item</sv:value>

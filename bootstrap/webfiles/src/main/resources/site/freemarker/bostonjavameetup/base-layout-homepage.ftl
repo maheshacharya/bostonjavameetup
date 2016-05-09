@@ -13,6 +13,11 @@
 <@hst.headContributions categoryExcludes="htmlBodyEnd,changeLocation, scripts" xhtml=true/>
   <script src="<@hst.webfile path="/js/jquery-2.1.0.min.js"/>" type="text/javascript"></script>
   <script src="<@hst.webfile path="/js/bootstrap.min.js"/>" type="text/javascript"></script>
+  <style>
+    body{
+      font-family: 'Lato', sans-serif;
+    }
+  </style>
 </head>
 <body>
 <div>

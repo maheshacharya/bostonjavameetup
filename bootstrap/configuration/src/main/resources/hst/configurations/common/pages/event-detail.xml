@@ -23,5 +23,13 @@
         <sv:value>event-detail/right-container</sv:value>
       </sv:property>
     </sv:node>
+    <sv:node sv:name="top-container">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:containercomponentreference</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:referencecomponent" sv:type="String">
+        <sv:value>event-detail/top-container</sv:value>
+      </sv:property>
+    </sv:node>
   </sv:node>
 </sv:node>

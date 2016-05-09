@@ -33,6 +33,7 @@
 </style>
 
 <div>
+<@hst.include ref="top-container"/>
   <div class="left-container inline-block">
 
     <h2>${document.title}</h2>
