@@ -10,7 +10,7 @@
 <#if hstRequest.requestContext.cmsRequest>
   <link rel="stylesheet" href="<@hst.webfile  path="/css/cms-request.css"/>" type="text/css"/>
 </#if>
-<@hst.headContributions categoryExcludes="htmlBodyEnd, scripts" xhtml=true/>
+<@hst.headContributions categoryExcludes="htmlBodyEnd,changeLocation, scripts" xhtml=true/>
   <script src="<@hst.webfile path="/js/jquery-2.1.0.min.js"/>" type="text/javascript"></script>
   <script src="<@hst.webfile path="/js/bootstrap.min.js"/>" type="text/javascript"></script>
 </head>
@@ -23,10 +23,18 @@
 <@hst.include ref="main"/>
 </div>
 <div class="container">
-
+  <div class="change-location">
+    Change Location To:
+  <@hst.headContributions categoryIncludes="changeLocation" xhtml=true/>
+  </div>
 <@hst.include ref="footer"/>
 </div>
 
 <@hst.headContributions categoryIncludes="htmlBodyEnd, scripts" xhtml=true/>
+<script>
+  $(document).ready(function () {
+    $(".change-location-container").append($(".change-location"));
+  });
+</script>
 </body>
 </html>

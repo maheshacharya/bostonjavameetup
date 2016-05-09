@@ -15,5 +15,8 @@
     <sv:property sv:name="hst:pagetitle" sv:type="String">
       <sv:value>Calendar</sv:value>
     </sv:property>
+    <sv:property sv:name="hst:refId" sv:type="String">
+      <sv:value>calendar</sv:value>
+    </sv:property>
   </sv:node>
 </sv:node>

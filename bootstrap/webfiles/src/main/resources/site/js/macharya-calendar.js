@@ -25,8 +25,6 @@ function Calendar(props) {
     var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
     var el = null;
     var current_component = null;
-    var startDate = null;
-    var endDate = null;
     var month = null;
     var year = null;
 
@@ -37,11 +35,10 @@ function Calendar(props) {
                 "height": 300, //height of the calendar display
                 "max_years": 100, //max. number of years shown in the year selector
                 "future_years": 10, //number of future years shown in the year selector.
-                "background_color": "rgba(255,255,255,0.96)", //background color of the calendar dialog.
+                "background_color": "rgba(255,255,255,0.96)", //background color of the calendar display.
                 "color": "rgba(0,0,0,1.0)", //font color of elements within calendar
-                "date_field_class": "event-calendar", //Class name of input field that is will invoke the calendar dialog.
-                //"dayofweek": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-                //"months": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+                "date_field_class": "event-calendar", //Class name of input field that is will invoke the calendar display.
+
             };
 
         }
@@ -179,7 +176,6 @@ function Calendar(props) {
      */
     function buildNavigation(table, date) {
 
-        // var month = months[date.getMonth()];
         var h = props.width * .08;
         var tr = $(table).prepend("<tr style='font-size:" + h + "px' class='calendar-heading'><tr>").find("tr.calendar-heading");
         $(tr).append("<td colspan ='7' style='text-align:center;padding-bottom:10px;background-color:rgba(0,0,0,0.02);height:" + h + "px;'>"
@@ -310,7 +306,6 @@ function Calendar(props) {
         var day = 0;
 
         var rows = Math.ceil(days / 7);
-        //console.log(date + " " + days);
         //each cell width
         var cw = (props.width - props.width * .05) / 7;
         //cell height
@@ -599,9 +594,11 @@ function updateEventsView(cal, endpoint) {
 
                 var el = $(cal).find("." + event.startDate);
                 $(el).css("background-color", "rgba(250,216,22,.9)");
+                var eventlink = x + context + "/" + event.link;
+
                 $(el).append("<div class='event-details' style='display:none;padding:10px;position:absolute;background:rgba(250,216,22,.9);z-index:99999;border:1px solid #333'>"
                     + "<div>" + event.startTime + "</div>"
-                    + "<div style='font-weight:bold'><a href='" + x + context + event.link + "'>" + event.title + "</a></div>"
+                    + "<div style='font-weight:bold'><a href='" +eventlink+ "'>" + event.title + "</a></div>"
                     + "</div>");
             });
         }

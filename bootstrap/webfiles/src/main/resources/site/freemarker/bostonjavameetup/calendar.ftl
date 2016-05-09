@@ -18,6 +18,16 @@
 <script>
   var context = "<@hst.link path="/"/>";
 
+    <#if isPreview>
+
+    <#--  rest end point context for preview mode in Channel Manager -->
+   var  restendpoint= "<@core.url value="/rest/preview/${info.restEndpoint}"/>";
+    <#else>
+
+    <#--  rest end point for site contexts -->
+    var restendpoint = "<@hst.link path="/rest/"+info.restEndpoint/>";
+    </#if>
+
   var props_${now?c} = {
     "width": ${info.width}, //width of the calendar display
     "height":${info.height}, //height of the calendar display
@@ -26,16 +36,8 @@
     "background_color": "${info.backgroundColor}", //background color of the calendar display.
     "color": "${info.color}", //font color of elements within calendar
     "date_field_class": "${info.calendarClassName}", //Class name of input field that is will invoke the calendar display.
+    "rest_endpoint":restendpoint, //Rest service endpoint.
     "padding": "${info.padding}px",
-      <#if isPreview>
-
-      <#--  rest end point context for preview mode in Channel Manager -->
-        "rest_endpoint": "<@core.url value="/rest/preview/${info.restEndpoint}"/>",
-      <#else>
-
-      <#--  rest end point for site contexts -->
-        "rest_endpoint": "<@hst.link path="/rest/"+info.restEndpoint/>",
-      </#if>
     "dayofweek": [
       "<@fmt.message key="sunday"/>",
       "<@fmt.message key="monday"/>",
@@ -71,6 +73,23 @@
 <div style="text-align:center"><b>${info.title}</b></div>
 
 <#-- Calendar element-->
-<center>
+ <center>
   <div class="${info.calendarClassName}" style="min-width:${info.width}px;min-height:${info.height}px"></div>
-</center>
+ </center>
+
+<@hst.headContribution category="changeLocation">
+    <#assign mount=hstRequestContext.resolvedMount.mount.alias/>
+    <#if mount=="site">
+    <a href="<@hst.link siteMapItemRefId="calendar" mount="site_fr" />">
+      <img width="10" class="location" location="us" src="<@hst.link path="/binaries/content/gallery/bostonjavameetup/icons/fr.png" />" style="width:32px;margin-top:6px"/>
+
+    </a>
+    <#else>
+    <a href="<@hst.link siteMapItemRefId="calendar" mount="site" />">
+      <img width="10" class="location" location="us" src="<@hst.link path="/binaries/content/gallery/bostonjavameetup/icons/us.png" />" style="width:32px;margin-top:6px"/>
+
+    </a>
+    </#if>
+</@hst.headContribution>
+
+

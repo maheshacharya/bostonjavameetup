@@ -76,7 +76,7 @@
           <sv:value>hst:containercomponent</sv:value>
         </sv:property>
         <sv:property sv:name="hst:lastmodified" sv:type="Date">
-          <sv:value>2016-05-08T10:31:53.683-04:00</sv:value>
+          <sv:value>2016-05-09T06:19:28.582-04:00</sv:value>
         </sv:property>
         <sv:property sv:name="hst:xtype" sv:type="String">
           <sv:value>HST.vBox</sv:value>
@@ -118,7 +118,7 @@
             <sv:value>Calendar/events</sv:value>
             <sv:value>800</sv:value>
             <sv:value>&lt;h1&gt;Events Calendar&lt;/h1&gt;</sv:value>
-            <sv:value>600</sv:value>
+            <sv:value>500</sv:value>
           </sv:property>
           <sv:property sv:name="hst:template" sv:type="String">
             <sv:value>calendar</sv:value>

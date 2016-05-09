@@ -27,3 +27,18 @@
 <#else>
 <h3>Please fill in a search term.</h3>
 </#if>
+
+<@hst.headContribution category="changeLocation">
+    <#assign mount=hstRequestContext.resolvedMount.mount.alias/>
+    <#if mount=="site">
+    <a href="<@hst.link path="/" mount="site_fr" />">
+      <img width="10" class="location" location="us" src="<@hst.link path="/binaries/content/gallery/bostonjavameetup/icons/fr.png" />" style="width:32px;margin-top:6px"/>
+
+    </a>
+    <#else>
+    <a href="<@hst.link path="/" mount="site" />">
+      <img width="10" class="location" location="us" src="<@hst.link path="/binaries/content/gallery/bostonjavameetup/icons/us.png" />" style="width:32px;margin-top:6px"/>
+
+    </a>
+    </#if>
+</@hst.headContribution>

@@ -12,7 +12,7 @@
 <#if hstRequest.requestContext.cmsRequest>
   <link rel="stylesheet" href="<@hst.webfile  path="/css/cms-request.css"/>" type="text/css"/>
 </#if>
-<@hst.headContributions categoryExcludes="htmlBodyEnd, scripts" xhtml=true/>
+<@hst.headContributions categoryExcludes="htmlBodyEnd, changeLocation, scripts" xhtml=true/>
 
 
 </head>
@@ -25,11 +25,20 @@
   <@hst.include ref="main"/>
   </div>
   <div class="row">
+    <div class="change-location">
+      Change Language To:
+    <@hst.headContributions categoryIncludes="changeLocation" xhtml=true/>
+    </div>
   <@hst.include ref="footer"/>
   </div>
 </div>
 
 <@hst.headContributions categoryIncludes="htmlBodyEnd, scripts" xhtml=true/>
+<script>
+  $(document).ready(function(){
+   $(".change-location-container").append($(".change-location"));
+  });
+</script>
 
 </body>
 </html>

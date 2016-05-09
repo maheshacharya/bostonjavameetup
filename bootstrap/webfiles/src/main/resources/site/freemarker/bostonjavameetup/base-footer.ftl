@@ -13,7 +13,8 @@
 </style>
 <@hst.setBundle basename="essentials.global"/>
 <@hst.include ref="container"/>
-<div style="width:100%;min-height:200px;background-color: #999">
+<div style="width:100%;min-height:200px;background-color: #999" class="footer-container">
+  <div class="change-location-container" style="float:right;margin-right:10px;"></div>
   <div style="padding:20px;">
     <div class="title"><@fmt.message key="footer.title"/></div>
 

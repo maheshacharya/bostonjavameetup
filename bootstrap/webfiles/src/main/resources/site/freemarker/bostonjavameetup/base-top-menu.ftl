@@ -64,7 +64,7 @@
             <table>
               <tr>
                 <td>
-                  <form action="<@hst.link path="/"/>search" method="POST">
+                  <form action="<@hst.link path="/"/>/search" method="POST">
                     <div class="right-inner-addon right-addon">
                       <i class="glyphicon glyphicon-search"></i>
                       <input name="query" type="text" class="form-control" placeholder="<@fmt.message key="search" />" style="width:500px;height:30px;padding:4px;font-size:20px"/>
@@ -73,11 +73,13 @@
                 </td>
                 <td>
                     <#assign mountName = hstRequest.requestContext.resolvedMount.mount.name/>
-
-                    <#if mountName == 'hst:root'>
+                    <#assign mount=hstRequestContext.resolvedMount.mount.alias/>
+                    <#if mount=="site">
                       <img class="location" location="us" src="<@hst.link path="/binaries/content/gallery/bostonjavameetup/icons/us.png" />" style="width:32px;margin-top:6px"/>
+
                     <#else>
                       <img class="location" location="${mountName}" src="<@hst.link path="/binaries/content/gallery/bostonjavameetup/icons/${mountName}.png" />" style="width:32px;margin-top:6px"/>
+
                     </#if>
 
                 </td>
